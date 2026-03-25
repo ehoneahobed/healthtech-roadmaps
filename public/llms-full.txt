@@ -92,3 +92,12 @@ Target: Healthcare professionals transitioning to IT project management roles at
 Key Certifications: PMP (gold standard, 60 to 70% of postings), CAPM (entry-level, no experience required), CAHIMS (healthcare IT domain validation), CPHIMS (senior advancement)
 Key Skills: Project planning and scheduling, stakeholder management, EHR implementation lifecycle, change management, risk management, budget oversight, Agile/Scrum, clinical workflow analysis, HIPAA compliance integration
 Clinical Advantage: You understand the clinical workflows that technology projects must preserve, speak the language of both clinical staff and IT teams, and instinctively flag patient safety risks during system transitions that non-clinical PMs miss.
+
+## Roadmap: Healthcare Data Engineer
+URL: /r/healthcare-data-engineer
+Difficulty: High
+Timeline: 6 to 12 months
+Target: Healthcare professionals transitioning to data engineering roles at health systems, payers, EHR vendors, and health tech companies
+Key Certifications: AWS Certified Data Engineer Associate ($150), Databricks Certified DE Associate ($200), Azure DP-700 ($165), dbt Analytics Engineering (free), CHDA (healthcare domain)
+Key Skills: Python, SQL, ETL/ELT pipeline design, Apache Airflow, cloud platforms (AWS/Azure/GCP), data warehouse architecture, FHIR/HL7 integration, data quality frameworks, medallion architecture, dbt
+Clinical Advantage: You understand the source data because you have generated it in your clinical workflows. You can validate data quality at a level pure engineers cannot, catching clinically impossible values and understanding PHI implications that shape pipeline design.
