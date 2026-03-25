@@ -31,6 +31,13 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
     />
     <title>{title}</title>
     <slot name="meta" />
+    <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-PXX0MQ1PFR"></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-PXX0MQ1PFR');
+    </script>
   </head>
   <body class="antialiased">
     <!-- Header -->

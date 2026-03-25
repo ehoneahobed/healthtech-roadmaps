@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://roadmaps.ehoneahobed.com/sitemap.xml
+Sitemap: https://roadmaps.tarvra.com/sitemap-index.xml

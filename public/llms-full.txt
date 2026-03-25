@@ -83,3 +83,12 @@ Target: Healthcare professionals transitioning to clinical trial monitoring role
 Key Certifications: GCP Training (non-negotiable), CCRA (ACRP), CCRP (SOCRA)
 Key Skills: Good Clinical Practice, site monitoring visits, source data verification, protocol compliance, investigational product accountability, informed consent verification, adverse event reporting, regulatory documentation
 Clinical Advantage: Most CRAs are former clinicians. You already understand patient safety, adverse events, medication protocols, informed consent, and clinical documentation, which is the core of what CRAs monitor at trial sites.
+
+## Roadmap: Healthcare IT Project Manager
+URL: /r/healthcare-it-project-manager
+Difficulty: Moderate
+Timeline: 4 to 8 months
+Target: Healthcare professionals transitioning to IT project management roles at health systems, consulting firms, and EHR vendors
+Key Certifications: PMP (gold standard, 60 to 70% of postings), CAPM (entry-level, no experience required), CAHIMS (healthcare IT domain validation), CPHIMS (senior advancement)
+Key Skills: Project planning and scheduling, stakeholder management, EHR implementation lifecycle, change management, risk management, budget oversight, Agile/Scrum, clinical workflow analysis, HIPAA compliance integration
+Clinical Advantage: You understand the clinical workflows that technology projects must preserve, speak the language of both clinical staff and IT teams, and instinctively flag patient safety risks during system transitions that non-clinical PMs miss.
