@@ -9,5 +9,5 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
   },
-  site: 'https://roadmaps.ehoneahobed.com',
+  site: 'https://roadmaps.tarvra.com',
 });

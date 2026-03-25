@@ -63,7 +63,7 @@ export const POST: APIRoute = async ({ request }) => {
 
     const RESEND_API_KEY = import.meta.env.RESEND_API_KEY;
     const RESEND_AUDIENCE_ID = import.meta.env.RESEND_AUDIENCE_ID;
-    const FROM_EMAIL = import.meta.env.FROM_EMAIL || 'hello@ehoneahobed.com';
+    const FROM_EMAIL = import.meta.env.FROM_EMAIL || 'obed@tarvra.com';
 
     if (!RESEND_API_KEY) {
       console.error('RESEND_API_KEY not configured');
@@ -140,7 +140,7 @@ function buildActionKitEmail(slug: string, kitName: string): string {
 <body style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.6; color: #171717; max-width: 600px; margin: 0 auto; padding: 20px;">
   <div style="border-bottom: 3px solid #16a34a; padding-bottom: 16px; margin-bottom: 24px;">
     <h1 style="font-size: 24px; margin: 0;">Your ${kitName}</h1>
-    <p style="color: #525252; margin: 8px 0 0;">From Health Tech Roadmaps by Ehoneah</p>
+    <p style="color: #525252; margin: 8px 0 0;">From Health Tech Roadmaps by Obed Ehoneah</p>
   </div>
 
   <p>Thank you for downloading your action kit. Here is what is inside:</p>
