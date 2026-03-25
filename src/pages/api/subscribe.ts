@@ -126,7 +126,9 @@ export const POST: APIRoute = async ({ request }) => {
 };
 
 function buildActionKitEmail(slug: string, kitName: string): string {
-  const roadmapUrl = `https://roadmaps.ehoneahobed.com/roadmaps/${slug}`;
+  const siteUrl = 'https://roadmaps.tarvra.com';
+  const roadmapUrl = `${siteUrl}/roadmaps/${slug}`;
+  const downloadUrl = `${siteUrl}/action-kits/${slug}-action-kit.pdf`;
   const quizUrl = 'https://quiz.ehoneahobed.com';
   const newsletterUrl = 'https://thetransmutation.substack.com';
 
@@ -143,16 +145,19 @@ function buildActionKitEmail(slug: string, kitName: string): string {
     <p style="color: #525252; margin: 8px 0 0;">From Health Tech Roadmaps by Obed Ehoneah</p>
   </div>
 
-  <p>Thank you for downloading your action kit. Here is what is inside:</p>
+  <div style="text-align: center; margin: 24px 0;">
+    <a href="${downloadUrl}" style="display: inline-block; background: #16a34a; color: white; text-decoration: none; padding: 14px 32px; border-radius: 8px; font-weight: 600; font-size: 16px;">Download Your Action Kit (PDF)</a>
+  </div>
+
+  <p>Your action kit includes 13-15 pages of practical tools:</p>
 
   <div style="background: #f0fdf4; border-left: 4px solid #16a34a; padding: 16px; margin: 24px 0; border-radius: 0 8px 8px 0;">
-    <p style="margin: 0 0 8px; font-weight: 600;">What you will get:</p>
     <ul style="margin: 0; padding-left: 20px;">
-      <li>Portfolio project templates with starter prompts</li>
-      <li>Interview preparation questions specific to this role</li>
-      <li>90-day execution plan with weekly milestones</li>
-      <li>Resume bullet formulas that translate clinical experience</li>
-      <li>Resource checklist with direct links</li>
+      <li><strong>90-Day Execution Plan</strong> with weekly milestones and checkboxes</li>
+      <li><strong>Portfolio Project Templates</strong> with starter prompts for each project</li>
+      <li><strong>Resume Bullet Formulas</strong> that translate your clinical experience</li>
+      <li><strong>Interview Prep Questions</strong> (technical, behavioral, and scenario-based)</li>
+      <li><strong>Resource Checklist</strong> with direct links organized by phase</li>
     </ul>
   </div>
 
