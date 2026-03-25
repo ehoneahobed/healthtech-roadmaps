@@ -1,0 +1,456 @@
+{
+  "meta": {
+    "slug": "heor-rwe-analyst",
+    "title": "HEOR and Real-World Evidence Analyst Roadmap",
+    "icon": "📊",
+    "difficulty": "high",
+    "timeline": "6 to 12 months",
+    "lastUpdated": "2026-03-25",
+    "status": "published",
+    "shortDescription": "Evaluate the clinical and economic value of healthcare interventions using real-world data, cost-effectiveness models, and outcomes research. The role that determines which treatments get adopted, reimbursed, and scaled.",
+    "bestFor": "The clinician who always asked 'but does this treatment actually work better for patients, and is it worth the cost?' You think in terms of outcomes, not just processes, and you are drawn to the intersection of clinical evidence and healthcare decision-making.",
+    "order": 12
+  },
+  "sections": {
+    "roleSnapshot": {
+      "oneLiner": "HEOR and Real-World Evidence Analysts evaluate the clinical effectiveness, economic value, and real-world performance of healthcare interventions, generating the evidence that payers, regulators, and health systems use to make formulary, coverage, and reimbursement decisions.",
+      "bestSuitedFor": "The clinician who always questioned whether a new drug was truly better than the alternative, who tracked patient outcomes beyond what was required, or who pushed back on a formulary change because the evidence did not support it. If you think in terms of 'does this intervention improve outcomes and is it worth the cost,' this role channels that instinct into a career.",
+      "workSetting": "Predominantly remote with periodic travel. Most HEOR/RWE roles at pharma companies and consulting firms operate 80 to 100% remote, with travel for ISPOR conferences (2 to 3 per year), client presentations, and advisory board meetings. Some payer-side roles may require hybrid schedules. Consulting firms may expect 10 to 20% travel for client engagements.",
+      "demandSignal": "Strong and structurally driven. The global HEOR services market was valued at $1.70 billion in 2025 and is projected to reach $6.03 billion by 2035 at a 13.5% CAGR. The 21st Century Cures Act (2016) formally directed the FDA to develop a framework for using real-world evidence in regulatory decision-making, creating permanent demand for RWE professionals. The RWE solutions market is surging as every pharma company, payer, and HTA body now requires real-world evidence to support product launches, label expansions, and reimbursement negotiations. BLS projects employment growth in pharmacoeconomics at 8% above the sector average.",
+      "keyDifferentiator": "This role sits at the intersection of clinical science, economics, and data analysis. It is distinct from the data analyst roles in this collection (which focus on descriptive analytics and reporting) and from the data engineer role (which builds infrastructure). HEOR/RWE analysts generate the evidence that answers 'does this treatment work in the real world, and is it worth paying for?' The work directly influences which drugs get approved for new indications, which therapies get reimbursed, and which clinical pathways get adopted by health systems.",
+      "whereTheyWork": [
+        "Pharmaceutical and biotech companies (Pfizer, Novartis, Roche, AbbVie, Amgen, Bristol-Myers Squibb, Merck, Sanofi)",
+        "HEOR and RWE consulting firms (IQVIA/Evidera, PAREXEL, Syneos Health, ICON, Analysis Group, Precision HEOR)",
+        "Health insurance and payer organizations (UnitedHealth Group/Optum, CVS Health/Aetna, Elevance Health, Humana)",
+        "Health technology assessment bodies (NICE in the UK, CADTH in Canada, ICER in the US)",
+        "Academic medical centers and research institutions (with industry partnerships)",
+        "Government agencies (FDA, CMS, AHRQ, CDC)"
+      ],
+      "clinicalAdvantage": [
+        "You understand treatment pathways and clinical decision-making at the bedside level, which means your economic models reflect how care actually happens rather than how protocols assume it happens.",
+        "You can critically appraise clinical evidence because you have applied it. You know the difference between a statistically significant finding and a clinically meaningful one, which is the core judgment call in HEOR.",
+        "You understand patient-reported outcomes from the provider side. You have seen how patients actually experience treatments, side effects, and quality-of-life impacts, giving your outcomes research ecological validity.",
+        "Your familiarity with formulary processes, prior authorization, and utilization management means you understand the downstream context where HEOR evidence gets applied.",
+        "You can communicate with clinical key opinion leaders as a peer rather than a researcher seeking access, which is invaluable for advisory boards, delphi panels, and expert elicitation studies."
+      ]
+    },
+    "whatYouAlreadyHave": {
+      "nurses": [
+        {
+          "clinical": "Patient outcomes tracking and quality measure reporting (HCAHPS, Core Measures, readmission rates)",
+          "tech": "Outcomes measurement methodology and endpoint selection",
+          "explanation": "You have collected and reported on the same types of outcomes that HEOR research studies evaluate. You understand which outcomes matter to patients and which are artifacts of measurement."
+        },
+        {
+          "clinical": "Evidence-based practice implementation and clinical guideline application",
+          "tech": "Systematic literature review and evidence synthesis",
+          "explanation": "Applying evidence-based guidelines at the bedside requires the same critical appraisal skills used in HEOR systematic reviews and meta-analyses."
+        },
+        {
+          "clinical": "Care coordination across transitions and resource utilization awareness",
+          "tech": "Healthcare resource utilization analysis and cost modeling",
+          "explanation": "You understand the real cost drivers in patient care: readmissions, complications, length of stay, and post-discharge resource use. These are the inputs to HEOR cost models."
+        },
+        {
+          "clinical": "Patient education and shared decision-making conversations",
+          "tech": "Patient-reported outcome (PRO) instrument selection and interpretation",
+          "explanation": "Your experience discussing treatment options, side effects, and quality of life with patients gives you insight into what patient-reported outcome measures should capture."
+        },
+        {
+          "clinical": "Clinical documentation for coding accuracy and severity of illness capture",
+          "tech": "Real-world data quality assessment and claims data interpretation",
+          "explanation": "You understand how clinical reality becomes coded data. You know where documentation gaps create data quality issues, which is critical for RWE study design."
+        },
+        {
+          "clinical": "Quality improvement project leadership (PDSA cycles, root cause analysis)",
+          "tech": "Study design methodology and outcomes evaluation frameworks",
+          "explanation": "QI project methodology (define the problem, measure baseline, implement intervention, measure outcomes) mirrors the structure of outcomes research studies."
+        }
+      ],
+      "pharmacists": [
+        {
+          "clinical": "Pharmacoeconomics training in PharmD curriculum",
+          "tech": "Cost-effectiveness analysis and budget impact modeling foundations",
+          "explanation": "Most PharmD programs include pharmacoeconomics coursework covering CEA, CUA, CBA, and BIA. You already have the conceptual foundation that non-clinical HEOR professionals must learn from scratch."
+        },
+        {
+          "clinical": "Drug information evaluation and literature appraisal (Drug Information rotations)",
+          "tech": "Systematic literature review and critical appraisal methodology",
+          "explanation": "Your training in evaluating primary literature, assessing study design, identifying bias, and grading evidence quality is the exact skill set used in HEOR evidence synthesis."
+        },
+        {
+          "clinical": "Formulary management and P&T committee presentations",
+          "tech": "Health technology assessment (HTA) dossier development and value communication",
+          "explanation": "Presenting drug monographs to P&T committees is a scaled-down version of preparing HTA submissions. You understand the evidence requirements, the decision criteria, and the stakeholder dynamics."
+        },
+        {
+          "clinical": "Medication therapy management and clinical outcomes documentation",
+          "tech": "Real-world outcomes data collection and longitudinal patient analysis",
+          "explanation": "MTM programs require tracking interventions and measuring outcomes over time, which is fundamentally what RWE studies do at scale."
+        },
+        {
+          "clinical": "Drug utilization review and prescribing pattern analysis",
+          "tech": "Treatment pattern analysis and drug utilization studies using claims data",
+          "explanation": "Your DUR experience directly maps to the retrospective database studies that form a large portion of RWE work. The analytical framework is identical."
+        },
+        {
+          "clinical": "Adverse drug reaction monitoring and pharmacovigilance reporting",
+          "tech": "Safety outcomes analysis and post-marketing surveillance research",
+          "explanation": "Your ADR monitoring experience translates to the safety endpoints in HEOR studies and the post-marketing RWE that regulators increasingly require."
+        }
+      ],
+      "otherClinicians": [
+        {
+          "clinical": "Clinical trial coordination and protocol adherence monitoring",
+          "tech": "Study protocol development and real-world study design",
+          "explanation": "If you have coordinated clinical trials, you understand protocol design, endpoint selection, data collection, and regulatory requirements, all of which apply to RWE study design."
+        },
+        {
+          "clinical": "Diagnostic testing ordering and interpretation of clinical significance",
+          "tech": "Clinical endpoint definition and outcome adjudication",
+          "explanation": "Your ability to distinguish clinically meaningful findings from noise is essential for selecting and validating endpoints in HEOR studies."
+        },
+        {
+          "clinical": "Utilization review and prior authorization decision-making",
+          "tech": "Payer evidence requirements and market access strategy",
+          "explanation": "If you have worked on the payer side of utilization review, you understand exactly what evidence payers need to make coverage decisions, which is what HEOR teams produce."
+        },
+        {
+          "clinical": "Population health management and disease registry maintenance",
+          "tech": "Cohort identification and longitudinal outcomes analysis",
+          "explanation": "Managing disease registries requires defining patient cohorts, tracking outcomes over time, and analyzing trends, which is the core methodology of RWE studies."
+        },
+        {
+          "clinical": "Clinical pathway development and standardization of care protocols",
+          "tech": "Comparative effectiveness research and treatment pathway modeling",
+          "explanation": "Developing clinical pathways requires evaluating comparative evidence across treatment options, which is exactly what comparative effectiveness research formalizes."
+        }
+      ]
+    },
+    "learningPath": {
+      "totalTimeline": "6 to 12 months",
+      "phases": [
+        {
+          "name": "Foundation",
+          "weeks": "1 to 10",
+          "hours": "80 to 120",
+          "topics": [
+            "Health economics fundamentals (cost-effectiveness analysis, cost-utility analysis, cost-benefit analysis, budget impact analysis)",
+            "Epidemiology and biostatistics review (study designs, confounding, bias, regression, survival analysis)",
+            "Statistical software proficiency (R or SAS for HEOR; Stata is also common)",
+            "Systematic literature review methodology (PRISMA, PICO framework, risk of bias assessment)",
+            "Introduction to real-world data sources (claims databases, EHR data, registries, patient surveys)",
+            "Health technology assessment (HTA) frameworks (NICE, CADTH, ICER, AMCP dossier format)"
+          ],
+          "resources": [
+            {
+              "name": "ISPOR Short Courses and eLearning",
+              "url": "https://www.ispor.org/conferences-education/education-training",
+              "free": false,
+              "description": "ISPOR is the professional society for HEOR. Their short courses cover CEA, modeling, RWE, and HTA methodology. Essential for building credibility and network."
+            },
+            {
+              "name": "Cost-Effectiveness Analysis in Health: A Practical Approach (Peter Muennig)",
+              "url": "https://www.amazon.com/Cost-Effectiveness-Analysis-Health-Practical-Approach/dp/1119011264",
+              "free": false,
+              "description": "The standard textbook for learning cost-effectiveness analysis methodology. Practical and accessible for clinicians."
+            },
+            {
+              "name": "UNT Health Science Center Certificate in Applied Health Outcomes Research",
+              "url": "https://www.unthsc.edu/college-of-pharmacy/about-us/certificate-in-applied-health-outcomes-research/",
+              "free": false,
+              "description": "Online graduate certificate specifically designed for professionals transitioning into HEOR. Covers pharmacoeconomics, outcomes research, and RWE."
+            },
+            {
+              "name": "Coursera Epidemiology Specialization (Johns Hopkins)",
+              "url": "https://www.coursera.org/specializations/epidemiology",
+              "free": false,
+              "description": "Comprehensive epidemiology training covering study design, biostatistics, and causal inference. Foundational for RWE work."
+            },
+            {
+              "name": "R for Health Data Science",
+              "url": "https://argoshare.is.ed.ac.uk/healthyr_book/",
+              "free": true,
+              "description": "Free online book covering R programming specifically for health data analysis applications."
+            },
+            {
+              "name": "FDA Real-World Evidence Framework",
+              "url": "https://www.fda.gov/science-research/science-and-research-special-topics/real-world-evidence",
+              "free": true,
+              "description": "The FDA's official RWE resources, guidance documents, and framework. Essential reading for understanding the regulatory context."
+            }
+          ],
+          "checkpoint": "Complete an ISPOR short course on cost-effectiveness analysis or systematic literature review. Conduct a practice systematic literature review on a clinical question from your background (minimum 20 articles screened, 8 to 10 included). Write up findings using PRISMA guidelines."
+        },
+        {
+          "name": "Modeling and RWE Methods",
+          "weeks": "10 to 24",
+          "hours": "120 to 180",
+          "topics": [
+            "Decision-analytic modeling (decision trees, Markov models, microsimulation)",
+            "Health economic modeling software (TreeAge Pro, Excel-based models with VBA)",
+            "Real-world evidence study design (retrospective cohort, case-control, pragmatic trials)",
+            "Claims database analysis (Medicare, Truven/IBM MarketScan, Optum, CPRD in the UK)",
+            "Meta-analysis and indirect treatment comparison methods (network meta-analysis, MAIC)",
+            "Patient-reported outcomes and health-related quality of life (EQ-5D, SF-36, disease-specific instruments)"
+          ],
+          "resources": [
+            {
+              "name": "TreeAge Pro Software",
+              "url": "https://www.treeage.com/",
+              "free": false,
+              "description": "Industry-standard software for decision-analytic modeling. Academic licenses are more affordable. Essential for building cost-effectiveness models."
+            },
+            {
+              "name": "NICE Decision Support Unit Technical Support Documents",
+              "url": "https://www.sheffield.ac.uk/nice-dsu/tsds",
+              "free": true,
+              "description": "Free technical guidance from NICE on evidence synthesis, modeling, and economic evaluation methodology. Gold standard for HTA methods."
+            },
+            {
+              "name": "Cochrane Handbook for Systematic Reviews",
+              "url": "https://training.cochrane.org/handbook",
+              "free": true,
+              "description": "The definitive methodological guide for systematic reviews and meta-analyses. Free online access."
+            },
+            {
+              "name": "AHRQ Real-World Evidence Resources",
+              "url": "https://effectivehealthcare.ahrq.gov/",
+              "free": true,
+              "description": "AHRQ's comparative effectiveness research and evidence synthesis resources, including methodological guides."
+            },
+            {
+              "name": "Value in Health Journal (ISPOR)",
+              "url": "https://www.valueinhealthjournal.com/",
+              "free": false,
+              "description": "The primary journal for HEOR research. Reading recent publications builds methodology awareness and industry context."
+            },
+            {
+              "name": "DistillerSR Systematic Review Software",
+              "url": "https://www.distillersr.com/",
+              "free": false,
+              "description": "Professional systematic review management software with AI-assisted screening. Free trial available."
+            }
+          ],
+          "checkpoint": "Build a cost-effectiveness model (decision tree or Markov) for a clinical question relevant to your background using TreeAge or Excel. Conduct a retrospective database study using a publicly available claims or EHR dataset. Present both projects in ISPOR poster format."
+        },
+        {
+          "name": "Specialization",
+          "weeks": "24 to 40",
+          "hours": "80 to 120",
+          "topics": [
+            "Track A: HEOR and Economic Modeling (advanced Markov models, partitioned survival analysis, microsimulation, HTA dossier preparation)",
+            "Track B: Real-World Evidence and Observational Research (propensity score methods, instrumental variables, difference-in-differences, target trial emulation)",
+            "Track C: Market Access and Value Communication (payer engagement strategy, value dossier development, AMCP format, pricing and reimbursement)",
+            "Track D: Patient-Centered Outcomes Research (PRO development and validation, qualitative research methods, patient preference studies, PCORI methodology)"
+          ],
+          "resources": [
+            {
+              "name": "ISPOR Annual and European Conferences",
+              "url": "https://www.ispor.org/conferences-education/conferences",
+              "free": false,
+              "description": "The premier HEOR conferences. Attending one is essential for networking and understanding the field's direction."
+            },
+            {
+              "name": "PCORI Methodology Standards",
+              "url": "https://www.pcori.org/research/about-our-research/research-methodology/pcori-methodology-standards",
+              "free": true,
+              "description": "PCORI's methodology standards for patient-centered outcomes research. Essential for Track D."
+            },
+            {
+              "name": "Causal Inference: What If (Hernan and Robins)",
+              "url": "https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/",
+              "free": true,
+              "description": "Free textbook on causal inference methods essential for rigorous RWE study design."
+            },
+            {
+              "name": "AMCP Format for Formulary Submissions",
+              "url": "https://www.amcp.org/resource-center/format-formulary-submissions",
+              "free": true,
+              "description": "The standard format for evidence dossiers submitted to US payers. Essential for Track C."
+            },
+            {
+              "name": "Target Trial Emulation Framework Resources",
+              "url": "https://www.targettrialemulation.com/",
+              "free": true,
+              "description": "Resources on the target trial emulation framework for designing rigorous observational studies from real-world data."
+            }
+          ],
+          "checkpoint": "Submit a poster abstract to an ISPOR conference (regional or annual). Complete a specialization-track portfolio project. Apply to 5 HEOR/RWE analyst positions or fellowship programs targeting your chosen track."
+        }
+      ]
+    },
+    "certifications": {
+      "realityCheck": "HEOR does not have a single dominant certification like PMP or PMP-equivalent. The field values advanced degrees (MS/PhD in epidemiology, health economics, or outcomes research) and ISPOR membership more than certifications. However, several credentials signal commitment and competence, especially for clinicians entering the field without a graduate degree in a quantitative discipline.",
+      "items": [
+        {
+          "name": "ISPOR Membership and Short Course Completion",
+          "signal": "high",
+          "frequency": "Annual membership renewal",
+          "cost": "$125 to $350 annual membership plus $200 to $800 per short course",
+          "timeline": "Ongoing; complete 2 to 3 short courses in first 6 months",
+          "notes": "ISPOR is the professional home for HEOR. Membership signals you are serious about the field. Their short courses are the most recognized non-degree training in HEOR. List specific courses completed on your resume."
+        },
+        {
+          "name": "Graduate Certificate in HEOR or Health Outcomes Research",
+          "signal": "high",
+          "frequency": "One-time completion",
+          "cost": "$3,000 to $8,000 depending on program",
+          "timeline": "6 to 12 months part-time",
+          "notes": "Programs like UNT Health Science Center, University of Washington, or Thomas Jefferson provide structured HEOR training recognized by industry. The strongest signal for clinicians without a quantitative graduate degree."
+        },
+        {
+          "name": "SAS Certified Clinical Trials Programmer",
+          "signal": "helpful",
+          "frequency": "No expiration",
+          "cost": "$180 exam fee",
+          "timeline": "2 to 4 months study",
+          "notes": "SAS remains the dominant statistical software in pharmaceutical HEOR and regulatory submissions. This cert validates both SAS proficiency and clinical trials data knowledge."
+        },
+        {
+          "name": "R Programming Certification (Johns Hopkins via Coursera or equivalent)",
+          "signal": "helpful",
+          "frequency": "No expiration",
+          "cost": "$49 per month Coursera subscription",
+          "timeline": "2 to 3 months",
+          "notes": "R is increasingly used in HEOR for meta-analysis, data visualization, and statistical modeling. Less dominant than SAS in pharma but growing rapidly, especially in academic and consulting settings."
+        },
+        {
+          "name": "Certified Health Data Analyst (CHDA, AHIMA)",
+          "signal": "helpful",
+          "frequency": "Every 2 years",
+          "cost": "$259 to $329 exam fee",
+          "timeline": "2 to 3 months study",
+          "notes": "Validates healthcare data competency. Useful supplement for clinicians to signal data handling skills, but not HEOR-specific."
+        },
+        {
+          "name": "HEOR Fellowship (Industry-sponsored, 1 to 2 years)",
+          "signal": "high",
+          "frequency": "One-time",
+          "cost": "Paid position (fellow receives compensation)",
+          "timeline": "1 to 2 years full-time",
+          "notes": "The gold standard entry point for pharmacists specifically. Programs at Pfizer, Amgen, J&J, and university-industry partnerships (Jefferson, Pitt, UIC, UT Austin) place fellows directly into HEOR roles. Highly competitive but transformative."
+        },
+        {
+          "name": "MPH or MS in Epidemiology/Biostatistics",
+          "signal": "skip",
+          "frequency": "N/A",
+          "cost": "N/A",
+          "timeline": "N/A",
+          "notes": "A full master's degree is valuable but not required if you have clinical credentials plus HEOR-specific training. The time and cost investment is significant. Pursue only if you want to lead research teams or enter academia."
+        },
+        {
+          "name": "Six Sigma or Lean Certification",
+          "signal": "skip",
+          "frequency": "N/A",
+          "cost": "N/A",
+          "timeline": "N/A",
+          "notes": "Process improvement certifications do not signal HEOR competence. Your clinical QI experience already covers these concepts."
+        }
+      ],
+      "recommendation": "Join ISPOR immediately ($125 to $350) and complete 2 to 3 short courses in your first 6 months. In parallel, enroll in a graduate certificate program (UNT, Jefferson, or equivalent) to build structured methodology knowledge. Pharmacists should seriously explore HEOR fellowship programs as the most direct path. If going the self-directed route, complete a SAS or R certification to validate programming skills. Build a portfolio of ISPOR-format poster presentations to demonstrate applied competence."
+    },
+    "portfolioProjects": [
+      {
+        "title": "Systematic Literature Review and Meta-Analysis",
+        "description": "Conduct a systematic literature review on a clinical question from your background (e.g., comparative effectiveness of two treatment strategies for a condition you managed clinically). Follow PRISMA guidelines. Screen at least 200 titles/abstracts, include 15 to 25 studies, extract data, assess risk of bias, and perform a quantitative meta-analysis with forest plots.",
+        "timeEstimate": "4 to 6 weeks",
+        "dataset": "PubMed, Cochrane Library, Embase",
+        "datasetUrl": "https://pubmed.ncbi.nlm.nih.gov/",
+        "tools": ["PubMed/Ovid for searching", "Covidence or Rayyan for screening", "R (metafor package) or RevMan for meta-analysis", "PRISMA checklist for reporting"],
+        "clinicalAdvantage": "You can write clinically precise search strategies because you know the medical terminology, relevant comparators, and meaningful outcomes. Your clinical judgment helps assess whether included studies reflect real practice patterns."
+      },
+      {
+        "title": "Cost-Effectiveness Model for a Treatment Decision",
+        "description": "Build a decision-analytic model (Markov or decision tree) comparing two treatment strategies for a condition you know clinically. Populate it with published clinical and cost data. Calculate incremental cost-effectiveness ratios (ICERs). Run sensitivity analyses (one-way, probabilistic). Present results in a format suitable for an HTA submission.",
+        "timeEstimate": "4 to 6 weeks",
+        "dataset": "Published clinical trial data plus cost data from CMS fee schedules",
+        "datasetUrl": "https://www.cms.gov/medicare/payment/fee-schedules",
+        "tools": ["TreeAge Pro or Excel with VBA", "R for probabilistic sensitivity analysis", "Published efficacy data from clinical trials"],
+        "clinicalAdvantage": "You understand the clinical pathway your model represents. You know which health states patients actually transition through, what complications look like in practice, and which assumptions are clinically reasonable versus artificially simplistic."
+      },
+      {
+        "title": "Real-World Evidence Study Using Claims Data",
+        "description": "Design and execute a retrospective cohort study using a publicly available claims or clinical dataset. Define a clear research question, identify the cohort, apply inclusion/exclusion criteria, handle confounding (propensity score matching or regression adjustment), and analyze treatment outcomes. Report using STROBE or RECORD guidelines.",
+        "timeEstimate": "4 to 6 weeks",
+        "dataset": "CMS Synthetic Medicare Claims Data or MIMIC-IV",
+        "datasetUrl": "https://data.cms.gov/collection/synthetic-medicare-enrollment-fee-for-service-claims-and-prescription-drug-event",
+        "tools": ["SAS, R, or Python for data analysis", "SQL for data extraction", "STROBE/RECORD reporting guidelines"],
+        "clinicalAdvantage": "You can design clinically valid inclusion criteria because you understand which diagnosis codes actually capture the condition of interest versus adjacent conditions. You know which confounders matter clinically, not just statistically."
+      },
+      {
+        "title": "Budget Impact Analysis for a Health System Formulary Decision",
+        "description": "Develop a budget impact model for adding a new therapy to a health system formulary. Estimate the eligible population, market share uptake, per-patient treatment costs, offset costs (reduced hospitalizations, ER visits), and net budget impact over a 3 to 5 year horizon. Present in AMCP dossier format.",
+        "timeEstimate": "3 to 4 weeks",
+        "dataset": "Published clinical trial data plus CMS cost data",
+        "datasetUrl": "https://www.cms.gov/data-research",
+        "tools": ["Excel with structured worksheets", "CMS fee schedules for cost inputs", "AMCP Format template"],
+        "clinicalAdvantage": "Your formulary experience means you understand the real-world dynamics of drug adoption: how quickly prescribers switch, which patient segments adopt first, and what the actual offset savings look like versus the theoretical ones."
+      },
+      {
+        "title": "ISPOR-Format Research Poster Presentation",
+        "description": "Convert one of the above projects into an ISPOR-format research poster. Follow ISPOR poster guidelines for structure (objective, methods, results, conclusions, limitations). Design a professional poster suitable for conference submission. Write a 300-word abstract in ISPOR format.",
+        "timeEstimate": "1 to 2 weeks",
+        "tools": ["PowerPoint or specialized poster software", "ISPOR abstract submission guidelines", "Data visualization tools (R ggplot2 or Excel charts)"],
+        "clinicalAdvantage": "You can frame your research question in clinically meaningful terms that resonate with the mixed audience at ISPOR conferences (clinicians, economists, payers, industry scientists)."
+      }
+    ],
+    "transitionStories": {
+      "verified": [],
+      "note": "We are actively collecting verified stories from clinicians whose current or recent title is specifically 'HEOR Analyst', 'RWE Analyst', 'Health Economics Analyst', or 'Outcomes Research Scientist' at pharmaceutical companies, consulting firms, or payer organizations. Stories will be added as they are sourced and verified.",
+      "crowdsourceUrl": ""
+    },
+    "firstThreeMoves": [
+      {
+        "title": "Join ISPOR and complete your first short course on HEOR methodology",
+        "timeEstimate": "3 hours",
+        "description": "Establish your presence in the HEOR professional community and begin structured learning of the methodology that defines this field.",
+        "specifics": [
+          "Join ISPOR at the appropriate membership level ($125 for students/early career, $350 for professionals) and explore their eLearning catalog",
+          "Enroll in one ISPOR short course: 'Introduction to Health Economic Modeling' or 'Systematic Reviews for HEOR' are strong starting points",
+          "Read the FDA RWE Framework document (fda.gov/science-research/science-and-research-special-topics/real-world-evidence) to understand the regulatory context driving this field"
+        ]
+      },
+      {
+        "title": "Identify your clinical-to-HEOR bridge and map target employers",
+        "timeEstimate": "2 hours",
+        "description": "Determine which aspect of HEOR connects most directly to your clinical background and which companies hire for that specialization.",
+        "specifics": [
+          "List 3 to 5 clinical questions from your practice that could be answered with outcomes research or real-world evidence (e.g., 'Do patients on Drug A have fewer readmissions than Drug B?'). These become your portfolio project seeds.",
+          "Search the ISPOR Career Center (careers.ispor.org) and LinkedIn for 'HEOR Analyst' and 'RWE Analyst.' Note which companies appear most frequently and what skills they require.",
+          "Identify whether your background maps best to Track A (modeling), Track B (RWE/observational), Track C (market access), or Track D (patient-centered outcomes). Pharmacists often start with A or C; nurses and other clinicians often start with B or D."
+        ]
+      },
+      {
+        "title": "Start building your statistical programming skills and HEOR reading habit",
+        "timeEstimate": "Ongoing (1 to 2 hours per day)",
+        "description": "HEOR requires statistical software proficiency and continuous engagement with the literature. Build both habits simultaneously.",
+        "specifics": [
+          "Begin learning R (healthyr book at argoshare.is.ed.ac.uk/healthyr_book/) or SAS (SAS Programming 1 course on SAS Academy). Complete at least one lesson per day.",
+          "Subscribe to the Value in Health journal table of contents alerts and ISPOR newsletter. Read one HEOR paper per week, focusing on methods sections to learn how studies are designed and analyzed.",
+          "Download and explore one public dataset relevant to your clinical area (CMS Synthetic Claims at data.cms.gov or AHRQ HCUP data) to begin understanding how real-world data is structured."
+        ]
+      }
+    ]
+  },
+  "sources": [
+    "https://www.pharmiweb.com/press-release/2025-08-26/global-health-economics-outcomes-research-services-market-to-grow-at-13-cagr-by-2030",
+    "https://www.marketsandmarkets.com/ResearchInsight/real-world-evidence-solution-market.asp",
+    "https://www.fda.gov/science-research/science-and-research-special-topics/real-world-evidence",
+    "https://www.ispor.org/strategic-initiatives/topics/real-world-evidence",
+    "https://www.ispor.org/conferences-education/education-training",
+    "https://careers.ispor.org/",
+    "https://www.unthsc.edu/college-of-pharmacy/about-us/certificate-in-applied-health-outcomes-research/",
+    "https://www.clinicalleader.com/doc/real-world-evidence-the-st-century-cures-act-what-you-need-to-know-0001",
+    "https://www.valueinhealthjournal.com/",
+    "https://www.treeage.com/hc-features/cost-effectiveness/",
+    "https://training.cochrane.org/handbook",
+    "https://www.sheffield.ac.uk/nice-dsu/tsds",
+    "https://www.amcp.org/resource-center/format-formulary-submissions",
+    "https://www.pcori.org/research/about-our-research/research-methodology/pcori-methodology-standards",
+    "https://rwr-regs.com/rwe-101-a-career-of-many-pathways/",
+    "https://www.distillersr.com/resources/guides-white-papers/improve-cost-effectiveness-analysis-and-budget-impact-modeling-using-literature-review-automation-software",
+    "https://www.expertmarketresearch.com/reports/health-economics-and-outcomes-research-heor-market/companies",
+    "https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/"
+  ]
+}

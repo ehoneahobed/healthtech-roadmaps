@@ -101,3 +101,12 @@ Target: Healthcare professionals transitioning to data engineering roles at heal
 Key Certifications: AWS Certified Data Engineer Associate ($150), Databricks Certified DE Associate ($200), Azure DP-700 ($165), dbt Analytics Engineering (free), CHDA (healthcare domain)
 Key Skills: Python, SQL, ETL/ELT pipeline design, Apache Airflow, cloud platforms (AWS/Azure/GCP), data warehouse architecture, FHIR/HL7 integration, data quality frameworks, medallion architecture, dbt
 Clinical Advantage: You understand the source data because you have generated it in your clinical workflows. You can validate data quality at a level pure engineers cannot, catching clinically impossible values and understanding PHI implications that shape pipeline design.
+
+## Roadmap: HEOR and Real-World Evidence Analyst
+URL: /r/heor-rwe-analyst
+Difficulty: High
+Timeline: 6 to 12 months
+Target: Healthcare professionals transitioning to HEOR, outcomes research, and real-world evidence roles at pharmaceutical companies, consulting firms, payers, and HTA bodies
+Key Certifications: ISPOR Membership and Short Courses, Graduate Certificate in HEOR ($3,000 to $8,000), HEOR Fellowship (pharmacists), SAS Certified Clinical Trials Programmer ($180)
+Key Skills: Cost-effectiveness analysis, budget impact modeling, systematic literature review, meta-analysis, decision-analytic modeling (Markov, decision trees), real-world evidence study design, claims database analysis, SAS/R/Stata, patient-reported outcomes, HTA dossier development
+Clinical Advantage: You understand treatment pathways at the bedside level, can distinguish statistically significant from clinically meaningful findings, and know the formulary and reimbursement context where HEOR evidence gets applied.

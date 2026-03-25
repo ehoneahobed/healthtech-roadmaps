@@ -21,6 +21,7 @@ This site contains comprehensive career roadmaps for mid-career healthcare profe
 - /r/clinical-research-associate: Clinical Research Associate career transition roadmap (2 to 4 months, low difficulty)
 - /r/healthcare-it-project-manager: Healthcare IT Project Manager career transition roadmap (4 to 8 months, moderate difficulty)
 - /r/healthcare-data-engineer: Healthcare Data Engineer career transition roadmap (6 to 12 months, high difficulty)
+- /r/heor-rwe-analyst: HEOR and Real-World Evidence Analyst career transition roadmap (6 to 12 months, high difficulty)
 
 ## Roadmap Framework (7 Sections)
 
