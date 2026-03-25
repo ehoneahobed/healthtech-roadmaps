@@ -1,0 +1,85 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ContributeForm from '../components/ContributeForm';
+---
+
+<BaseLayout
+  title="Share Your Transition Story | Health Tech Career Roadmaps"
+  description="Help other healthcare professionals by sharing your clinical-to-tech transition story. Your experience becomes someone else's roadmap."
+>
+  <!-- Hero -->
+  <section class="pt-20 pb-14 px-6 md:pt-28 md:pb-20 bg-gradient-to-b from-green-50/60 to-white">
+    <div class="max-w-2xl mx-auto text-center">
+      <p class="inline-block text-sm font-medium text-green-700 bg-green-100 px-4 py-1.5 rounded-full mb-6">
+        Community-powered career intelligence
+      </p>
+      <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+        Your story could be someone else's <span class="text-green-600">turning point</span>
+      </h1>
+      <p class="text-lg text-gray-600 leading-relaxed">
+        Every roadmap on this platform gets stronger when clinicians who have already made the transition share what actually worked. Just your experience.
+      </p>
+    </div>
+  </section>
+
+  <!-- How It Works -->
+  <section class="px-6 pb-12">
+    <div class="max-w-2xl mx-auto">
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-16">
+        <div class="text-center p-5 rounded-xl bg-white border border-gray-200">
+          <div class="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center mx-auto mb-3">
+            <span class="text-green-600 font-bold">1</span>
+          </div>
+          <h3 class="text-sm font-semibold text-gray-900 mb-1">You share</h3>
+          <p class="text-xs text-gray-500">Fill out the form below with your transition details</p>
+        </div>
+        <div class="text-center p-5 rounded-xl bg-white border border-gray-200">
+          <div class="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center mx-auto mb-3">
+            <span class="text-green-600 font-bold">2</span>
+          </div>
+          <h3 class="text-sm font-semibold text-gray-900 mb-1">We verify</h3>
+          <p class="text-xs text-gray-500">We confirm details against public profiles and sources</p>
+        </div>
+        <div class="text-center p-5 rounded-xl bg-white border border-gray-200">
+          <div class="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center mx-auto mb-3">
+            <span class="text-green-600 font-bold">3</span>
+          </div>
+          <h3 class="text-sm font-semibold text-gray-900 mb-1">You get featured</h3>
+          <p class="text-xs text-gray-500">Your story appears on the roadmap page with full credit</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Form Section -->
+  <section class="px-6 pb-24">
+    <div class="max-w-3xl mx-auto">
+      <ContributeForm client:load />
+    </div>
+  </section>
+
+  <!-- Why Contribute -->
+  <section class="px-6 py-24 bg-gray-50">
+    <div class="max-w-2xl mx-auto text-center">
+      <h2 class="text-2xl font-bold text-gray-900 mb-8">Why Contribute?</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 text-left">
+        <div class="p-5 rounded-lg bg-white border border-gray-200">
+          <h3 class="font-semibold text-gray-900 mb-2 text-sm">Visibility for your career</h3>
+          <p class="text-sm text-gray-600">Your name, title, and LinkedIn appear on a high-traffic roadmap page. Every visitor sees your transition as proof it can be done.</p>
+        </div>
+        <div class="p-5 rounded-lg bg-white border border-gray-200">
+          <h3 class="font-semibold text-gray-900 mb-2 text-sm">Help someone take the leap</h3>
+          <p class="text-sm text-gray-600">The number one thing holding clinicians back is not knowing if someone like them has done it. Your story answers that question.</p>
+        </div>
+        <div class="p-5 rounded-lg bg-white border border-gray-200">
+          <h3 class="font-semibold text-gray-900 mb-2 text-sm">Shape the roadmaps</h3>
+          <p class="text-sm text-gray-600">Your resource recommendations, timeline data, and skill transfer insights get incorporated into the roadmap itself, making it more accurate for everyone.</p>
+        </div>
+        <div class="p-5 rounded-lg bg-white border border-gray-200">
+          <h3 class="font-semibold text-gray-900 mb-2 text-sm">Join the community</h3>
+          <p class="text-sm text-gray-600">Contributors are the foundation of this platform. Built by clinicians who made the transition, for clinicians who are about to.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

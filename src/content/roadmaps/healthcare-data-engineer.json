@@ -408,7 +408,7 @@
     "transitionStories": {
       "verified": [],
       "note": "We are actively collecting verified stories from clinicians whose current or recent title is specifically 'Data Engineer', 'Healthcare Data Engineer', or 'Senior Data Engineer' at healthcare organizations, payers, or health tech companies. Stories will be added as they are sourced and verified.",
-      "crowdsourceUrl": ""
+      "crowdsourceUrl": "/contribute"
     },
     "firstThreeMoves": [
       {

@@ -398,7 +398,7 @@
     "transitionStories": {
       "verified": [],
       "note": "We are actively collecting verified stories from clinicians whose current or recent title is specifically 'HEOR Analyst', 'RWE Analyst', 'Health Economics Analyst', or 'Outcomes Research Scientist' at pharmaceutical companies, consulting firms, or payer organizations. Stories will be added as they are sourced and verified.",
-      "crowdsourceUrl": ""
+      "crowdsourceUrl": "/contribute"
     },
     "firstThreeMoves": [
       {

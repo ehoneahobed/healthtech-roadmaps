@@ -446,7 +446,7 @@
     "transitionStories": {
       "verified": [],
       "note": "We are actively collecting verified stories from clinicians whose current or recent title is specifically 'Health Data Analyst' or 'Healthcare Data Analyst' at a named organization. Stories will be added as they are sourced and verified. Medium articles and LinkedIn posts from clinicians who transitioned to data analytics roles are promising leads, but exact title verification is required before inclusion.",
-      "crowdsourceUrl": ""
+      "crowdsourceUrl": "/contribute"
     },
     "firstThreeMoves": [
       {

@@ -400,7 +400,7 @@
     "transitionStories": {
       "verified": [],
       "note": "We are actively collecting verified stories from clinicians whose current or recent title is specifically 'Clinical Research Associate' at a CRO or pharmaceutical company. Research indicates that a large percentage of CRAs are former nurses, and pharmacists commonly enter through CRO clinical operations teams. Stories will be added as they are sourced and verified with exact title confirmation.",
-      "crowdsourceUrl": ""
+      "crowdsourceUrl": "/contribute"
     },
     "firstThreeMoves": [
       {

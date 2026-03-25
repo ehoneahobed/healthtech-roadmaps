@@ -1,7 +1,7 @@
 import type { Roadmap } from '@content/schema';
 
 // Dynamically import all roadmap JSON files
-const roadmapModules = import.meta.glob<{ default: Roadmap }>(
+const roadmapModules = import.meta.glob<Roadmap>(
   '../content/roadmaps/*.json',
   { import: 'default', eager: true }
 );
