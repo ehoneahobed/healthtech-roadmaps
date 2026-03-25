@@ -1,0 +1,133 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description: string;
+  ogImage?: string;
+}
+
+const { title, description, ogImage } = Astro.props;
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    {ogImage && <meta property="og:image" content={ogImage} />}
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonicalURL} />
+    <link rel="canonical" href={canonicalURL} />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>{title}</title>
+    <slot name="meta" />
+  </head>
+  <body class="antialiased">
+    <!-- Header -->
+    <header class="border-b border-surface-100 sticky top-0 z-40 bg-white">
+      <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+        <a href="/" class="flex items-center gap-3 no-underline hover:opacity-80 transition-opacity">
+          <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-brand-500 to-brand-600 flex items-center justify-center">
+            <span class="text-white font-bold text-sm">H</span>
+          </div>
+          <div class="flex flex-col">
+            <h1 class="text-lg font-semibold text-surface-900 m-0">Health Tech Roadmaps</h1>
+            <p class="text-xs text-surface-600 m-0">by Ehoneah</p>
+          </div>
+        </a>
+
+        <nav class="flex items-center gap-8">
+          <a
+            href="https://quiz.ehoneahobed.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-sm font-medium text-surface-700 hover:text-brand-600 transition-colors"
+          >
+            Take the Quiz
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex-1">
+      <slot />
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-surface-100 bg-surface-50 mt-16">
+      <div class="max-w-6xl mx-auto px-6 py-12">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+          <div>
+            <h3 class="text-sm font-semibold text-surface-900 mb-4">Resources</h3>
+            <ul class="space-y-2">
+              <li>
+                <a
+                  href="https://substack.com/@ehoneah"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-sm text-surface-600 hover:text-brand-600 transition-colors"
+                >
+                  The Transmutation Newsletter
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://quiz.ehoneahobed.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-sm text-surface-600 hover:text-brand-600 transition-colors"
+                >
+                  Career Transition Quiz
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://gumroad.com/ehoneah"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-sm text-surface-600 hover:text-brand-600 transition-colors"
+                >
+                  Gumroad Reports
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="text-sm font-semibold text-surface-900 mb-4">About</h3>
+            <p class="text-sm text-surface-600">
+              Research-backed transition guides for healthcare professionals moving into tech. Built by a pharmacist who made the switch.
+            </p>
+          </div>
+
+          <div>
+            <h3 class="text-sm font-semibold text-surface-900 mb-4">Connect</h3>
+            <p class="text-sm text-surface-600">
+              Questions or feedback? Reach out through any of our channels above.
+            </p>
+          </div>
+        </div>
+
+        <div class="border-t border-surface-200 pt-8 flex items-center justify-between">
+          <p class="text-sm text-surface-500">
+            &copy; {new Date().getFullYear()} Health Tech Roadmaps. All rights reserved.
+          </p>
+          <p class="text-sm text-surface-500">
+            Designed for the modern healthcare professional.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

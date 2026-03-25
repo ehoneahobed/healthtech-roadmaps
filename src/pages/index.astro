@@ -1,0 +1,199 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getAllRoadmapMeta } from '../lib/roadmaps';
+
+const roadmaps = getAllRoadmapMeta();
+
+const difficultyConfig = {
+  low: { label: 'Low', color: 'bg-emerald-100 text-emerald-700' },
+  moderate: { label: 'Moderate', color: 'bg-amber-100 text-amber-700' },
+  high: { label: 'High', color: 'bg-orange-100 text-orange-700' },
+  'very-high': { label: 'Very High', color: 'bg-red-100 text-red-700' },
+};
+---
+
+<BaseLayout
+  title="Health Tech Career Roadmaps"
+  description="Research-backed transition guides for healthcare professionals moving into tech."
+>
+  <!-- Hero Section -->
+  <section class="pt-20 pb-16 px-6 md:pt-32 md:pb-24">
+    <div class="max-w-4xl mx-auto">
+      <h1 class="text-4xl md:text-5xl font-bold text-surface-900 mb-6">
+        Health Tech Career Roadmaps
+      </h1>
+      <p class="text-xl md:text-2xl text-surface-600 mb-6 leading-relaxed">
+        Research-backed transition guides for healthcare professionals moving into tech. Built by a pharmacist who made the switch.
+      </p>
+      <p class="text-base text-surface-600 leading-relaxed max-w-2xl">
+        Each roadmap breaks down exactly what you need to learn, the realistic timeline, real transition stories, and your first three moves. No fluff. Just what you need to know.
+      </p>
+    </div>
+  </section>
+
+  <!-- Roadmap Cards -->
+  <section class="px-6 pb-24">
+    <div class="max-w-6xl mx-auto">
+      {roadmaps.length > 0 ? (
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          {roadmaps.map((roadmap) => {
+            const difficulty = difficultyConfig[roadmap.difficulty];
+            return (
+              <a
+                href={`/roadmaps/${roadmap.slug}`}
+                class="group block p-8 border border-surface-200 rounded-lg hover:shadow-lg hover:border-brand-200 transition-all duration-200"
+              >
+                <div class="flex items-start justify-between mb-4">
+                  <div class="text-4xl">{roadmap.icon}</div>
+                  <span class={`text-xs font-semibold px-3 py-1.5 rounded-full ${difficulty.color}`}>
+                    {difficulty.label}
+                  </span>
+                </div>
+
+                <h2 class="text-2xl font-bold text-surface-900 mb-2 group-hover:text-brand-600 transition-colors">
+                  {roadmap.title}
+                </h2>
+
+                <p class="text-sm text-surface-600 mb-4">
+                  {roadmap.bestFor}
+                </p>
+
+                <p class="text-sm text-surface-700 mb-6 leading-relaxed">
+                  {roadmap.shortDescription}
+                </p>
+
+                <div class="flex items-center justify-between pt-6 border-t border-surface-100">
+                  <span class="text-sm font-medium text-surface-600">
+                    <span class="text-brand-600">⏱</span> {roadmap.timeline}
+                  </span>
+                  <span class="text-sm font-medium text-brand-600 group-hover:translate-x-1 transition-transform">
+                    View Roadmap →
+                  </span>
+                </div>
+              </a>
+            );
+          })}
+        </div>
+      ) : (
+        <div class="text-center py-20">
+          <p class="text-lg text-surface-500">
+            Roadmaps coming soon. Check back soon for the first guides.
+          </p>
+        </div>
+      )}
+    </div>
+  </section>
+
+  <!-- How This Works Section -->
+  <section class="px-6 py-24 bg-surface-50">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-3xl md:text-4xl font-bold text-surface-900 mb-4 text-center">
+        How This Works
+      </h2>
+      <p class="text-lg text-surface-600 text-center mb-16 max-w-2xl mx-auto">
+        Every roadmap follows the same research-backed framework, tailored to your specific role.
+      </p>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="flex gap-4">
+          <div class="flex-shrink-0 w-10 h-10 rounded-lg bg-brand-100 flex items-center justify-center">
+            <span class="text-brand-600 font-bold">1</span>
+          </div>
+          <div>
+            <h3 class="font-semibold text-surface-900 mb-2">Role Snapshot</h3>
+            <p class="text-sm text-surface-600">
+              Understand the role, who it suits, where people work, and your clinical advantage.
+            </p>
+          </div>
+        </div>
+
+        <div class="flex gap-4">
+          <div class="flex-shrink-0 w-10 h-10 rounded-lg bg-brand-100 flex items-center justify-center">
+            <span class="text-brand-600 font-bold">2</span>
+          </div>
+          <div>
+            <h3 class="font-semibold text-surface-900 mb-2">What You Already Have</h3>
+            <p class="text-sm text-surface-600">
+              See exactly how your clinical skills translate to tech competencies.
+            </p>
+          </div>
+        </div>
+
+        <div class="flex gap-4">
+          <div class="flex-shrink-0 w-10 h-10 rounded-lg bg-brand-100 flex items-center justify-center">
+            <span class="text-brand-600 font-bold">3</span>
+          </div>
+          <div>
+            <h3 class="font-semibold text-surface-900 mb-2">Learning Path</h3>
+            <p class="text-sm text-surface-600">
+              Phased curriculum with timelines, hours per week, topics, and curated resources.
+            </p>
+          </div>
+        </div>
+
+        <div class="flex gap-4">
+          <div class="flex-shrink-0 w-10 h-10 rounded-lg bg-brand-100 flex items-center justify-center">
+            <span class="text-brand-600 font-bold">4</span>
+          </div>
+          <div>
+            <h3 class="font-semibold text-surface-900 mb-2">Certifications</h3>
+            <p class="text-sm text-surface-600">
+              Real talk on which certs actually matter for your role and hiring managers.
+            </p>
+          </div>
+        </div>
+
+        <div class="flex gap-4">
+          <div class="flex-shrink-0 w-10 h-10 rounded-lg bg-brand-100 flex items-center justify-center">
+            <span class="text-brand-600 font-bold">5</span>
+          </div>
+          <div>
+            <h3 class="font-semibold text-surface-900 mb-2">Portfolio Projects</h3>
+            <p class="text-sm text-surface-600">
+              Specific projects that showcase your clinical understanding plus tech skills.
+            </p>
+          </div>
+        </div>
+
+        <div class="flex gap-4">
+          <div class="flex-shrink-0 w-10 h-10 rounded-lg bg-brand-100 flex items-center justify-center">
+            <span class="text-brand-600 font-bold">6</span>
+          </div>
+          <div>
+            <h3 class="font-semibold text-surface-900 mb-2">Transition Stories</h3>
+            <p class="text-sm text-surface-600">
+              Real people who made the transition, their timelines, and how they did it.
+            </p>
+          </div>
+        </div>
+
+        <div class="flex gap-4 md:col-span-2 md:max-w-sm">
+          <div class="flex-shrink-0 w-10 h-10 rounded-lg bg-brand-100 flex items-center justify-center">
+            <span class="text-brand-600 font-bold">7</span>
+          </div>
+          <div>
+            <h3 class="font-semibold text-surface-900 mb-2">First Three Moves</h3>
+            <p class="text-sm text-surface-600">
+              Actionable steps you can take this week to start your transition.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="px-6 py-24">
+    <div class="max-w-3xl mx-auto text-center">
+      <h2 class="text-3xl md:text-4xl font-bold text-surface-900 mb-6">
+        Ready to make the move?
+      </h2>
+      <p class="text-lg text-surface-600 mb-8">
+        Choose your role above to get the complete action kit. Everything you need to transition successfully.
+      </p>
+      <p class="text-sm text-surface-500">
+        Questions? Join The Transmutation newsletter for weekly insights on healthcare to tech transitions.
+      </p>
+    </div>
+  </section>
+</BaseLayout>

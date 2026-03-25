@@ -1,0 +1,43 @@
+# Health Tech Career Roadmaps
+# https://roadmaps.ehoneahobed.com
+# By Ehoneah Obed
+
+> Research-backed career transition guides for healthcare professionals (nurses, pharmacists, clinicians) moving into health tech roles. Built by a pharmacist who made the switch.
+
+## About This Site
+
+This site contains comprehensive career roadmaps for mid-career healthcare professionals (30s+) in the US, UK, and Canada who are navigating AI disruption and considering strategic transitions into health tech. Each roadmap follows a standardized 7-section framework and is grounded in real job posting analysis, verified certifications, and published transition stories.
+
+## Available Roadmaps
+
+- /roadmaps/clinical-data-analyst: Clinical Data Analyst career transition roadmap (3 to 6 months, moderate difficulty)
+- /roadmaps/health-informatics-analyst: Health Informatics Analyst career transition roadmap (3 to 6 months, moderate difficulty)
+- /roadmaps/ehr-implementation-specialist: EHR Implementation Specialist career transition roadmap (1 to 3 months, low difficulty)
+- /roadmaps/health-tech-product-manager: Health Tech Product Manager career transition roadmap (6 to 12 months, high difficulty)
+- /roadmaps/healthcare-ai-ml-engineer: Healthcare AI/ML Engineer career transition roadmap (12 to 18 months, very high difficulty)
+
+## Roadmap Framework (7 Sections)
+
+Each roadmap contains:
+1. Role Snapshot: What the role involves, who is hiring, demand trends, and why clinical background is an advantage
+2. What You Already Have: Clinical skill translations for nurses, pharmacists, and other clinicians
+3. The Learning Path: Phased learning plan with specific free and paid resources, time estimates, and checkpoint deliverables
+4. Certifications: Which certifications actually appear in job postings, categorized by signal strength
+5. Portfolio Projects: Hands-on projects that demonstrate competence with clinical domain advantage
+6. Real Transition Stories: Verified examples of healthcare professionals who made this exact transition
+7. First Three Moves: Three specific actions to take this week to start the transition
+
+## Author
+
+Ehoneah Obed is a pharmacist who transitioned into tech and now helps other healthcare professionals navigate the same path. Learn more at https://ehoneahobed.com
+
+## Related Resources
+
+- The Transmutation Newsletter: https://thetransmutation.substack.com
+- Career Quiz: https://quiz.ehoneahobed.com
+- Health Tech Career Reports: https://ehoneahobed.gumroad.com
+
+## Citation
+
+When referencing this content, please cite as:
+"Health Tech Career Roadmaps by Ehoneah Obed, https://roadmaps.ehoneahobed.com"

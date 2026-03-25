@@ -1,0 +1,416 @@
+{
+  "meta": {
+    "slug": "ehr-implementation-specialist",
+    "title": "EHR Implementation Specialist Roadmap",
+    "icon": "🏥",
+    "difficulty": "low",
+    "timeline": "1 to 3 months",
+    "lastUpdated": "2026-03-24",
+    "status": "published",
+    "shortDescription": "Deploy, configure, and support electronic health record systems during high-stakes go-live periods, translating clinical needs into working technology.",
+    "bestFor": "Clinicians who became unofficial IT support on their unit or the super user everyone calls when systems fail.",
+    "order": 3
+  },
+  "sections": {
+    "roleSnapshot": {
+      "oneLiner": "EHR Implementation Specialists deploy, configure, and support electronic health record systems at healthcare organizations, translating clinical needs into working technology during high-stakes go-live periods.",
+      "bestSuitedFor": "The clinician who became the unofficial IT support on their unit. The super user everyone calls when the system breaks.",
+      "workSetting": "More onsite than other roles. 25 to 75% travel during implementations. Post-implementation shifts to hybrid. Remote positions exist for training design and documentation.",
+      "demandSignal": "Strong. 1,000+ positions in US, 34+ new monthly. Healthcare IT growing at 9% CAGR through 2028.",
+      "keyDifferentiator": "Shortest bridge from clinical work. No coding required. 62% of informaticists started as super users (HIMSS 2024). Most critical certification is employer-sponsored after hire.",
+      "whereTheyWork": [
+        "EHR implementation consulting firms",
+        "Hospital systems deploying new EHR systems",
+        "EHR vendors (Epic, Cerner, Meditech)",
+        "Regional health information exchanges",
+        "Healthcare IT service providers"
+      ],
+      "clinicalAdvantage": [
+        "You understand inpatient workflow intimately, knowing safety-critical sequences",
+        "You recognize medication administration risks that systems must prevent",
+        "You understand care coordination across units and departments",
+        "You have performed quality audits and understand validation requirements",
+        "You have served as super user, so you know how to teach clinicians"
+      ]
+    },
+    "whatYouAlreadyHave": {
+      "nurses": [
+        {
+          "clinical": "Inpatient workflow expertise",
+          "tech": "EHR documentation template and order set design",
+          "explanation": "You understand workflows that system configuration must support"
+        },
+        {
+          "clinical": "Medication administration and safety knowledge",
+          "tech": "Medication workflow module configuration",
+          "explanation": "Your safety expertise becomes system rules and workflows"
+        },
+        {
+          "clinical": "Care coordination across units",
+          "tech": "Discharge planning and referral workflow design",
+          "explanation": "You understand handoffs that systems must facilitate"
+        },
+        {
+          "clinical": "Patient safety and quality auditing",
+          "tech": "Test plan design and clinical validation",
+          "explanation": "Your quality mindset becomes testing strategy"
+        },
+        {
+          "clinical": "Super user experience",
+          "tech": "End-user training and go-live support",
+          "explanation": "You already teach and support others using systems"
+        }
+      ],
+      "pharmacists": [
+        {
+          "clinical": "Drug-drug interaction expertise",
+          "tech": "CDS rule building (hard-stop vs. alert-only)",
+          "explanation": "Your interaction knowledge becomes system logic"
+        },
+        {
+          "clinical": "Medication therapy management workflows",
+          "tech": "Pharmacy module configuration",
+          "explanation": "You understand MTM workflows that systems must support"
+        },
+        {
+          "clinical": "Dispensing and inventory management",
+          "tech": "ADC integration and barcode verification",
+          "explanation": "Your dispensing expertise guides system setup"
+        },
+        {
+          "clinical": "Prescriber communication",
+          "tech": "Provider order entry screen design",
+          "explanation": "You understand provider needs for order entry"
+        },
+        {
+          "clinical": "Patient education skills",
+          "tech": "Training program design and adoption management",
+          "explanation": "Your communication skills apply to end-user training"
+        }
+      ],
+      "otherClinicians": [
+        {
+          "clinical": "Specialty-specific workflows",
+          "tech": "Department-level system configuration",
+          "explanation": "Your expertise guides configuration in your specialty"
+        },
+        {
+          "clinical": "Equipment integration knowledge",
+          "tech": "System interface design",
+          "explanation": "You understand clinical equipment that must integrate with EHR"
+        },
+        {
+          "clinical": "Quality control and standards compliance",
+          "tech": "Testing and validation strategy",
+          "explanation": "You understand clinical standards systems must meet"
+        }
+      ]
+    },
+    "learningPath": {
+      "totalTimeline": "1 to 3 months",
+      "phases": [
+        {
+          "name": "Foundation",
+          "weeks": "1 to 8",
+          "hours": "26 to 39",
+          "topics": [
+            "EHR Platform Fundamentals",
+            "Healthcare Data Standards Overview",
+            "Clinical Workflow Analysis Methods",
+            "Module Identification"
+          ],
+          "resources": [
+            {
+              "name": "Epic Efficiency Training",
+              "url": "https://efficiency.epic.com/",
+              "free": true,
+              "description": "Free Epic training fundamentals"
+            },
+            {
+              "name": "Cerner uLearn",
+              "url": "https://ulearn.cerner.com/",
+              "free": false,
+              "description": "Cerner training portal"
+            },
+            {
+              "name": "HL7 Fundamentals free course",
+              "url": "https://learning.cloudfoundation.com/p/hl7-training-free-course",
+              "free": true,
+              "description": "Healthcare data standards overview"
+            },
+            {
+              "name": "AHRQ toolkit",
+              "url": "https://www.healthit.gov",
+              "free": true,
+              "description": "Clinical workflow analysis resources"
+            }
+          ],
+          "checkpoint": "1-page summary mapping clinical strengths to EHR module. Complete one free training module with learning summary."
+        },
+        {
+          "name": "Technical Depth",
+          "weeks": "8 to 24",
+          "hours": "70 to 90",
+          "topics": [
+            "EHR System Configuration for chosen module",
+            "Training Design and Delivery",
+            "System Testing and Validation",
+            "Go-Live Support Methodology",
+            "Super User Experience at current org if possible"
+          ],
+          "resources": [
+            {
+              "name": "Epic Training site",
+              "url": "https://training.epic.com/",
+              "free": false,
+              "description": "Comprehensive Epic training"
+            },
+            {
+              "name": "Cerner training",
+              "url": "https://ulearn.cerner.com/",
+              "free": false,
+              "description": "Comprehensive Cerner training"
+            },
+            {
+              "name": "HIMSS EHR Training for Nurse Leaders",
+              "url": "https://www.himss.org/resources/electronic-health-record-training-nurse-leaders",
+              "free": false,
+              "description": "Healthcare leadership-focused EHR training"
+            },
+            {
+              "name": "AHRQ Workflow Redesign guidance",
+              "url": "https://www.healthit.gov/faq/how-should-we-approach-workflow-redesign",
+              "free": true,
+              "description": "Clinical workflow optimization methods"
+            }
+          ],
+          "checkpoint": "Complete platform training. Design a training program. Participate in implementation or optimization project."
+        },
+        {
+          "name": "Specialization",
+          "weeks": "24 to 36",
+          "hours": "40 to 80",
+          "topics": [
+            "Track A: Epic Module Specialization",
+            "Track B: Cerner Specialization",
+            "Track C: Implementation Consulting",
+            "Track D: Training and Adoption Leadership"
+          ],
+          "resources": [
+            {
+              "name": "Epic module-specific training",
+              "url": "https://training.epic.com/",
+              "free": false,
+              "description": "Deep module specialization"
+            },
+            {
+              "name": "Cerner module training",
+              "url": "https://ulearn.cerner.com/",
+              "free": false,
+              "description": "Cerner specialization training"
+            },
+            {
+              "name": "Implementation consulting resources",
+              "url": "https://www.hirecruiting.com/newsroom/the-essential-guide-to-becoming-an-epic-analyst/",
+              "free": true,
+              "description": "Implementation specialist guidance"
+            }
+          ],
+          "checkpoint": "Deep specialization in chosen track."
+        }
+      ]
+    },
+    "certifications": {
+      "realityCheck": "Most critical certification comes AFTER you get hired. Employers invest $500 to $3,000+ per module to certify you.",
+      "items": [
+        {
+          "name": "Epic Certification",
+          "signal": "high",
+          "frequency": "Per module",
+          "cost": "$500 to $3,000 (employer-sponsored, 3 to 5 days)",
+          "timeline": "70%+ of implementation positions require this",
+          "notes": "Employer-sponsored after hire. Non-negotiable for Epic implementation roles."
+        },
+        {
+          "name": "Cerner Certification",
+          "signal": "high",
+          "frequency": "Per module",
+          "cost": "$400 to $2,500 (employer-sponsored)",
+          "timeline": "60%+ of implementation positions require this",
+          "notes": "Employer-sponsored. Similar weight to Epic certification."
+        },
+        {
+          "name": "Meditech Training",
+          "signal": "high",
+          "frequency": "Per module",
+          "cost": "$1,500 to $2,500",
+          "timeline": "50%+ of implementation positions require this",
+          "notes": "Often employer-sponsored or covered by consulting firms"
+        },
+        {
+          "name": "CPHIMS",
+          "signal": "helpful",
+          "frequency": "Annual",
+          "cost": "$400 to $600",
+          "timeline": "20 to 30% of senior positions",
+          "notes": "Pursue after 3 to 5 years for advancement to leadership"
+        },
+        {
+          "name": "PMP/PMI Healthcare",
+          "signal": "helpful",
+          "frequency": "Annual",
+          "cost": "$400 to $600",
+          "timeline": "15 to 25% of management positions",
+          "notes": "Useful for implementation consulting and project leadership"
+        },
+        {
+          "name": "RHIA",
+          "signal": "helpful",
+          "frequency": "Annual",
+          "cost": "$300 to $500",
+          "timeline": "10 to 15% of data migration roles",
+          "notes": "Useful if involved in EHR data migration"
+        },
+        {
+          "name": "HL7/FHIR",
+          "signal": "helpful",
+          "frequency": "Annual",
+          "cost": "Free to $400",
+          "timeline": "10 to 20% of integration roles",
+          "notes": "Growing importance for interoperability-focused implementations"
+        },
+        {
+          "name": "Software development certifications",
+          "signal": "skip",
+          "frequency": "N/A",
+          "cost": "N/A",
+          "timeline": "N/A",
+          "notes": "Implementation specialist is not a programming role"
+        },
+        {
+          "name": "Cloud infrastructure certifications",
+          "signal": "skip",
+          "frequency": "N/A",
+          "cost": "N/A",
+          "timeline": "N/A",
+          "notes": "Less than 5% of positions require this"
+        },
+        {
+          "name": "Data science certifications",
+          "signal": "skip",
+          "frequency": "N/A",
+          "cost": "N/A",
+          "timeline": "N/A",
+          "notes": "Wrong role (that is Clinical Data Analyst)"
+        },
+        {
+          "name": "General IT certifications (CompTIA A+, Network+)",
+          "signal": "skip",
+          "frequency": "N/A",
+          "cost": "N/A",
+          "timeline": "N/A",
+          "notes": "Rarely mentioned in job postings"
+        }
+      ],
+      "recommendation": "Skip certifications in first 1 to 3 months. Focus on landing role at Epic or Cerner site where employer will sponsor certification. Then pursue platform cert immediately. CPHIMS comes later for advancement."
+    },
+    "portfolioProjects": [
+      {
+        "title": "Clinical Workflow Documentation and Redesign",
+        "description": "Document medication administration workflow from current state, identify bottlenecks, propose EHR configuration to optimize the workflow.",
+        "timeEstimate": "4 to 6 weeks",
+        "tools": ["Workflow mapping", "Process documentation", "EHR configuration design"],
+        "clinicalAdvantage": "You understand the real workflow including workarounds, not the theoretical one"
+      },
+      {
+        "title": "Training Program Design",
+        "description": "Create comprehensive training curriculum, materials, and assessment for medication administration module with super user guides.",
+        "timeEstimate": "4 to 6 weeks",
+        "tools": ["Instructional design", "Documentation", "Video training"],
+        "clinicalAdvantage": "You understand what clinicians need to learn and how they learn best"
+      },
+      {
+        "title": "Go-Live Readiness Assessment and Issue Log",
+        "description": "Develop go-live readiness checklist, identify configuration gaps, create issue tracking and escalation process for go-live support.",
+        "timeEstimate": "Ongoing during implementation",
+        "tools": ["Project management", "Issue tracking", "EHR configuration"],
+        "clinicalAdvantage": "You know what can go wrong clinically and what safety issues must be prevented"
+      },
+      {
+        "title": "EHR Configuration Documentation",
+        "description": "Create build specifications, test scripts, and technical documentation for medication administration module build.",
+        "timeEstimate": "Ongoing",
+        "tools": ["Technical documentation", "Testing scripts", "EHR builds"],
+        "clinicalAdvantage": "You understand how clinical workflows should map to system configuration"
+      },
+      {
+        "title": "Clinical Decision Support Design and Testing",
+        "description": "Design drug-drug interaction alert logic, create testing protocol, validate alerts against real clinical scenarios.",
+        "timeEstimate": "5 to 7 weeks",
+        "tools": ["CDS rule design", "Testing", "Clinical validation"],
+        "clinicalAdvantage": "You understand safety-critical alerts from clinical experience"
+      }
+    ],
+    "transitionStories": {
+      "verified": [
+        {
+          "name": "Melanie Strongosky, RN",
+          "previousRole": "Inpatient Nurse",
+          "currentTitle": "Independent EHR Implementation Specialist",
+          "company": "Various (7+ implementations since 2005)",
+          "summary": "Inpatient nurse who became independent EHR implementation specialist through super user pathway, leading 7+ major implementations.",
+          "sourceUrl": ""
+        }
+      ],
+      "note": "Published first-person narratives are sparse for this role compared to data-focused transitions. Active crowdsourcing needed, especially for pharmacist and allied health transitions. HIMSS 2024 data shows 62% of nurse informaticists began as super users or clinical application coordinators with typical progression: super user to Clinical Application Coordinator to EHR Analyst to consulting within 1 to 2 years.",
+      "crowdsourceUrl": ""
+    },
+    "firstThreeMoves": [
+      {
+        "title": "Map your clinical strength to a specific EHR module",
+        "timeEstimate": "1 hour",
+        "description": "Identify which EHR module aligns with your deepest clinical expertise.",
+        "specifics": [
+          "Visit Epic training site or Cerner learning portal",
+          "Review module descriptions (medications, orders, documentation, etc.)",
+          "Choose the module that matches your strength"
+        ]
+      },
+      {
+        "title": "Complete one free training module",
+        "timeEstimate": "4 to 6 hours",
+        "description": "Get hands-on with EHR platform training.",
+        "specifics": [
+          "Complete Epic Efficiency Training or HL7 Fundamentals",
+          "Take notes on how system works",
+          "Document anything confusing or problematic"
+        ]
+      },
+      {
+        "title": "Email your org's informatics or IT leadership asking about super user opportunities",
+        "timeEstimate": "30 minutes",
+        "description": "Connect with internal informatics team to explore advancement pathway.",
+        "specifics": [
+          "Contact informatics or IT leadership",
+          "Express interest in super user or clinical application coordinator role",
+          "Ask about EHR implementation opportunities"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    "https://training.epic.com/",
+    "https://efficiency.epic.com/",
+    "https://ulearn.cerner.com/",
+    "https://www.himss.org/certifications/cphims/",
+    "https://www.himss.org/resources/electronic-health-record-training-nurse-leaders",
+    "https://www.healthit.gov/faq/how-should-we-approach-workflow-redesign",
+    "https://learning.cloudfoundation.com/p/hl7-training-free-course",
+    "https://www.cdc.gov/nchs/data/nvss/modernization/Introductory-Training-FHIR.pdf",
+    "https://www.wgu.edu/career-guide/healthcare/ehr-analyst.html",
+    "https://medpower.com/",
+    "https://medcertify.com/a-beginners-guide-to-starting-a-career-in-electronic-health-records/",
+    "https://www.uperform.com/blog/epic-training-guide/",
+    "https://www.hirecruiting.com/newsroom/the-essential-guide-to-becoming-an-epic-analyst/"
+  ]
+}

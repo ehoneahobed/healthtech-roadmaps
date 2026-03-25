@@ -1,0 +1,463 @@
+{
+  "meta": {
+    "slug": "health-informatics-analyst",
+    "title": "Health Informatics Analyst Roadmap",
+    "icon": "🔬",
+    "difficulty": "moderate",
+    "timeline": "3 to 6 months",
+    "lastUpdated": "2026-03-24",
+    "status": "published",
+    "shortDescription": "Bridge technology and clinical practice by implementing, optimizing, and managing healthcare information systems to improve patient outcomes and operational efficiency.",
+    "bestFor": "Clinicians who became the go-to super user on their unit, troubleshoot EHR issues, or wonder why systems make work harder.",
+    "order": 2
+  },
+  "sections": {
+    "roleSnapshot": {
+      "oneLiner": "Health Informatics Analysts bridge technology and clinical practice by implementing, optimizing, and managing healthcare information systems to improve patient outcomes and operational efficiency.",
+      "bestSuitedFor": "Clinicians who became the go-to 'super user' on their unit. Nurses who troubleshoot EHR issues for colleagues. Pharmacists frustrated by alert fatigue. Anyone who has said, 'Why does this system make my job harder?'",
+      "workSetting": "Hybrid most common (3 days onsite, 2 remote). Some roles require 10 to 50% travel for implementations. Remote positions available for experienced analysts.",
+      "demandSignal": "Growing rapidly. Market projected to grow from $52B (2026) to $138B by 2035. BLS projects 15% employment growth through 2034 (3x national average). 860+ positions on Glassdoor.",
+      "keyDifferentiator": "Informatics focuses on systems design, workflow optimization, and implementation. Data analyst focuses on pattern recognition, dashboards, and predictive analytics. If you want to fix how systems work for people, this is your role.",
+      "whereTheyWork": [
+        "Hospital systems",
+        "EHR vendors (Epic, Cerner)",
+        "Health IT consulting",
+        "Health plans",
+        "Telehealth platforms",
+        "Government agencies (ONC, CMS, VA)"
+      ],
+      "clinicalAdvantage": [
+        "You understand medication administration workflows and safety-critical sequences",
+        "You know patient handoff communication and can map complex data requirements",
+        "You naturally manage conflicting stakeholder needs across disciplines",
+        "You solve problems under pressure and can troubleshoot go-live issues quickly",
+        "You understand documentation burden and can advocate for usability",
+        "You have served as super user, teaching others to adopt new systems"
+      ]
+    },
+    "whatYouAlreadyHave": {
+      "nurses": [
+        {
+          "clinical": "Medication administration workflows",
+          "tech": "EHR build design (enforcing safety-critical sequences)",
+          "explanation": "Your medication sequence knowledge directly informs system configuration"
+        },
+        {
+          "clinical": "Patient handoff communication (SBAR)",
+          "tech": "Data mapping and completeness auditing",
+          "explanation": "Structured communication translates to data quality standards"
+        },
+        {
+          "clinical": "Interdisciplinary collaboration",
+          "tech": "Requirements gathering from conflicting stakeholders",
+          "explanation": "You navigate conflicting priorities naturally"
+        },
+        {
+          "clinical": "Real-time problem-solving under pressure",
+          "tech": "Go-live troubleshooting and support",
+          "explanation": "Clinical crisis management skills apply directly to implementation support"
+        },
+        {
+          "clinical": "Documentation burden awareness",
+          "tech": "Usability advocacy and interface optimization",
+          "explanation": "You know what makes systems efficient or burdensome"
+        },
+        {
+          "clinical": "Being the 'super user'",
+          "tech": "End-user training and support design",
+          "explanation": "You already teach others technology"
+        }
+      ],
+      "pharmacists": [
+        {
+          "clinical": "Drug-drug interaction expertise",
+          "tech": "Clinical decision support design (alert configuration)",
+          "explanation": "Your interaction knowledge becomes system logic"
+        },
+        {
+          "clinical": "Medication therapy management workflows",
+          "tech": "Pharmacy information system optimization",
+          "explanation": "You understand MTM workflows that systems should support"
+        },
+        {
+          "clinical": "Clinical evidence evaluation",
+          "tech": "Vendor evaluation and data definition quality",
+          "explanation": "You assess whether systems will work in practice"
+        },
+        {
+          "clinical": "Patient safety incident analysis",
+          "tech": "Root cause analysis for system issues",
+          "explanation": "You already perform systematic problem-solving"
+        },
+        {
+          "clinical": "Interprofessional communication",
+          "tech": "Requirements translation when stakeholders conflict",
+          "explanation": "You bridge perspectives across disciplines"
+        }
+      ],
+      "otherClinicians": [
+        {
+          "clinical": "Specialty-specific workflows",
+          "tech": "Domain expert contribution for system design",
+          "explanation": "Your specialty knowledge guides system configuration"
+        },
+        {
+          "clinical": "Quality metrics familiarity",
+          "tech": "Data quality and reporting design",
+          "explanation": "You know what metrics matter clinically"
+        },
+        {
+          "clinical": "Equipment and technology integration",
+          "tech": "Biomedical systems integration",
+          "explanation": "You understand clinical device integration challenges"
+        }
+      ]
+    },
+    "learningPath": {
+      "totalTimeline": "3 to 6 months",
+      "phases": [
+        {
+          "name": "Foundation",
+          "weeks": "1 to 8",
+          "hours": "50 to 83",
+          "topics": [
+            "SQL Fundamentals",
+            "Health IT Fundamentals",
+            "HIPAA and Healthcare Privacy",
+            "Health Informatics Context"
+          ],
+          "resources": [
+            {
+              "name": "W3Schools SQL",
+              "url": "https://w3schools.com",
+              "free": true,
+              "description": "SQL fundamentals"
+            },
+            {
+              "name": "Codecademy Learn SQL",
+              "url": "https://codecademy.com",
+              "free": false,
+              "description": "Interactive SQL learning"
+            },
+            {
+              "name": "Johns Hopkins Health Informatics on Coursera",
+              "url": "https://coursera.org",
+              "free": true,
+              "description": "Health IT fundamentals (audit free)"
+            },
+            {
+              "name": "HIPAA Journal",
+              "url": "https://hipaajournal.com",
+              "free": true,
+              "description": "HIPAA compliance resources"
+            },
+            {
+              "name": "Coursera Health Informatics",
+              "url": "https://coursera.org",
+              "free": true,
+              "description": "Health informatics context (audit free)"
+            }
+          ],
+          "checkpoint": "Write SQL queries against MIMIC-IV. Explain major EHR systems. Articulate HIPAA core requirements."
+        },
+        {
+          "name": "Technical Depth",
+          "weeks": "8 to 24",
+          "hours": "110 to 155",
+          "topics": [
+            "Advanced SQL for Healthcare Data",
+            "Data Visualization: Tableau or Power BI",
+            "Health Data Standards: HL7, FHIR, CDA",
+            "EHR System Deep Dive: Epic or Cerner",
+            "Clinical Decision Support Principles",
+            "Project Management for Healthcare IT"
+          ],
+          "resources": [
+            {
+              "name": "Advanced SQL tutorials",
+              "url": "https://w3schools.com",
+              "free": true,
+              "description": "Advanced SQL for healthcare data"
+            },
+            {
+              "name": "Tableau Free Training",
+              "url": "https://tableau.com",
+              "free": true,
+              "description": "Tableau fundamentals"
+            },
+            {
+              "name": "Power BI tutorials",
+              "url": "https://microsoft.com",
+              "free": true,
+              "description": "Microsoft Power BI training"
+            },
+            {
+              "name": "HL7 FHIR Official Site",
+              "url": "https://hl7.org/fhir/",
+              "free": true,
+              "description": "FHIR standard documentation"
+            },
+            {
+              "name": "Epic Training Site",
+              "url": "https://training.epic.com/",
+              "free": false,
+              "description": "Epic system training"
+            },
+            {
+              "name": "Cerner uLearn",
+              "url": "https://ulearn.cerner.com/",
+              "free": false,
+              "description": "Cerner system training"
+            }
+          ],
+          "checkpoint": "Create clinical dashboards. Explain HL7 and FHIR. Navigate major EHR. Design basic CDS logic."
+        },
+        {
+          "name": "Specialization",
+          "weeks": "24 to 36",
+          "hours": "60 to 100",
+          "topics": [
+            "Track A: Clinical Decision Support and Alerts",
+            "Track B: Interoperability and Health Data Exchange",
+            "Track C: Population Health Informatics",
+            "Track D: Clinical Workflow Optimization and Usability",
+            "Track E: Nursing Informatics (for RNs)"
+          ],
+          "resources": [
+            {
+              "name": "Clinical Decision Support resources",
+              "url": "https://healthit.gov",
+              "free": true,
+              "description": "CDS implementation guidance"
+            },
+            {
+              "name": "FHIR Implementation resources",
+              "url": "https://hl7.org",
+              "free": true,
+              "description": "Interoperability standards"
+            },
+            {
+              "name": "HIMSS Learning resources",
+              "url": "https://himss.org",
+              "free": false,
+              "description": "Professional health IT training"
+            }
+          ],
+          "checkpoint": "Complete specialization project in chosen track."
+        }
+      ]
+    },
+    "certifications": {
+      "realityCheck": "EHR vendor certifications are employer-sponsored and critical for advancement. Other certifications help but are secondary to hands-on implementation experience.",
+      "items": [
+        {
+          "name": "Epic Certification",
+          "signal": "high",
+          "frequency": "Per module/version",
+          "cost": "$500 to $2,000 (employer-sponsored)",
+          "timeline": "50 to 60% of positions at Epic sites require this",
+          "notes": "Employer typically sponsors after hire. Most critical cert in health informatics field."
+        },
+        {
+          "name": "Cerner Certification",
+          "signal": "high",
+          "frequency": "Per module/version",
+          "cost": "$300 to $1,500 (employer-sponsored)",
+          "timeline": "40 to 50% of positions at Cerner sites require this",
+          "notes": "Employer-sponsored. Similar importance to Epic cert."
+        },
+        {
+          "name": "CPHIMS",
+          "signal": "high",
+          "frequency": "Annual",
+          "cost": "$650 to $750",
+          "timeline": "35 to 40% of senior and manager positions",
+          "notes": "HIMSS certification. Pursue after 3 to 6 years in field for advancement."
+        },
+        {
+          "name": "NI-BC (ANCC Nursing Informatics)",
+          "signal": "high",
+          "frequency": "Annual",
+          "cost": "$300 to $400",
+          "timeline": "20 to 25% of nursing informatics positions",
+          "notes": "Requires RN license. Valuable for nursing informaticists."
+        },
+        {
+          "name": "HL7 FHIR Foundational Implementer",
+          "signal": "helpful",
+          "frequency": "Annual",
+          "cost": "$400 to $500",
+          "timeline": "10 to 15% of postings, growing",
+          "notes": "Growing importance as interoperability increases"
+        },
+        {
+          "name": "CAHIMS",
+          "signal": "helpful",
+          "frequency": "Annual",
+          "cost": "$200 to $300",
+          "timeline": "5 to 10% of entry-level postings",
+          "notes": "Entry-level HIMSS certification"
+        },
+        {
+          "name": "HL7 CDA Certification",
+          "signal": "helpful",
+          "frequency": "Annual",
+          "cost": "$400 to $500",
+          "timeline": "5 to 10% of postings",
+          "notes": "Useful for interoperability-focused roles"
+        },
+        {
+          "name": "CISSP",
+          "signal": "skip",
+          "frequency": "Annual",
+          "cost": "$1,000+",
+          "timeline": "N/A",
+          "notes": "Information security, not clinical informatics"
+        },
+        {
+          "name": "PMP",
+          "signal": "skip",
+          "frequency": "Annual",
+          "cost": "$1,000+",
+          "timeline": "N/A",
+          "notes": "Generic PM, CPHIMS more relevant for health IT"
+        },
+        {
+          "name": "CompTIA Cloud+, Linux+, Network+",
+          "signal": "skip",
+          "frequency": "N/A",
+          "cost": "N/A",
+          "timeline": "N/A",
+          "notes": "Infrastructure, wrong domain"
+        },
+        {
+          "name": "MBA/MHA as standalone",
+          "signal": "skip",
+          "frequency": "N/A",
+          "cost": "N/A",
+          "timeline": "N/A",
+          "notes": "Expensive, not required for analyst roles"
+        }
+      ],
+      "recommendation": "Epic or Cerner certification (years 1 to 2, employer-sponsored) then FHIR cert if organization focuses on interoperability, then CPHIMS (years 3 to 5, for advancement). RNs should pursue NI-BC when eligible."
+    },
+    "portfolioProjects": [
+      {
+        "title": "Medication Safety Alert Evaluation",
+        "description": "Analyze existing clinical decision support rules, evaluate alert effectiveness, and recommend optimizations to reduce alert fatigue while maintaining safety.",
+        "timeEstimate": "5 to 7 weeks",
+        "dataset": "MIMIC-IV",
+        "datasetUrl": "https://physionet.org/content/mimiciv/2.2/",
+        "tools": ["SQL", "Python"],
+        "clinicalAdvantage": "You understand alert fatigue and can design logic that clinicians will actually use"
+      },
+      {
+        "title": "Clinical Workflow Analysis and Optimization",
+        "description": "Document current medication reconciliation or similar workflow, identify bottlenecks, propose system redesign to improve efficiency and safety.",
+        "timeEstimate": "4 to 6 weeks",
+        "tools": ["Process mapping", "Workflow documentation"],
+        "clinicalAdvantage": "You have lived the workflow and know where real inefficiencies hide"
+      },
+      {
+        "title": "Hospital Readmission Risk Stratification",
+        "description": "Build risk stratification model and design system integration to flag high-risk patients at discharge for care coordination interventions.",
+        "timeEstimate": "6 to 8 weeks",
+        "dataset": "MIMIC-IV",
+        "datasetUrl": "https://physionet.org/content/mimiciv/2.2/",
+        "tools": ["SQL", "Python", "Tableau"],
+        "clinicalAdvantage": "You understand which patient factors predict readmission and can validate model against clinical intuition"
+      },
+      {
+        "title": "Population Health Risk Stratification",
+        "description": "Design system to identify high-risk populations for targeted interventions and care management programs.",
+        "timeEstimate": "6 to 8 weeks",
+        "dataset": "NHANES or MIMIC-IV",
+        "datasetUrl": "https://wwwn.cdc.gov/nchs/nhanes/",
+        "tools": ["SQL", "Python", "Tableau"],
+        "clinicalAdvantage": "You understand clinical risk factors and population health priorities"
+      },
+      {
+        "title": "EHR Usability Assessment",
+        "description": "Conduct usability testing of EHR demos with end users, document pain points, recommend interface improvements.",
+        "timeEstimate": "4 to 6 weeks",
+        "tools": ["Usability testing", "User interviews"],
+        "clinicalAdvantage": "You know what makes systems usable in clinical workflows"
+      }
+    ],
+    "transitionStories": {
+      "verified": [
+        {
+          "name": "RN to Clinical Informatics Specialist",
+          "previousRole": "Registered Nurse (bedside)",
+          "currentTitle": "Senior Product Services and Management Analyst",
+          "company": "Northwell Health",
+          "summary": "Progressed from RN to Clinical Informatics Specialist to Senior Product Services and Management Analyst, demonstrating the advancement pathway in health systems.",
+          "sourceUrl": "https://jobs.northwell.edu/blog/2024/08/16/from-rn-to-clinical-informatics-specialist-to-senior-product-services-management-analyst-and-beyond-discover-a-truly-ambitious-career-at-northwell-health/"
+        },
+        {
+          "name": "Sarah",
+          "previousRole": "Bedside Nurse (5 years)",
+          "currentTitle": "Clinical Informatics Specialist",
+          "company": "Healthcare organization",
+          "summary": "Transitioned from 5 years bedside nursing to Clinical Informatics Specialist via clinical support analyst gateway role.",
+          "sourceUrl": "https://blog.healthjobsnationwide.com/why-nurses-are-switching-to-nursing-informatics-in-2025-real-stories/"
+        },
+        {
+          "name": "Bedside Nurse",
+          "previousRole": "Registered Nurse (bedside)",
+          "currentTitle": "Informatics Nurse",
+          "company": "Healthcare organization",
+          "summary": "Received job offer for informatics nursing role by final semester of informatics program, showing accelerated pathway for motivated clinicians.",
+          "sourceUrl": "https://writingfuturehealth.com/how-i-went-from-bedside-nurse-to-informatics-nurse/"
+        }
+      ],
+      "note": "Stories skew heavily toward nurses. Actively seeking pharmacist and allied health transitions.",
+      "crowdsourceUrl": ""
+    },
+    "firstThreeMoves": [
+      {
+        "title": "Get MIMIC-IV access on PhysioNet",
+        "timeEstimate": "45 minutes setup",
+        "description": "Obtain free access to major healthcare dataset for learning SQL and data analysis.",
+        "specifics": [
+          "Request access at physionet.org",
+          "Complete training certification",
+          "Wait for 24 to 48 hour approval"
+        ]
+      },
+      {
+        "title": "Audit Johns Hopkins Health Informatics on Coursera",
+        "timeEstimate": "3 to 5 hours this week",
+        "description": "Get introduced to health informatics fundamentals through free audit.",
+        "specifics": [
+          "Enroll in Johns Hopkins Health Informatics specialization",
+          "Audit first course free",
+          "Complete foundational modules"
+        ]
+      },
+      {
+        "title": "Email your org's informatics team to schedule shadowing",
+        "timeEstimate": "30 minutes to write email",
+        "description": "Connect directly with informaticists at your organization to observe their work.",
+        "specifics": [
+          "Contact informatics or IT leadership",
+          "Request 1 to 2 hour shadowing session",
+          "Ask about super user opportunities"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    "https://jobs.northwell.edu/blog/2024/08/16/from-rn-to-clinical-informatics-specialist-to-senior-product-services-management-analyst-and-beyond-discover-a-truly-ambitious-career-at-northwell-health/",
+    "https://blog.healthjobsnationwide.com/why-nurses-are-switching-to-nursing-informatics-in-2025-real-stories/",
+    "https://writingfuturehealth.com/how-i-went-from-bedside-nurse-to-informatics-nurse/",
+    "https://www.nurse.com/blog/bedside-to-nursing-informatics-nsp/",
+    "https://www.himss.org/certifications/cphims/",
+    "https://www.nursingworld.org/our-certifications/informatics-nurse/",
+    "https://www.hl7.org/fhir/",
+    "https://www.hl7.org/certification/fhir.cfm",
+    "https://physionet.org/content/mimiciv/2.2/",
+    "https://www.coursera.org/specializations/health-informatics",
+    "https://sbmi.uth.edu/nccd/ehrusability/design/workflow/"
+  ]
+}

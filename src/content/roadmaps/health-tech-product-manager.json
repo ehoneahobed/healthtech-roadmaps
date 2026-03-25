@@ -1,0 +1,421 @@
+{
+  "meta": {
+    "slug": "health-tech-product-manager",
+    "title": "Health Tech Product Manager Roadmap",
+    "icon": "🎯",
+    "difficulty": "high",
+    "timeline": "6 to 12 months",
+    "lastUpdated": "2026-03-24",
+    "status": "published",
+    "shortDescription": "Operate as the strategic bridge between clinician and patient users, business objectives, and engineering teams, directing what gets built, for whom, and why.",
+    "bestFor": "Clinicians who constantly questioned system design, designed workarounds, and thought deeply about user needs and trade-offs.",
+    "order": 4
+  },
+  "sections": {
+    "roleSnapshot": {
+      "oneLiner": "Health Tech Product Managers operate as the strategic bridge between clinician and patient users, business objectives, and engineering teams, directing what gets built, for whom, and why.",
+      "bestSuitedFor": "The clinician who constantly said 'why does this system make my job harder?' and then designed workarounds for their entire unit. The pharmacist who redesigned the medication reconciliation process before anyone asked. Anyone who naturally thinks in systems, trade-offs, and user needs.",
+      "workSetting": "Predominantly remote or hybrid. 29% of tech PM roles are hybrid, 13% fully remote. Health tech companies lead adoption of remote work compared to traditional healthcare organizations.",
+      "demandSignal": "Strong growth. 6,000+ PM positions currently open, 53.6% above 2023 lows, with 40 to 50% growth in product hiring year-over-year. Senior PM roles show 87% year-on-year growth. Health tech is among the highest-compensating sectors for PMs.",
+      "keyDifferentiator": "This is the longest but most rewarding transition path (6 to 12 months vs. 3 to 6 for analyst roles). PM demands business strategy, user research methodology, technical communication, and stakeholder management on top of healthcare domain knowledge. However, it offers the highest visibility and leadership ceiling of any role in this collection.",
+      "whereTheyWork": [
+        "EHR vendors (Epic, Cerner, athenahealth)",
+        "Telehealth platforms (Teladoc, Ro, Noom)",
+        "Digital health startups (Hinge Health, Luro Health)",
+        "Health insurance and payer tech (CVS Health, GoodRx)",
+        "Population health platforms",
+        "Regulatory and compliance health tech",
+        "Medication management systems",
+        "Remote patient monitoring platforms"
+      ],
+      "clinicalAdvantage": [
+        "You understand user needs from lived clinical experience",
+        "You recognize what features will actually get used in practice",
+        "You understand compliance and regulatory constraints naturally",
+        "You evaluate products through clinical lens, not just business metrics",
+        "You navigate stakeholder complexity across clinical departments"
+      ]
+    },
+    "whatYouAlreadyHave": {
+      "nurses": [
+        {
+          "clinical": "Patient and user triage assessment",
+          "tech": "User research prioritization: structuring interviews, identifying which user segments have most critical pain points, prioritizing which problems product should solve first",
+          "explanation": "Your triage skills apply directly to user research and problem prioritization"
+        },
+        {
+          "clinical": "Care coordination and handoff documentation",
+          "tech": "Stakeholder management: coordinating between engineering, design, clinical advisors, sales, legal while ensuring alignment through shared documentation",
+          "explanation": "Your coordination skills translate directly to cross-functional product leadership"
+        },
+        {
+          "clinical": "Workflow optimization from bedside efficiency",
+          "tech": "Product process improvement: mapping current state workflows, identifying friction, designing features that eliminate bottlenecks",
+          "explanation": "You already think about efficiency and user experience"
+        },
+        {
+          "clinical": "Clinical evidence evaluation",
+          "tech": "Data-driven decision making: reading A/B test results, funnel analysis, cohort retention data, distinguishing signal from noise",
+          "explanation": "Your evidence evaluation translates to analytics interpretation"
+        },
+        {
+          "clinical": "Patient safety advocacy",
+          "tech": "User-centric product advocacy: pushing back on engineering estimates that create poor UX, questioning design decisions that ignore user research",
+          "explanation": "Your safety advocacy becomes product advocacy"
+        }
+      ],
+      "pharmacists": [
+        {
+          "clinical": "Medication therapy management",
+          "tech": "Product requirements definition: evaluating appropriateness by considering diagnosis, comorbidities, contraindications, outcomes translates directly to writing PRDs with success criteria",
+          "explanation": "Your MTM thinking applies to feature specification"
+        },
+        {
+          "clinical": "Drug information research and clinical literature review",
+          "tech": "Competitive analysis and market research: synthesizing evidence on drugs becomes synthesizing competitor products and market trends",
+          "explanation": "Your research skills apply to competitive intelligence"
+        },
+        {
+          "clinical": "Patient counseling and behavior change",
+          "tech": "User adoption strategy: counseling patients on adherence translates to designing for behavior change, not just functionality",
+          "explanation": "You understand what drives user behavior change"
+        },
+        {
+          "clinical": "Supply chain and inventory management",
+          "tech": "Product operations and prioritization: managing drug availability and cost optimization becomes resource allocation and roadmap prioritization",
+          "explanation": "Your supply chain thinking applies to product prioritization"
+        },
+        {
+          "clinical": "Regulatory and compliance navigation",
+          "tech": "Healthcare regulatory product development: understanding FDA regulations and insurance rules means fluently knowing what is legally possible in product decisions",
+          "explanation": "Your regulatory knowledge is a direct advantage"
+        }
+      ],
+      "otherClinicians": [
+        {
+          "clinical": "Clinical assessment and differential diagnosis",
+          "tech": "Problem definition: systematic evidence evaluation becomes user research, root cause analysis, scoping product requirements",
+          "explanation": "Your diagnostic thinking applies to problem definition"
+        },
+        {
+          "clinical": "Treatment planning",
+          "tech": "Product roadmap and strategy: creating individualized treatment plans considering patient goals becomes creating product roadmaps considering user goals and business constraints",
+          "explanation": "Your planning skills scale to product strategy"
+        },
+        {
+          "clinical": "Patient outcome measurement",
+          "tech": "KPI definition and success metrics: tracking healing time and functional improvement becomes defining retention, engagement, clinical efficiency metrics",
+          "explanation": "Your outcomes thinking applies to product metrics"
+        },
+        {
+          "clinical": "Interprofessional communication",
+          "tech": "Cross-functional product leadership: translating medical complexity to non-medical audiences becomes translating technical complexity to non-technical stakeholders",
+          "explanation": "You already navigate complex stakeholder groups"
+        },
+        {
+          "clinical": "Continuing education and evidence synthesis",
+          "tech": "Strategic learning and competitive intelligence: staying current on healthcare policy, competitor moves, technology trends",
+          "explanation": "You already synthesize complex information systematically"
+        }
+      ]
+    },
+    "learningPath": {
+      "totalTimeline": "6 to 12 months",
+      "phases": [
+        {
+          "name": "Foundation",
+          "weeks": "1 to 8",
+          "hours": "48 to 80",
+          "topics": [
+            "PM Fundamentals: vision, strategy, roadmap, user research, prioritization frameworks",
+            "Product Frameworks: Jobs to Be Done (JTBD), user personas, problem statements",
+            "Health Tech Market Landscape: types of companies, regulatory environment (HIPAA, FDA), key stakeholders",
+            "Basic Technical Literacy: APIs, EHRs, data flow, system integration concepts"
+          ],
+          "resources": [
+            {
+              "name": "Lenny Rachitsky Newsletter Start Here collection",
+              "url": "https://www.lennysnewsletter.com/p/start-here",
+              "free": true,
+              "description": "PM fundamentals from industry leader"
+            },
+            {
+              "name": "Atlassian Agile Product Management Guide",
+              "url": "https://www.atlassian.com/agile/product-management",
+              "free": true,
+              "description": "Product management fundamentals"
+            },
+            {
+              "name": "Maven: Technical Foundations for Product Managers",
+              "url": "https://maven.com/tech-for-product/tech-fundamentals",
+              "free": true,
+              "description": "Free 8-day email course on technical literacy"
+            },
+            {
+              "name": "Reforge Product Management Foundations",
+              "url": "https://www.reforge.com/courses/product-management-foundations/details",
+              "free": false,
+              "description": "Paid cohort-based course, highest ROI"
+            }
+          ],
+          "checkpoint": "Write a 1 to 2 page Health Tech Market Overview identifying 3 companies, their products, customers, and PM challenges."
+        },
+        {
+          "name": "Technical Depth",
+          "weeks": "8 to 24",
+          "hours": "60 to 100",
+          "topics": [
+            "User Research: interviews, journey mapping, persona development, research synthesis",
+            "Data Analytics for PMs: metrics, funnels, A/B testing, cohort analysis",
+            "Product Frameworks: OKRs, product strategy, competitive analysis, pricing models",
+            "Agile and Scrum: sprints, backlogs, estimation, retrospectives, PM role in Agile",
+            "PRD Writing and Product Requirements Definition",
+            "Wireframing Basics: low-fidelity prototyping, understanding UX"
+          ],
+          "resources": [
+            {
+              "name": "Lenny's Newsletter Archive",
+              "url": "https://www.lennysnewsletter.com/",
+              "free": true,
+              "description": "Industry PM insights"
+            },
+            {
+              "name": "API Fundamentals for Product Managers on Maven",
+              "url": "https://maven.com/emmanuel/api-pm-fundamentals",
+              "free": true,
+              "description": "Free API learning for PMs"
+            },
+            {
+              "name": "Figma",
+              "url": "https://www.figma.com/",
+              "free": true,
+              "description": "Free plan for wireframing"
+            },
+            {
+              "name": "Jira free tier",
+              "url": "https://www.atlassian.com/software/jira",
+              "free": true,
+              "description": "Ticket tracking and roadmap planning"
+            },
+            {
+              "name": "Reforge Product Strategy",
+              "url": "https://www.reforge.com/courses/product-strategy/",
+              "free": false,
+              "description": "Paid cohort course, 4 weeks"
+            }
+          ],
+          "checkpoint": "Conduct 5+ user interviews with clinicians. Write research synthesis. Create competitive analysis of 3 health tech products. Write a PRD for a hypothetical feature."
+        },
+        {
+          "name": "Specialization",
+          "weeks": "24 to 40",
+          "hours": "80 to 140",
+          "topics": [
+            "Track A: Clinical Workflow Products (EHR features, provider-facing tools)",
+            "Track B: Patient-Facing Digital Health Apps (portals, remote monitoring, engagement)",
+            "Track C: Population Health and Care Coordination Platforms",
+            "Track D: Regulatory and Compliance-Focused Products",
+            "Track E: Pharmacy and Medication Technology"
+          ],
+          "resources": [
+            {
+              "name": "Specialization research and case studies",
+              "url": "https://www.lennysnewsletter.com/",
+              "free": false,
+              "description": "Deep dives in chosen specialization area"
+            }
+          ],
+          "checkpoint": "4 to 6 page product strategy case study demonstrating clinical domain expertise applied to chosen specialization."
+        }
+      ]
+    },
+    "certifications": {
+      "realityCheck": "Product management hiring is heavily portfolio and experience-driven, NOT certification-driven. Job postings emphasize 'demonstrated PM experience' and 'ability to ship products,' not credentials.",
+      "items": [
+        {
+          "name": "Certified Scrum Product Owner (CSPO)",
+          "signal": "helpful",
+          "frequency": "Annual",
+          "cost": "$500 to $700 (2 to 3 day course)",
+          "timeline": "15 to 20% of health tech PM postings",
+          "notes": "Useful if working in Scrum-heavy organizations but not required"
+        },
+        {
+          "name": "SAFe Product Owner and Product Manager (SAFe POPM)",
+          "signal": "helpful",
+          "frequency": "Annual",
+          "cost": "$400 to $600",
+          "timeline": "15 to 20% of postings",
+          "notes": "Common in larger organizations with SAFe framework"
+        },
+        {
+          "name": "Reforge Courses",
+          "signal": "helpful",
+          "frequency": "N/A",
+          "cost": "$500 to $900 per course",
+          "timeline": "No credential but widely respected by hiring managers",
+          "notes": "Portfolio-heavy and highly valued in tech industry"
+        },
+        {
+          "name": "Product School or General Assembly Bootcamp",
+          "signal": "helpful",
+          "frequency": "N/A",
+          "cost": "$3,000 to $15,000",
+          "timeline": "5 to 10% of postings mention PM training",
+          "notes": "Can help if you have no prior product experience but expensive"
+        },
+        {
+          "name": "Health Informatics Masters",
+          "signal": "helpful",
+          "frequency": "N/A",
+          "cost": "$15,000 to $50,000",
+          "timeline": "Appears in some advanced PM postings",
+          "notes": "Time-consuming, valuable but not required"
+        },
+        {
+          "name": "CCRPS (Clinical Research Project Manager)",
+          "signal": "helpful",
+          "frequency": "Annual",
+          "cost": "$500 to $1,000",
+          "timeline": "Only relevant for clinical trial products",
+          "notes": "Specialty credential for clinical research focus"
+        },
+        {
+          "name": "AIPMM Certified Product Manager",
+          "signal": "skip",
+          "frequency": "N/A",
+          "cost": "N/A",
+          "timeline": "Less than 2% of PM job postings",
+          "notes": "Not recognized in health tech"
+        },
+        {
+          "name": "MBA as standalone",
+          "signal": "skip",
+          "frequency": "N/A",
+          "cost": "N/A",
+          "timeline": "Not commonly required",
+          "notes": "Nice-to-have but expensive and time-consuming"
+        },
+        {
+          "name": "Data science certifications",
+          "signal": "skip",
+          "frequency": "N/A",
+          "cost": "N/A",
+          "timeline": "Only relevant for analytics-heavy PM roles",
+          "notes": "Wrong skill set for product management"
+        },
+        {
+          "name": "Generic PM certifications from unknown providers",
+          "signal": "skip",
+          "frequency": "N/A",
+          "cost": "N/A",
+          "timeline": "N/A",
+          "notes": "Not recognized by hiring managers"
+        }
+      ],
+      "recommendation": "Skip certifications initially. Invest in Reforge courses and portfolio projects before any certification. 'Show me your portfolio. Show me products you have built. Show me the impact you had.' Certifications are differentiators, not requirements."
+    },
+    "portfolioProjects": [
+      {
+        "title": "Clinical Workflow Optimization PRD",
+        "description": "Interview 5+ nurses and pharmacists about medication reconciliation, map current workflow, identify friction, propose EHR feature with wireframe and success metrics.",
+        "timeEstimate": "5 to 7 weeks",
+        "tools": ["User interviews", "Workflow mapping", "Wireframing", "PRD writing"],
+        "clinicalAdvantage": "You know the actual workflow including workarounds, not the theoretical one"
+      },
+      {
+        "title": "Patient Engagement Strategy",
+        "description": "Conduct user interviews with patients on chronic disease management, analyze competitor engagement features, propose 2 to 3 engagement features with wireframes.",
+        "timeEstimate": "5 to 7 weeks",
+        "tools": ["User interviews", "Competitive analysis", "Wireframing"],
+        "clinicalAdvantage": "You understand patient behavior change and what motivates adherence"
+      },
+      {
+        "title": "Pharmacy Technology Feature Strategy",
+        "description": "Map pharmacist MTM workflow end-to-end, identify time waste, propose software redesign with wireframes and business impact (especially for pharmacists).",
+        "timeEstimate": "5 to 7 weeks",
+        "tools": ["Workflow mapping", "User interviews", "Wireframing", "Business case"],
+        "clinicalAdvantage": "You have lived the MTM workflow and know where real bottlenecks are"
+      },
+      {
+        "title": "Competitive Market Strategy",
+        "description": "Analyze 4 to 5 competitors, conduct user research, identify white space, propose prioritized 12-month roadmap.",
+        "timeEstimate": "6 to 8 weeks",
+        "tools": ["Competitive analysis", "Market research", "User interviews", "Roadmap planning"],
+        "clinicalAdvantage": "You evaluate telehealth through clinical lens, not just business metrics"
+      },
+      {
+        "title": "Regulatory Compliance PRD",
+        "description": "Analyze regulatory requirements, assess current gaps, write PRD for HIPAA audit log feature or clinical data privacy with wireframes and rollout strategy.",
+        "timeEstimate": "5 to 7 weeks",
+        "tools": ["Regulatory research", "PRD writing", "Wireframing"],
+        "clinicalAdvantage": "You understand compliance from the frontline, not just the legal department"
+      }
+    ],
+    "transitionStories": {
+      "verified": [
+        {
+          "name": "June Srisethnil, DPT",
+          "previousRole": "Physical Therapist (clinical practice)",
+          "currentTitle": "Clinical Product Manager",
+          "company": "CityPT Inc.",
+          "summary": "Physical therapist to clinical product manager. Transition took approximately 7 years. Moved from clinical practice to clinical sales (transition role), then self-taught PM skills via Udemy and LinkedIn Learning before joining health tech startup.",
+          "sourceUrl": "https://thenonclinicalpt.com/clinical-product-manager/"
+        }
+      ],
+      "note": "Published first-person transition stories from clinicians with the exact title 'Product Manager' at health tech companies are sparse. This is partly because PM transitions happen through internal moves and startup hiring that are rarely documented publicly. However, multiple health tech companies (Teladoc, Ro, Hinge Health, Epic, athenahealth) explicitly welcome and hire clinicians into PM roles. Active crowdsourcing needed, especially for nurse and pharmacist transitions.",
+      "crowdsourceUrl": ""
+    },
+    "firstThreeMoves": [
+      {
+        "title": "Map your clinical assets",
+        "timeEstimate": "2 to 3 hours",
+        "description": "Identify clinical workflows you deeply understand and potential product applications.",
+        "specifics": [
+          "Write a 1-page document identifying which clinical workflows you deeply understand",
+          "Note what frustrated you most about them",
+          "Identify which health tech products touch those workflows",
+          "Describe how you would have designed them differently"
+        ]
+      },
+      {
+        "title": "Conduct one user research interview",
+        "timeEstimate": "1 to 2 hours",
+        "description": "Practice user research by conducting a real interview.",
+        "specifics": [
+          "Find one clinician or patient",
+          "Conduct 30 to 45 minute Jobs to Be Done interview about a workflow or product they use",
+          "Document what you learned and what surprised you",
+          "This starts building your research muscle and generates data for portfolio projects"
+        ]
+      },
+      {
+        "title": "Start PM foundations learning",
+        "timeEstimate": "2 hours to begin",
+        "description": "Begin foundational product management education.",
+        "specifics": [
+          "Subscribe to Lenny Rachitsky's Newsletter and read the Start Here collection (free)",
+          "OR enroll in Maven's Technical Foundations for Product Managers (free 8-day email course)",
+          "OR research the next Reforge cohort start date"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    "https://www.heyhealthtech.com/blog/the-role-of-a-product-manager",
+    "https://productschool.com/blog/digital-transformation/healthcare-product-management",
+    "https://www.heyhealthtech.com/blog/how-to-pivot-from-clinical-work-to-product-management-in-health-tech",
+    "https://healthcaredata.substack.com/p/tips-for-becoming-a-product-manager",
+    "https://www.kelloggbhc.com/blogposts/2024/1/9/the-evolving-role-of-product-managers-in-the-healthcare-industry",
+    "https://builtin.com/jobs/product/healthtech",
+    "https://www.lennysnewsletter.com/p/state-of-the-product-job-market-in",
+    "https://www.jpmorgan.com/insights/markets-and-economy/outlook/2025-healthtech-trends",
+    "https://talencio.com/health-tech-workforce-trends-2025/",
+    "https://www.matchday.health/post/healthcare-skills-translation-matrix-from-clinical-expertise-to-tech-competencies",
+    "https://elpha.com/posts/r1l0a6yy/how-i-transitioned-from-pharmacy-to-product-management",
+    "https://thenonclinicalpt.com/clinical-product-manager/",
+    "https://www.reforge.com/courses/product-management-foundations/details",
+    "https://maven.com/tech-for-product/tech-fundamentals",
+    "https://maven.com/emmanuel/api-pm-fundamentals"
+  ]
+}

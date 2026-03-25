@@ -1,0 +1,98 @@
+---
+/**
+ * SEO Head Component
+ * Generates meta tags, Open Graph, JSON-LD structured data
+ */
+interface Props {
+  title: string;
+  description: string;
+  slug?: string;
+  type?: 'website' | 'article';
+  roadmapData?: {
+    title: string;
+    timeline: string;
+    difficulty: string;
+    lastUpdated: string;
+    phases: Array<{ name: string }>;
+  };
+}
+
+const { title, description, slug, type = 'website', roadmapData } = Astro.props;
+const siteUrl = 'https://roadmaps.ehoneahobed.com';
+const canonicalUrl = slug ? `${siteUrl}/roadmaps/${slug}` : siteUrl;
+const ogImage = `${siteUrl}/og-image.png`;
+
+// Build JSON-LD for roadmap pages
+function buildJsonLd() {
+  if (!roadmapData) {
+    // Homepage schema
+    return JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'WebSite',
+      name: 'Health Tech Career Roadmaps',
+      url: siteUrl,
+      description: 'Research-backed career transition guides for healthcare professionals moving into health tech roles.',
+      author: {
+        '@type': 'Person',
+        name: 'Ehoneah Obed',
+        url: 'https://ehoneahobed.com',
+        jobTitle: 'Healthcare-to-Tech Career Strategist',
+      },
+      publisher: {
+        '@type': 'Organization',
+        name: 'Ehoneah',
+        url: 'https://ehoneahobed.com',
+      },
+    });
+  }
+
+  // Individual roadmap schema using HowTo + Course hybrid
+  return JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'HowTo',
+    name: `How to Become a ${roadmapData.title}: Career Transition Guide for Healthcare Professionals`,
+    description: description,
+    url: canonicalUrl,
+    dateModified: roadmapData.lastUpdated,
+    author: {
+      '@type': 'Person',
+      name: 'Ehoneah Obed',
+      url: 'https://ehoneahobed.com',
+    },
+    estimatedCost: {
+      '@type': 'MonetaryAmount',
+      currency: 'USD',
+      value: '0',
+    },
+    totalTime: `P${roadmapData.timeline.replace(/[^0-9]/g, '')}M`,
+    step: roadmapData.phases.map((phase, i) => ({
+      '@type': 'HowToStep',
+      position: i + 1,
+      name: phase.name,
+    })),
+  });
+}
+---
+
+<!-- Primary Meta Tags -->
+<title>{title}</title>
+<meta name="description" content={description} />
+<link rel="canonical" href={canonicalUrl} />
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content={type} />
+<meta property="og:url" content={canonicalUrl} />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:image" content={ogImage} />
+<meta property="og:site_name" content="Health Tech Career Roadmaps" />
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:url" content={canonicalUrl} />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={ogImage} />
+
+<!-- JSON-LD Structured Data -->
+<script type="application/ld+json" set:html={buildJsonLd()} />
