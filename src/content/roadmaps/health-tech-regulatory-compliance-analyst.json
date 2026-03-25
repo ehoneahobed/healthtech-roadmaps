@@ -1,0 +1,477 @@
+{
+  "meta": {
+    "slug": "health-tech-regulatory-compliance-analyst",
+    "title": "Health Tech Regulatory & Compliance Analyst Roadmap",
+    "icon": "🛡️",
+    "difficulty": "moderate",
+    "timeline": "4 to 8 months",
+    "lastUpdated": "2026-03-24",
+    "status": "published",
+    "shortDescription": "Navigate FDA SaMD regulations, HIPAA compliance, AI governance frameworks, and quality management systems to ensure health tech products meet regulatory requirements and reach market safely.",
+    "bestFor": "Pharmacists with regulatory and formulary compliance experience, nurses familiar with patient safety reporting and accreditation processes, or any clinician who thrived on documentation, protocol adherence, and quality assurance.",
+    "order": 6
+  },
+  "sections": {
+    "roleSnapshot": {
+      "oneLiner": "Health Tech Regulatory and Compliance Analysts ensure that digital health products, AI-enabled medical devices, and health IT systems meet FDA, HIPAA, and international regulatory requirements throughout the product lifecycle.",
+      "bestSuitedFor": "Pharmacists who managed DEA compliance, formulary submissions, and drug safety reporting. Nurses experienced with Joint Commission surveys, patient safety event documentation, and accreditation workflows. Any clinician who found satisfaction in protocol adherence, quality assurance processes, or navigating complex institutional requirements.",
+      "workSetting": "Hybrid is most common. Health tech companies and consulting firms offer substantial remote flexibility. FDA and government roles skew more onsite. Travel may be required for audits and submissions at larger organizations.",
+      "demandSignal": "Accelerating. FDA authorized over 1,250 AI-enabled medical devices as of mid-2025, up from 950 in 2024. The 2026 Quality Management System Regulation (QMSR) update is creating new compliance roles. EU AI Act enforcement beginning in 2025 adds international demand. Every health tech company shipping a clinical product needs regulatory expertise.",
+      "keyDifferentiator": "You understand the clinical context that regulations are designed to protect, making you far more effective at compliance than someone who only reads the legal text.",
+      "whereTheyWork": [
+        "Health technology companies (Veracyte, Tempus, Butterfly Network, Health Catalyst)",
+        "Medical device and SaMD companies (Medtronic, Philips, Siemens Healthineers)",
+        "Pharmaceutical and biotech companies (regulatory affairs divisions)",
+        "Healthcare consulting firms (Deloitte, PwC, KPMG health practices)",
+        "Hospitals and health systems (compliance departments)",
+        "Government agencies (FDA, OIG, CMS, state health departments)",
+        "Health insurance organizations (compliance and audit teams)",
+        "Digital health startups building AI-powered clinical tools"
+      ],
+      "clinicalAdvantage": [
+        "You understand why regulations exist because you have seen what happens when they fail at the bedside",
+        "Your experience with adverse event reporting translates directly to post-market surveillance and vigilance requirements",
+        "You can evaluate whether a clinical claim in a product submission is actually supported by the evidence",
+        "Joint Commission and accreditation experience maps directly to quality management system audits",
+        "You speak the language of both clinicians and regulators, bridging a gap most compliance analysts cannot",
+        "Your documentation discipline from clinical charting prepares you for the meticulous record-keeping regulatory work demands",
+        "You can identify when a product design creates clinical risk that purely technical reviewers would miss"
+      ]
+    },
+    "whatYouAlreadyHave": {
+      "nurses": [
+        {
+          "clinical": "Patient safety event reporting and root cause analysis",
+          "tech": "Post-market surveillance and adverse event documentation (FDA MDR/MedWatch)",
+          "explanation": "You already investigate safety events systematically; this becomes tracking and reporting device-related adverse events to regulatory bodies"
+        },
+        {
+          "clinical": "Joint Commission survey preparation and accreditation compliance",
+          "tech": "Quality Management System (QMS) auditing and ISO 13485 compliance",
+          "explanation": "Preparing for accreditation surveys is structurally identical to preparing for FDA quality system inspections"
+        },
+        {
+          "clinical": "Clinical protocol adherence and documentation standards",
+          "tech": "Design control documentation and regulatory submission preparation",
+          "explanation": "Your discipline around following clinical protocols transfers to maintaining design history files and technical documentation"
+        },
+        {
+          "clinical": "HIPAA awareness in daily clinical workflows",
+          "tech": "Privacy impact assessments and HIPAA compliance program management",
+          "explanation": "You have lived HIPAA requirements at the point of care; now you build and audit the systems that enforce them"
+        },
+        {
+          "clinical": "Medication administration safety checks (five rights)",
+          "tech": "Risk management and failure mode analysis for health tech products",
+          "explanation": "Systematic safety verification becomes product risk analysis using frameworks like ISO 14971"
+        },
+        {
+          "clinical": "Interdisciplinary care coordination and communication",
+          "tech": "Cross-functional regulatory strategy across engineering, clinical, and legal teams",
+          "explanation": "Navigating diverse clinical teams prepares you for coordinating regulatory requirements across product, engineering, and legal stakeholders"
+        }
+      ],
+      "pharmacists": [
+        {
+          "clinical": "DEA controlled substance compliance and state board regulations",
+          "tech": "Multi-jurisdictional regulatory compliance and submission management",
+          "explanation": "Navigating overlapping federal, state, and DEA requirements is the same skill as managing FDA, EU MDR, and international regulatory landscapes"
+        },
+        {
+          "clinical": "Drug safety monitoring and adverse drug reaction reporting",
+          "tech": "Pharmacovigilance systems and post-market safety surveillance",
+          "explanation": "ADR monitoring translates directly to medical device vigilance reporting and post-market clinical follow-up"
+        },
+        {
+          "clinical": "Formulary review and drug monograph evaluation",
+          "tech": "Regulatory submission review and clinical evidence evaluation",
+          "explanation": "Evaluating drug evidence for formulary decisions uses the same critical appraisal skills needed to assess regulatory submission quality"
+        },
+        {
+          "clinical": "Pharmacy and Therapeutics committee participation",
+          "tech": "Regulatory advisory boards and standards committee participation",
+          "explanation": "Presenting evidence-based recommendations to P&T committees mirrors presenting regulatory strategies to executive leadership"
+        },
+        {
+          "clinical": "FDA REMS programs and medication safety protocols",
+          "tech": "FDA Risk Evaluation and Mitigation Strategy design for health tech products",
+          "explanation": "Direct experience with REMS gives you a foundation few non-pharmacists have in regulatory risk management"
+        },
+        {
+          "clinical": "Clinical trial drug management and protocol compliance",
+          "tech": "Clinical investigation regulatory submissions (IDE applications, clinical study design review)",
+          "explanation": "Managing investigational drugs teaches you the regulatory infrastructure that governs clinical evidence generation"
+        }
+      ],
+      "otherClinicians": [
+        {
+          "clinical": "Evidence-based practice and clinical guideline evaluation",
+          "tech": "Clinical evidence assessment for regulatory submissions (510(k), De Novo, PMA)",
+          "explanation": "Evaluating whether clinical evidence supports a practice change uses the same rigor as evaluating whether evidence supports a regulatory claim"
+        },
+        {
+          "clinical": "Clinical documentation and medical record standards",
+          "tech": "Technical documentation standards (IEC 62304, ISO 13485 documentation requirements)",
+          "explanation": "Meticulous clinical documentation habits prepare you for the documentation-intensive regulatory environment"
+        },
+        {
+          "clinical": "Quality improvement projects (PDSA cycles, Lean Six Sigma)",
+          "tech": "Corrective and Preventive Action (CAPA) processes and continuous improvement",
+          "explanation": "QI methodology is structurally identical to the CAPA processes required by FDA quality system regulations"
+        },
+        {
+          "clinical": "Informed consent processes and patient rights",
+          "tech": "Human subjects protection and clinical investigation ethics (IRB submissions)",
+          "explanation": "Understanding informed consent gives you the ethical foundation for navigating clinical study regulatory requirements"
+        },
+        {
+          "clinical": "Diagnostic reasoning and evidence evaluation",
+          "tech": "Clinical validation study design and performance evaluation",
+          "explanation": "Your ability to assess diagnostic accuracy translates to evaluating clinical performance claims for AI-enabled devices"
+        }
+      ]
+    },
+    "learningPath": {
+      "totalTimeline": "4 to 8 months",
+      "phases": [
+        {
+          "name": "Regulatory Foundations",
+          "weeks": "1 to 8",
+          "hours": "80 to 120",
+          "topics": [
+            "FDA Medical Device Regulatory Framework (510(k), De Novo, PMA pathways)",
+            "Software as a Medical Device (SaMD) classification and regulation",
+            "HIPAA Privacy and Security Rule deep dive",
+            "Quality Management System fundamentals (ISO 13485)",
+            "Regulatory Affairs terminology and submission types"
+          ],
+          "resources": [
+            {
+              "name": "FDA Digital Health Center of Excellence",
+              "url": "https://www.fda.gov/medical-devices/digital-health-center-excellence",
+              "free": true,
+              "description": "Official FDA guidance on digital health regulation including SaMD"
+            },
+            {
+              "name": "FDA SaMD Guidance Documents",
+              "url": "https://www.fda.gov/medical-devices/digital-health-center-excellence/software-medical-device-samd",
+              "free": true,
+              "description": "Core SaMD regulatory guidance and classification framework"
+            },
+            {
+              "name": "HHS HIPAA for Professionals",
+              "url": "https://www.hhs.gov/hipaa/for-professionals/index.html",
+              "free": true,
+              "description": "Official HIPAA Privacy and Security Rule resources"
+            },
+            {
+              "name": "IMDRF SaMD Framework",
+              "url": "https://www.imdrf.org/documents/software-medical-device-samd-key-definitions",
+              "free": true,
+              "description": "International Medical Device Regulators Forum SaMD classification"
+            },
+            {
+              "name": "FDA Learning Portal",
+              "url": "https://www.fda.gov/training-and-continuing-education",
+              "free": true,
+              "description": "Free FDA training modules on device regulation"
+            },
+            {
+              "name": "RAPS Regulatory Fundamentals Course",
+              "url": "https://www.raps.org/education",
+              "free": false,
+              "description": "Structured introduction to regulatory affairs from the professional society"
+            },
+            {
+              "name": "Coursera Regulatory Affairs Specialization",
+              "url": "https://www.coursera.org",
+              "free": false,
+              "description": "University-backed regulatory affairs coursework"
+            }
+          ],
+          "checkpoint": "Map the regulatory pathway for a hypothetical AI-powered clinical decision support tool. Determine whether it qualifies as a medical device under FDA guidance, identify the appropriate submission pathway, and document the key regulatory requirements."
+        },
+        {
+          "name": "Compliance Systems and Standards",
+          "weeks": "8 to 20",
+          "hours": "100 to 140",
+          "topics": [
+            "Quality Management Systems (QMS) implementation and auditing",
+            "Risk Management for Medical Devices (ISO 14971)",
+            "Software Lifecycle Processes (IEC 62304)",
+            "AI/ML Regulatory Frameworks (FDA PCCP guidance, EU AI Act basics)",
+            "Design Controls and Design History File management",
+            "Cybersecurity requirements for health tech (FDA premarket cybersecurity guidance)"
+          ],
+          "resources": [
+            {
+              "name": "FDA Quality System Regulation (21 CFR Part 820)",
+              "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-H/part-820",
+              "free": true,
+              "description": "The actual federal regulation governing medical device quality systems"
+            },
+            {
+              "name": "FDA AI/ML-Based SaMD Action Plan",
+              "url": "https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-software-medical-device",
+              "free": true,
+              "description": "FDA framework for regulating AI-enabled medical devices"
+            },
+            {
+              "name": "NIST AI Risk Management Framework",
+              "url": "https://www.nist.gov/artificial-intelligence",
+              "free": true,
+              "description": "Federal AI risk framework increasingly referenced in health tech compliance"
+            },
+            {
+              "name": "FDA Cybersecurity Guidance",
+              "url": "https://www.fda.gov/medical-devices/digital-health-center-excellence/cybersecurity",
+              "free": true,
+              "description": "Premarket and postmarket cybersecurity requirements for medical devices"
+            },
+            {
+              "name": "Greenlight Guru Academy",
+              "url": "https://www.greenlight.guru/academy",
+              "free": true,
+              "description": "Free courses on design controls, risk management, and QMS for medical devices"
+            },
+            {
+              "name": "ASQ Certified Quality Auditor Resources",
+              "url": "https://asq.org/cert/quality-auditor",
+              "free": false,
+              "description": "Quality auditing body of knowledge and study materials"
+            },
+            {
+              "name": "Udemy ISO 13485 QMS Implementation",
+              "url": "https://www.udemy.com",
+              "free": false,
+              "description": "Practical ISO 13485 quality management system course"
+            }
+          ],
+          "checkpoint": "Complete a mock regulatory submission package for an AI-enabled health tech product. Include risk analysis (ISO 14971), software documentation (IEC 62304), design control records, and a cybersecurity plan. Present the package as a portfolio deliverable."
+        },
+        {
+          "name": "Specialization and Practice",
+          "weeks": "20 to 32",
+          "hours": "60 to 100",
+          "topics": [
+            "Track A: SaMD and AI/ML Device Regulation (FDA PCCP, predetermined change control, continuous learning systems)",
+            "Track B: Healthcare Privacy and Data Governance (HIPAA compliance programs, state privacy laws, international data protection)",
+            "Track C: Clinical Investigation and Evidence (IDE submissions, clinical study regulatory requirements, real-world evidence)",
+            "Track D: International Regulatory Strategy (EU MDR, EU AI Act, Health Canada, MHRA frameworks)"
+          ],
+          "resources": [
+            {
+              "name": "FDA Predetermined Change Control Plan Guidance",
+              "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents",
+              "free": true,
+              "description": "Key guidance for AI/ML device modification without new submissions"
+            },
+            {
+              "name": "EU AI Act Official Text",
+              "url": "https://artificialintelligenceact.eu",
+              "free": true,
+              "description": "Full text of the EU Artificial Intelligence Act with healthcare implications"
+            },
+            {
+              "name": "HCCA Healthcare Compliance Resources",
+              "url": "https://www.hcca-info.org",
+              "free": true,
+              "description": "Health Care Compliance Association resources and webinars"
+            },
+            {
+              "name": "ClinicalTrials.gov",
+              "url": "https://clinicaltrials.gov",
+              "free": true,
+              "description": "Study real regulatory requirements by examining active clinical investigations"
+            },
+            {
+              "name": "RAPS RAC Exam Preparation",
+              "url": "https://www.raps.org/rac",
+              "free": false,
+              "description": "Regulatory Affairs Certification preparation materials"
+            },
+            {
+              "name": "HCCA CHC Certification Preparation",
+              "url": "https://www.hcca-info.org/certification/become-certified/chc",
+              "free": false,
+              "description": "Certified in Healthcare Compliance exam preparation"
+            }
+          ],
+          "checkpoint": "Complete two specialization projects: (1) a regulatory gap analysis for an existing health tech product against current FDA guidance and (2) a compliance program design or international regulatory strategy comparison. Both become portfolio deliverables."
+        }
+      ]
+    },
+    "certifications": {
+      "realityCheck": "In regulatory affairs, certifications carry more weight than in many other health tech roles because they signal credibility to hiring managers and regulatory bodies. However, your clinical license already provides a credibility foundation that most regulatory candidates lack. Prioritize hands-on experience with real regulatory frameworks over collecting credentials.",
+      "items": [
+        {
+          "name": "RAC (Regulatory Affairs Certification)",
+          "signal": "high",
+          "frequency": "Every 3 years (recertification)",
+          "cost": "$350 to $500 exam (RAPS member discount available)",
+          "timeline": "3 to 6 months study after building foundational knowledge",
+          "notes": "The gold standard in regulatory affairs. Available in US, EU, and Global tracks. Most impactful certification for this career path. Pursue after completing Phase 2."
+        },
+        {
+          "name": "CHC (Certified in Healthcare Compliance)",
+          "signal": "high",
+          "frequency": "Every 2 years (recertification)",
+          "cost": "$295 to $595 exam",
+          "timeline": "Requires 1 year compliance experience or 1,500 hours direct compliance work plus 20 CEUs",
+          "notes": "From HCCA. Demonstrates healthcare-specific compliance knowledge. Especially valuable if targeting hospital compliance departments or consulting."
+        },
+        {
+          "name": "CHPC (Certified in Healthcare Privacy Compliance)",
+          "signal": "high",
+          "frequency": "Every 2 years (recertification)",
+          "cost": "$295 to $595 exam",
+          "timeline": "Similar requirements to CHC with privacy focus",
+          "notes": "From HCCA. Specializes in HIPAA privacy and security. High value for roles at health tech companies handling patient data or building data platforms."
+        },
+        {
+          "name": "ISO 13485 Lead Auditor Certification",
+          "signal": "high",
+          "frequency": "Every 3 years",
+          "cost": "$1,500 to $3,000 (includes training course)",
+          "timeline": "5-day training course plus exam",
+          "notes": "Demonstrates ability to audit medical device quality management systems. Valuable for consulting or internal quality roles."
+        },
+        {
+          "name": "Certified Quality Auditor (CQA) from ASQ",
+          "signal": "helpful",
+          "frequency": "Every 3 years",
+          "cost": "$294 to $494 exam",
+          "timeline": "8 to 12 weeks study; requires 8 years work experience (education can substitute)",
+          "notes": "Broader quality certification. Useful for roles bridging regulatory compliance and quality assurance."
+        },
+        {
+          "name": "CIPP/US (Certified Information Privacy Professional)",
+          "signal": "helpful",
+          "frequency": "Annual (continuing education required)",
+          "cost": "$550 exam",
+          "timeline": "4 to 8 weeks study",
+          "notes": "From IAPP. Covers US privacy law including HIPAA. Good complement if specializing in privacy track."
+        },
+        {
+          "name": "Generic project management certifications (PMP, Scrum Master)",
+          "signal": "skip",
+          "frequency": "N/A",
+          "cost": "N/A",
+          "timeline": "N/A",
+          "notes": "Regulatory hiring managers prioritize domain-specific regulatory knowledge over general project management credentials"
+        },
+        {
+          "name": "Generic cybersecurity certifications (CompTIA Security+, CISSP)",
+          "signal": "skip",
+          "frequency": "N/A",
+          "cost": "N/A",
+          "timeline": "N/A",
+          "notes": "Too broad for health tech regulatory roles. FDA cybersecurity guidance knowledge is more targeted and valuable"
+        }
+      ],
+      "recommendation": "Start with RAC after completing Phase 2 (most universally recognized in regulatory affairs). Add CHC or CHPC based on whether you specialize in compliance programs or privacy. ISO 13485 Lead Auditor is valuable if targeting medical device companies or consulting. Your clinical license already provides credibility that other regulatory candidates must build from scratch."
+    },
+    "portfolioProjects": [
+      {
+        "title": "FDA SaMD Regulatory Pathway Analysis",
+        "description": "Select a real AI-enabled health tech product (or design a hypothetical one). Determine its SaMD classification using the IMDRF framework, identify the correct FDA submission pathway (510(k), De Novo, or PMA), and create a regulatory strategy document with timeline and key milestones.",
+        "timeEstimate": "4 to 6 weeks",
+        "dataset": "FDA AI/ML-Enabled Medical Device Database",
+        "datasetUrl": "https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-and-machine-learning-aiml-enabled-medical-devices",
+        "tools": ["FDA Guidance Documents", "IMDRF Framework", "Regulatory Strategy Template"],
+        "clinicalAdvantage": "You can evaluate whether the product's intended clinical use is realistic and whether the regulatory claims align with actual clinical workflows"
+      },
+      {
+        "title": "HIPAA Compliance Program Design",
+        "description": "Design a comprehensive HIPAA compliance program for a digital health startup. Include risk assessment methodology, policies and procedures, training requirements, breach notification protocols, and Business Associate Agreement templates.",
+        "timeEstimate": "5 to 7 weeks",
+        "dataset": "HHS Breach Portal (Wall of Shame)",
+        "datasetUrl": "https://ocrportal.hhs.gov/ocr/breach/breach_report.jsf",
+        "tools": ["NIST Cybersecurity Framework", "HHS HIPAA Resources", "Risk Assessment Templates"],
+        "clinicalAdvantage": "You understand which PHI touchpoints create the highest risk because you have worked with patient data at the point of care"
+      },
+      {
+        "title": "AI/ML Device Predetermined Change Control Plan (PCCP)",
+        "description": "Create a PCCP for a hypothetical AI-enabled clinical decision support tool. Document the modification protocol, performance monitoring plan, update validation methodology, and transparency requirements per FDA guidance.",
+        "timeEstimate": "4 to 6 weeks",
+        "dataset": "FDA PCCP Guidance and authorized AI/ML devices list",
+        "datasetUrl": "https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-software-medical-device",
+        "tools": ["FDA PCCP Guidance", "ISO 14971 Risk Management", "IEC 62304 Software Lifecycle"],
+        "clinicalAdvantage": "You can assess whether proposed AI model changes could create clinical safety risks that technical teams might underestimate"
+      },
+      {
+        "title": "Regulatory Gap Analysis: Existing Health Tech Product",
+        "description": "Select a commercially available health tech product and perform a regulatory gap analysis against current FDA requirements. Identify compliance gaps, prioritize risks, and propose a remediation plan with timeline and resource estimates.",
+        "timeEstimate": "3 to 5 weeks",
+        "dataset": "FDA 510(k) Database and MAUDE adverse event database",
+        "datasetUrl": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfmaude/search.cfm",
+        "tools": ["FDA MAUDE Database", "510(k) Database", "Gap Analysis Framework"],
+        "clinicalAdvantage": "Your clinical experience helps you identify gaps that matter most for patient safety, not just technical compliance"
+      },
+      {
+        "title": "International Regulatory Strategy Comparison",
+        "description": "For a hypothetical digital health product, compare the regulatory requirements and timelines for market entry in the US (FDA), EU (EU MDR + EU AI Act), Canada (Health Canada), and UK (MHRA). Deliver a market entry strategy recommendation.",
+        "timeEstimate": "5 to 7 weeks",
+        "dataset": "Regulatory agency databases and guidance documents",
+        "datasetUrl": "https://www.fda.gov/medical-devices/device-advice-comprehensive-regulatory-assistance",
+        "tools": ["FDA Guidance", "EU MDR Text", "EU AI Act", "Health Canada MDR"],
+        "clinicalAdvantage": "Your understanding of clinical practice variations across countries adds depth to regulatory strategy that purely legal analysis misses"
+      }
+    ],
+    "transitionStories": {
+      "verified": [],
+      "note": "Section intentionally collecting verified stories. We are seeking stories from clinicians whose current or recent title is specifically 'Regulatory Affairs Specialist,' 'Compliance Analyst,' or 'Regulatory Affairs Associate' in health tech or medical device companies. No adjacent roles included. Stories will be added as they are sourced and verified.",
+      "crowdsourceUrl": ""
+    },
+    "firstThreeMoves": [
+      {
+        "title": "Map the regulatory landscape",
+        "timeEstimate": "3 hours",
+        "description": "Read the FDA's SaMD guidance and browse their AI/ML-enabled device database to understand what is being regulated and how.",
+        "specifics": [
+          "Read the FDA Digital Health Center of Excellence overview page",
+          "Browse the FDA's list of AI/ML-enabled authorized medical devices",
+          "Read 3 to 5 real 510(k) summaries for digital health products on the FDA database"
+        ]
+      },
+      {
+        "title": "Audit your own compliance knowledge",
+        "timeEstimate": "2 hours",
+        "description": "Map the regulatory knowledge you already have from clinical practice to the regulatory affairs skill set.",
+        "specifics": [
+          "List every compliance, accreditation, or quality requirement you encountered in clinical practice",
+          "Match each one to a corresponding health tech regulatory requirement (HIPAA, ISO 13485, FDA QSR)",
+          "Identify the 3 biggest gaps between your current knowledge and regulatory job requirements"
+        ]
+      },
+      {
+        "title": "Start learning the regulatory framework",
+        "timeEstimate": "30 minutes daily for 4 weeks",
+        "description": "Begin structured learning with free FDA resources and the RAPS Fundamentals course.",
+        "specifics": [
+          "Complete FDA Learning Portal modules on device regulation basics",
+          "Join RAPS (Regulatory Affairs Professionals Society) as a student or early career member",
+          "Start following FDA Digital Health Twitter/LinkedIn for real-time regulatory updates"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    "https://www.fda.gov/medical-devices/digital-health-center-excellence/software-medical-device-samd",
+    "https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-software-medical-device",
+    "https://www.hhs.gov/hipaa/for-professionals/index.html",
+    "https://www.hcca-info.org/certification/become-certified/chc",
+    "https://www.hcca-info.org/certification/become-certified/chpc",
+    "https://www.raps.org/rac",
+    "https://www.imdrf.org/documents/software-medical-device-samd-key-definitions",
+    "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-H/part-820",
+    "https://artificialintelligenceact.eu",
+    "https://www.nist.gov/artificial-intelligence",
+    "https://www.greenlight.guru/blog/samd-software-as-a-medical-device",
+    "https://intuitionlabs.ai/articles/fda-digital-health-technology-guidance-requirements",
+    "https://thehappypharmd.com/how-to-become-a-regulatory-affairs-pharmacist/",
+    "https://www.proclinical.com/blogs/2021-2/how-to-get-a-job-in-regulatory-affairs",
+    "https://ocrportal.hhs.gov/ocr/breach/breach_report.jsf",
+    "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfmaude/search.cfm"
+  ]
+}

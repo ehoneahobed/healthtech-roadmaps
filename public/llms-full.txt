@@ -47,3 +47,12 @@ Target: Healthcare professionals transitioning to healthcare AI/ML engineering r
 Key Certifications: AWS ML Specialty (35-50% of postings), Google Cloud ML Engineer (38%)
 Key Skills: Python, TensorFlow/PyTorch, clinical NLP, medical imaging AI, FHIR/HL7, MLOps
 Clinical Advantage: You understand the data (messy EHR data), the users (clinicians), and the safety requirements (HIPAA, bias detection) in ways pure data scientists cannot match.
+
+## Roadmap: Health Tech Regulatory & Compliance Analyst
+URL: /roadmaps/health-tech-regulatory-compliance-analyst
+Difficulty: Moderate
+Timeline: 4 to 8 months
+Target: Healthcare professionals transitioning to regulatory affairs and compliance roles in health tech
+Key Certifications: RAC (gold standard), CHC, CHPC, ISO 13485 Lead Auditor
+Key Skills: FDA SaMD regulation, HIPAA compliance, ISO 13485 QMS, risk management (ISO 14971), AI/ML device regulation, EU AI Act
+Clinical Advantage: You understand the clinical context that regulations are designed to protect. Your adverse event reporting, accreditation experience, and documentation discipline translate directly to regulatory work.
