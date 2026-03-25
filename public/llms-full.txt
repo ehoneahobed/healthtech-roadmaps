@@ -110,3 +110,12 @@ Target: Healthcare professionals transitioning to HEOR, outcomes research, and r
 Key Certifications: ISPOR Membership and Short Courses, Graduate Certificate in HEOR ($3,000 to $8,000), HEOR Fellowship (pharmacists), SAS Certified Clinical Trials Programmer ($180)
 Key Skills: Cost-effectiveness analysis, budget impact modeling, systematic literature review, meta-analysis, decision-analytic modeling (Markov, decision trees), real-world evidence study design, claims database analysis, SAS/R/Stata, patient-reported outcomes, HTA dossier development
 Clinical Advantage: You understand treatment pathways at the bedside level, can distinguish statistically significant from clinically meaningful findings, and know the formulary and reimbursement context where HEOR evidence gets applied.
+
+## Roadmap: Medical Writer
+URL: /r/medical-writer
+Difficulty: Low
+Timeline: 1 to 3 months
+Target: Healthcare professionals transitioning to medical writing roles at pharmaceutical companies, CROs, medical communications agencies, and freelance practice
+Key Certifications: AMWA Essential Skills Certificate ($500 to $1,200), AMWA Medical Writing Certification/MWC ($500 to $750, requires 2 years experience), AMWA Certificate in Regulatory Writing ($400 to $800), ISMPP CMPP ($400 to $600)
+Key Skills: Regulatory writing (CSRs, protocols, CTD modules), scientific publication writing (ICMJE guidelines), medical communications (CME/CE content), plain language summarization, ICH guidelines (E3, E6, M4), AMA Manual of Style, reference management, health literacy adaptation
+Clinical Advantage: You already write about medicine every day, understand the clinical context behind the data, can spot inaccuracies non-clinical writers miss, and your clinical credibility adds authority to the documents you produce.

@@ -1,0 +1,455 @@
+{
+  "meta": {
+    "slug": "medical-writer",
+    "title": "Medical Writer Roadmap",
+    "icon": "✍️",
+    "difficulty": "low",
+    "timeline": "1 to 3 months",
+    "lastUpdated": "2026-03-25",
+    "status": "published",
+    "shortDescription": "Transform your clinical knowledge into clear, accurate, and compliant medical documents for pharmaceutical companies, CROs, medical communications agencies, and health systems. One of the most freelance-friendly transitions in health tech.",
+    "bestFor": "The clinician who was always the best writer on the team. You draft patient education materials that people actually understand, your clinical notes are the gold standard, and colleagues ask you to review their work before submission.",
+    "order": 13
+  },
+  "sections": {
+    "roleSnapshot": {
+      "oneLiner": "Medical Writers create the clinical, regulatory, and scientific documents that pharmaceutical companies, CROs, and medical communications agencies need to develop drugs, gain regulatory approval, and communicate evidence to healthcare professionals and patients.",
+      "bestSuitedFor": "The clinician whose writing was always a cut above. The nurse who drafted the clearest patient education materials on the unit. The pharmacist who wrote the best drug monographs for P&T committee. The clinician colleagues turned to for editing, proofreading, or help structuring a case report. If you naturally translate complex medical concepts into clear, structured prose, this role is a direct extension of what you already do.",
+      "workSetting": "Highly flexible and remote-friendly. Medical writing is one of the most location-independent roles in health tech. Full-time positions at pharma companies and CROs are typically 80 to 100% remote. Freelance medical writing is a well-established business model, allowing clinicians to start taking projects while still in clinical practice. Medical communications agencies may require occasional in-person meetings for large projects, but most work is delivered remotely.",
+      "demandSignal": "Exceptional with a documented talent shortage. The global medical writing market was valued at $5.10 billion in 2025 and is projected to reach $10.26 billion by 2032 at a 10.5% CAGR. 83% of life sciences companies reported difficulty filling medical writing roles in 2024, and forecasts predict a 35% talent deficit by 2030. Freelance demand increased 50% during the pandemic and has not contracted. Every clinical trial generates regulatory documents, every drug launch requires medical education content, and every health system needs patient-facing materials. The supply of qualified medical writers is not keeping pace with demand.",
+      "keyDifferentiator": "This is a content and communications role, not a data or engineering role. It is the first roadmap in this collection that focuses on the writing and documentation lane of health tech. Medical writing is also uniquely freelance-friendly, meaning you can start building your portfolio and taking paid projects before you leave clinical practice entirely. The barrier to entry is low because clinicians already possess the core competency: deep understanding of clinical medicine and the ability to communicate it accurately.",
+      "whereTheyWork": [
+        "Pharmaceutical and biotech companies (Pfizer, Novartis, Roche, AbbVie, Amgen, Gilead, Merck, AstraZeneca)",
+        "Contract research organizations (IQVIA, Syneos Health, ICON, Parexel, PPD/Thermo Fisher, Medpace)",
+        "Medical communications agencies (Ashfield MedComms, OPEN Health, Envision Pharma, Chameleon Communications, Fishawack Health)",
+        "Freelance and consulting (independent medical writing businesses, platforms like Kolabtree and Contently)",
+        "Health systems and academic medical centers (medical education departments, CME offices, research offices)",
+        "Regulatory affairs consulting firms (Regulatory Compliance Associates, PAREXEL Consulting, NDA Group)"
+      ],
+      "clinicalAdvantage": [
+        "You already write about medicine every day. Clinical notes, discharge summaries, patient education materials, and case reports are all forms of medical writing. You are not learning to write about healthcare; you are learning new formats and audiences.",
+        "You understand the clinical context behind the data. When writing a clinical study report, you know what a 2-point drop in HbA1c means for a patient, not just that it is statistically significant.",
+        "You can spot clinical inaccuracies that non-clinical writers miss. A background in patient care gives you a built-in quality control mechanism that pharma companies value highly.",
+        "You understand the audience on both sides. You know what healthcare professionals need to hear to change practice, and you know what patients need to hear to understand their treatment.",
+        "Your clinical credibility opens doors. Pharma companies and medical communications agencies actively recruit clinicians because their clinical authority adds weight to the documents they produce."
+      ]
+    },
+    "whatYouAlreadyHave": {
+      "nurses": [
+        {
+          "clinical": "Patient education material development and health literacy adaptation",
+          "tech": "Medical communications writing and plain language summarization",
+          "explanation": "You have written materials that translate complex medical information into language patients understand. This is exactly what medical communications agencies pay writers to do."
+        },
+        {
+          "clinical": "Clinical documentation (nursing notes, assessments, care plans, discharge summaries)",
+          "tech": "Structured medical document creation with regulatory awareness",
+          "explanation": "Your daily documentation practice has trained you to write clearly, accurately, and concisely under time pressure, following specific formatting requirements."
+        },
+        {
+          "clinical": "Quality improvement report writing and poster presentations",
+          "tech": "Scientific publication writing and conference poster development",
+          "explanation": "If you have written a QI abstract, presented a poster, or contributed to a departmental report, you have already produced scientific communication content."
+        },
+        {
+          "clinical": "Medication administration documentation and adverse event reporting",
+          "tech": "Safety narrative writing and pharmacovigilance documentation",
+          "explanation": "Your experience documenting medication events, adverse reactions, and safety incidents translates directly to writing patient safety narratives for regulatory submissions."
+        },
+        {
+          "clinical": "Interdisciplinary communication and care coordination documentation",
+          "tech": "Stakeholder communication and document management across teams",
+          "explanation": "Coordinating written communication across physicians, therapists, social workers, and families mirrors the cross-functional document review process in medical writing."
+        },
+        {
+          "clinical": "Evidence-based practice summaries and clinical guideline interpretation",
+          "tech": "Literature review synthesis and evidence summary writing",
+          "explanation": "Summarizing evidence for clinical practice is a core medical writing skill. Your ability to distill research into actionable clinical information is directly transferable."
+        }
+      ],
+      "pharmacists": [
+        {
+          "clinical": "Drug information responses and therapeutic evaluations",
+          "tech": "Regulatory medical writing and drug monograph development",
+          "explanation": "Drug information practice is the closest clinical analog to regulatory medical writing. You already evaluate evidence, synthesize findings, and produce structured written responses."
+        },
+        {
+          "clinical": "Formulary drug monographs and P&T committee documentation",
+          "tech": "Health technology assessment dossiers and value documentation",
+          "explanation": "Writing drug monographs for P&T committees teaches you to present clinical and economic evidence in a structured, decision-oriented format, which is exactly what regulatory and HEOR writing requires."
+        },
+        {
+          "clinical": "Medication guides and patient counseling documentation",
+          "tech": "Patient-facing regulatory documents and informed consent writing",
+          "explanation": "FDA-required Medication Guides and patient package inserts follow specific formatting and language requirements. Your experience creating patient-facing drug information maps directly."
+        },
+        {
+          "clinical": "Clinical trial protocol review and IRB documentation",
+          "tech": "Clinical study protocol writing and regulatory submission documents",
+          "explanation": "If you have reviewed or contributed to clinical trial protocols, you understand the structure and regulatory requirements that medical writers must follow."
+        },
+        {
+          "clinical": "Adverse drug reaction documentation and MedWatch reporting",
+          "tech": "Safety report writing and Individual Case Safety Report (ICSR) narratives",
+          "explanation": "Your pharmacovigilance documentation experience translates directly to writing safety narratives, aggregate safety reports, and periodic safety update reports (PSURs)."
+        },
+        {
+          "clinical": "Continuing education presentation development for clinical staff",
+          "tech": "Medical education content development and CME/CE writing",
+          "explanation": "Developing CE presentations for clinical staff is a form of medical education writing. Medical communications agencies hire writers specifically for this type of content."
+        }
+      ],
+      "otherClinicians": [
+        {
+          "clinical": "Clinical case report writing and grand rounds presentations",
+          "tech": "Manuscript writing and publication planning",
+          "explanation": "If you have written a case report or presented at grand rounds, you have produced the same type of scientific communication that medical writers create for journals and conferences."
+        },
+        {
+          "clinical": "Clinical trial coordination and regulatory documentation",
+          "tech": "Clinical study report (CSR) writing and regulatory submission support",
+          "explanation": "Your understanding of clinical trial processes, ICH-GCP guidelines, and regulatory documentation gives you a direct pathway into regulatory medical writing."
+        },
+        {
+          "clinical": "Grant writing and research proposal development",
+          "tech": "Scientific grant writing and research communication",
+          "explanation": "Grant writing requires the same structured argumentation, evidence synthesis, and audience awareness that defines professional medical writing."
+        },
+        {
+          "clinical": "Standard operating procedure (SOP) development",
+          "tech": "Regulatory SOP writing and process documentation",
+          "explanation": "Writing SOPs for clinical departments teaches structured, precise, process-oriented writing that transfers directly to regulatory and quality documentation."
+        },
+        {
+          "clinical": "Informed consent document development and IRB submissions",
+          "tech": "Regulatory document writing and ethics submission preparation",
+          "explanation": "Informed consent documents are among the most carefully regulated clinical documents. Experience writing them demonstrates your ability to meet strict regulatory writing requirements."
+        }
+      ]
+    },
+    "learningPath": {
+      "totalTimeline": "1 to 3 months",
+      "phases": [
+        {
+          "name": "Foundation",
+          "weeks": "1 to 4",
+          "hours": "30 to 50",
+          "topics": [
+            "Medical writing landscape (regulatory, scientific/publication, medical communications, patient-facing)",
+            "Document types overview (CSRs, protocols, IBs, CTD modules, manuscripts, patient education, CME)",
+            "ICH guidelines essentials (ICH-E3 for CSRs, ICH-E6 for GCP, ICH-M4 for CTD structure)",
+            "Writing principles for medical documents (clarity, accuracy, consistency, audience awareness)",
+            "Regulatory writing basics (FDA submission structure, EMA requirements, Health Canada)",
+            "Tools of the trade (MS Word styles, reference managers, Adobe Acrobat, document management systems)"
+          ],
+          "resources": [
+            {
+              "name": "AMWA Essential Skills Certificate Program",
+              "url": "https://www.amwa.org/store/ListProducts.aspx?catid=584782&view_type=0",
+              "free": false,
+              "description": "AMWA's foundational training covering core medical writing skills. The most recognized entry-level credential in the field."
+            },
+            {
+              "name": "AMWA Ultimate Guide to Becoming a Medical Writer",
+              "url": "https://info.amwa.org/ultimate-guide-to-becoming-a-medical-writer",
+              "free": true,
+              "description": "Free comprehensive guide covering career paths, skills needed, and how to break into medical writing."
+            },
+            {
+              "name": "ICH Guidelines (Official Site)",
+              "url": "https://www.ich.org/page/ich-guidelines",
+              "free": true,
+              "description": "The official ICH guideline documents. Read E3 (CSR structure), E6 (GCP), and M4 (CTD) as foundational knowledge."
+            },
+            {
+              "name": "FDA Guidance Documents",
+              "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents",
+              "free": true,
+              "description": "FDA's guidance library. Essential for understanding US regulatory writing requirements."
+            },
+            {
+              "name": "Biotech Ink Spots (Blog)",
+              "url": "https://biotechinkspots.com/",
+              "free": true,
+              "description": "Practical blog covering medical writing how-tos, CSR writing tips, and career advice from experienced medical writers."
+            },
+            {
+              "name": "The Happy PharmD Medical Writing Resources",
+              "url": "https://thehappypharmd.com/rph-medical-writing/",
+              "free": true,
+              "description": "Practical guide specifically for pharmacists transitioning to medical writing, covering the business model, portfolio building, and client acquisition."
+            }
+          ],
+          "checkpoint": "Complete the AMWA Essential Skills introductory modules (or equivalent self-study). Read ICH-E3 and ICH-M4 guidelines. Rewrite one clinical document from your practice (a case report, patient education piece, or adverse event narrative) in medical writing format."
+        },
+        {
+          "name": "Specialization and Portfolio",
+          "weeks": "4 to 8",
+          "hours": "40 to 60",
+          "topics": [
+            "Regulatory writing depth (CSR sections, investigator brochures, protocols, CTD Module 2 summaries)",
+            "Scientific publication writing (ICMJE guidelines, manuscript structure, journal selection, peer review process)",
+            "Medical communications and education (CME/CE content, slide decks, advisory board reports, KOL engagement)",
+            "Plain language writing (lay summaries, patient-facing content, health literacy principles)",
+            "Reference management and citation practices (EndNote, Zotero, citation verification)",
+            "Document formatting and style guides (AMA Manual of Style, company-specific style guides)"
+          ],
+          "resources": [
+            {
+              "name": "AMWA Certificate in Regulatory Writing",
+              "url": "https://www.amwa.org/store/ListProducts.aspx?catid=584782&view_type=0",
+              "free": false,
+              "description": "Focused training on regulatory document writing. The most valued AMWA certificate for pharma-track medical writers."
+            },
+            {
+              "name": "ICMJE Recommendations for Manuscript Writing",
+              "url": "https://www.icmje.org/recommendations/",
+              "free": true,
+              "description": "The standard guidelines for scientific manuscript preparation. Essential for publication writing."
+            },
+            {
+              "name": "AMA Manual of Style (Online)",
+              "url": "https://www.amamanualofstyle.com/",
+              "free": false,
+              "description": "The authoritative style guide for medical and scientific writing. Most employers expect proficiency with AMA style."
+            },
+            {
+              "name": "GPP 2022 Guidelines for Publication Planning",
+              "url": "https://www.ismpp.org/gpp-2022",
+              "free": true,
+              "description": "Good Publication Practice guidelines for ethical pharmaceutical publication planning. Essential for scientific publication roles."
+            },
+            {
+              "name": "Coursera Medical Writing Course (University of Chicago)",
+              "url": "https://www.coursera.org/learn/sciwrite",
+              "free": false,
+              "description": "Stanford's Writing in the Sciences course on Coursera. Covers clarity, structure, and scientific writing principles."
+            },
+            {
+              "name": "Zotero Reference Manager",
+              "url": "https://www.zotero.org/",
+              "free": true,
+              "description": "Free, open-source reference management tool. Learning reference management is a practical skill for portfolio projects."
+            }
+          ],
+          "checkpoint": "Complete 3 portfolio writing samples: one regulatory-style document (mock CSR section or protocol synopsis), one scientific manuscript draft or literature review, and one patient-facing educational piece. Set up your freelance profile or apply to 5 medical writing positions."
+        },
+        {
+          "name": "Business Development and Advancement",
+          "weeks": "8 to 12",
+          "hours": "20 to 40",
+          "topics": [
+            "Track A: Regulatory Medical Writing (CSRs, CTD submissions, IBs, protocols, regulatory agency responses)",
+            "Track B: Scientific Publication Writing (manuscripts, abstracts, posters, publication planning, ICMJE compliance)",
+            "Track C: Medical Communications and Education (CME/CE, advisory board reports, medical education content, KOL materials)",
+            "Track D: Freelance Medical Writing (client acquisition, rate setting, contract negotiation, portfolio development, business operations)"
+          ],
+          "resources": [
+            {
+              "name": "EMWA (European Medical Writers Association)",
+              "url": "https://www.emwa.org/",
+              "free": false,
+              "description": "The European counterpart to AMWA. Essential for writers targeting UK, EU, or global pharma clients."
+            },
+            {
+              "name": "ISMPP (International Society for Medical Publication Professionals)",
+              "url": "https://www.ismpp.org/",
+              "free": false,
+              "description": "Professional society for publication planning. Membership signals commitment to ethical publication practices."
+            },
+            {
+              "name": "Kolabtree Freelance Science Writing Platform",
+              "url": "https://www.kolabtree.com/",
+              "free": true,
+              "description": "Platform connecting freelance scientists and medical writers with companies needing writing services. Good starting point for freelance work."
+            },
+            {
+              "name": "AMWA Freelance Directory",
+              "url": "https://www.amwa.org/page/freelance_directory",
+              "free": false,
+              "description": "AMWA's directory of freelance medical writers. Listing requires AMWA membership but provides visibility to potential clients."
+            },
+            {
+              "name": "AMWA Annual Conference",
+              "url": "https://www.amwa.org/page/annual_conference",
+              "free": false,
+              "description": "The premier medical writing conference. Attending one is essential for networking and finding your first opportunities."
+            }
+          ],
+          "checkpoint": "Secure your first paid medical writing project (freelance or contract). Complete MWC eligibility documentation if you have 2+ years of writing experience. Join AMWA or EMWA and attend a regional or annual event."
+        }
+      ]
+    },
+    "certifications": {
+      "realityCheck": "Medical writing is one of the few health tech roles where your writing portfolio matters more than certifications. Hiring managers and clients want to see writing samples that demonstrate clarity, accuracy, and regulatory awareness. That said, AMWA certificates signal commitment to the profession and provide structured learning that accelerates your transition. The MWC credential is the only exam-based certification and carries the most weight.",
+      "items": [
+        {
+          "name": "AMWA Essential Skills Certificate",
+          "signal": "high",
+          "frequency": "One-time completion",
+          "cost": "$500 to $1,200 (depending on AMWA membership and course selections)",
+          "timeline": "1 to 3 months",
+          "notes": "The entry-level credential that signals you have formal medical writing training. Requires 8 credits of Essential Skills courses. The most cost-effective way to demonstrate commitment to the profession."
+        },
+        {
+          "name": "AMWA Medical Writing Certification (MWC)",
+          "signal": "high",
+          "frequency": "Every 5 years (recertification)",
+          "cost": "$500 to $750 exam fee (members/non-members)",
+          "timeline": "Requires 2 years paid experience before eligibility; exam prep 2 to 3 months",
+          "notes": "The gold standard certification for medical writers. Exam-based credential that distinguishes experienced writers. Pursue after you have 2 years of paid writing experience, not before."
+        },
+        {
+          "name": "AMWA Certificate in Regulatory Writing",
+          "signal": "high",
+          "frequency": "One-time completion",
+          "cost": "$400 to $800 (course fees)",
+          "timeline": "2 to 4 months",
+          "notes": "Focused on regulatory document writing (CSRs, protocols, CTD modules). The highest-value specialization certificate for pharma-track writers. Pair with the Essential Skills Certificate."
+        },
+        {
+          "name": "ISMPP CMPP (Certified Medical Publication Professional)",
+          "signal": "helpful",
+          "frequency": "Every 5 years",
+          "cost": "$400 to $600 exam fee",
+          "timeline": "2 to 3 months study; requires publication experience",
+          "notes": "Specifically for the scientific publication track. Validates knowledge of GPP guidelines, ICMJE standards, and ethical publication practices. Pursue if targeting publication planning roles at pharma or med comms agencies."
+        },
+        {
+          "name": "BELS (Board of Editors in the Life Sciences) Certification",
+          "signal": "helpful",
+          "frequency": "Every 6 years",
+          "cost": "$200 to $300 exam fee",
+          "timeline": "1 to 2 months study",
+          "notes": "Validates editing proficiency for life sciences content. Useful supplement for writers who also want to offer editing services. Common in academic and journal-adjacent roles."
+        },
+        {
+          "name": "AMWA Certificate in Medical Editing",
+          "signal": "helpful",
+          "frequency": "One-time completion",
+          "cost": "$400 to $600 (course fees)",
+          "timeline": "2 to 3 months",
+          "notes": "Covers editing principles for medical documents. Useful complement to writing certificates, especially for freelancers who offer both services."
+        },
+        {
+          "name": "RAC (Regulatory Affairs Certification)",
+          "signal": "skip",
+          "frequency": "N/A",
+          "cost": "N/A",
+          "timeline": "N/A",
+          "notes": "RAC is for regulatory affairs professionals, not medical writers. Overkill for writing roles and does not signal writing competence."
+        },
+        {
+          "name": "PMP (Project Management Professional)",
+          "signal": "skip",
+          "frequency": "N/A",
+          "cost": "N/A",
+          "timeline": "N/A",
+          "notes": "Project management certification does not signal medical writing ability. Your time is better spent building your portfolio."
+        }
+      ],
+      "recommendation": "Start with the AMWA Essential Skills Certificate during month 1 to 2. It provides structured learning and a recognized credential. In parallel, build your writing portfolio (3 samples minimum). If targeting regulatory writing, add the AMWA Certificate in Regulatory Writing. Pursue the MWC exam only after you have accumulated 2 years of paid medical writing experience. For the publication track, CMPP is the relevant advanced credential."
+    },
+    "portfolioProjects": [
+      {
+        "title": "Clinical Study Report Section Draft",
+        "description": "Write a mock CSR efficacy section (Section 11.4 per ICH-E3) based on a published clinical trial. Select a trial you understand clinically, extract the key efficacy data from the publication, and write the narrative following ICH-E3 structure. Include in-text tables and proper statistical reporting.",
+        "timeEstimate": "2 to 3 weeks",
+        "dataset": "Published clinical trial from ClinicalTrials.gov and corresponding journal publication",
+        "datasetUrl": "https://clinicaltrials.gov/",
+        "tools": ["MS Word with styles and templates", "ClinicalTrials.gov for trial data", "ICH-E3 guideline for structure reference"],
+        "clinicalAdvantage": "You understand what the efficacy results mean clinically. When writing about a 2-point HbA1c reduction or a 30% reduction in hospitalizations, you can provide context that makes the narrative more meaningful and accurate than a writer who only understands the statistics."
+      },
+      {
+        "title": "Patient-Facing Lay Summary of a Clinical Trial",
+        "description": "Write a plain language summary of a completed clinical trial, suitable for trial participants and the general public. Follow the EU Clinical Trial Regulation requirements for lay summaries. Apply health literacy principles (6th to 8th grade reading level). Include a visual summary infographic concept.",
+        "timeEstimate": "1 to 2 weeks",
+        "dataset": "Completed trial from EU Clinical Trials Register",
+        "datasetUrl": "https://www.clinicaltrialsregister.eu/",
+        "tools": ["MS Word", "Hemingway Editor or Readable.com for readability scoring", "Canva for visual summary concept"],
+        "clinicalAdvantage": "You know how patients actually talk about their conditions and treatments. You have had thousands of conversations explaining medical concepts in plain language, so your lay summary will sound natural rather than like a simplified version of a technical document."
+      },
+      {
+        "title": "Scientific Manuscript Draft",
+        "description": "Write a publication-ready manuscript based on published data or your own clinical experience (case report, retrospective analysis, or quality improvement study). Follow ICMJE guidelines and target a specific journal. Include structured abstract, introduction with literature context, methods, results, and discussion sections.",
+        "timeEstimate": "3 to 4 weeks",
+        "dataset": "Your own clinical data or published open-access dataset",
+        "datasetUrl": "https://pubmed.ncbi.nlm.nih.gov/",
+        "tools": ["MS Word with journal template", "Zotero or EndNote for references", "Target journal author guidelines"],
+        "clinicalAdvantage": "You can frame the clinical significance of findings in a way that resonates with the journal's clinical audience. Your discussion section will connect the data to real patient care implications, which is what editors and reviewers value."
+      },
+      {
+        "title": "Medical Education Content Package",
+        "description": "Develop a CME/CE-style educational module on a clinical topic from your background. Include a needs assessment, learning objectives, clinical content with references, case-based questions, and a post-test. Format as if preparing for accreditation submission.",
+        "timeEstimate": "2 to 3 weeks",
+        "tools": ["MS Word or PowerPoint", "PubMed for supporting references", "ACCME or ACPE accreditation criteria for structure"],
+        "clinicalAdvantage": "You know what clinicians actually need to learn versus what looks good on a slide deck. Your clinical practice has shown you the knowledge gaps that CME programs should address, making your content more relevant and practical."
+      },
+      {
+        "title": "Regulatory Document Compilation Package",
+        "description": "Create a mock regulatory submission package containing a protocol synopsis, an investigator brochure executive summary, and an informed consent document for a hypothetical clinical trial. Demonstrate understanding of CTD structure and ICH-GCP requirements.",
+        "timeEstimate": "2 to 3 weeks",
+        "dataset": "Use a published trial protocol as reference",
+        "datasetUrl": "https://clinicaltrials.gov/",
+        "tools": ["MS Word with regulatory document templates", "ICH guidelines for formatting", "FDA guidance documents for content requirements"],
+        "clinicalAdvantage": "You understand the clinical rationale behind each section of these documents because you have been on the receiving end. You know what investigators need from a protocol and what patients need from a consent form."
+      }
+    ],
+    "transitionStories": {
+      "verified": [],
+      "note": "We are actively collecting verified stories from clinicians whose current or recent title is specifically 'Medical Writer', 'Senior Medical Writer', or 'Regulatory Medical Writer' at pharmaceutical companies, CROs, or medical communications agencies. Stories will be added as they are sourced and verified.",
+      "crowdsourceUrl": ""
+    },
+    "firstThreeMoves": [
+      {
+        "title": "Audit your existing writing and join AMWA",
+        "timeEstimate": "3 hours",
+        "description": "You already have medical writing samples in your clinical work. Identify them, and join the professional community that will accelerate your transition.",
+        "specifics": [
+          "Gather 5 to 10 examples of your best clinical writing: patient education materials, case reports, QI posters, drug monographs, clinical notes, or any structured medical document you have authored. These are the raw material for your portfolio.",
+          "Join AMWA ($170 to $340 annual membership) and explore their career resources, job board, and certificate programs. Read the free 'Ultimate Guide to Becoming a Medical Writer' on their site.",
+          "Read ICH-E3 (Structure and Content of Clinical Study Reports) from ich.org. This single document will give you a concrete understanding of what regulatory medical writers produce."
+        ]
+      },
+      {
+        "title": "Create your first medical writing portfolio sample",
+        "timeEstimate": "2 hours",
+        "description": "Transform one of your existing clinical documents into a polished medical writing sample that demonstrates your capability to potential employers or clients.",
+        "specifics": [
+          "Select a clinical trial publication from your therapeutic area and write a 2 to 3 page lay summary following plain language principles (6th to 8th grade reading level). Use Hemingway Editor to check readability.",
+          "Rewrite a patient education document you created clinically, this time following structured medical writing conventions with proper references and clinical accuracy review.",
+          "Start a dedicated portfolio folder (digital and/or website) where you will collect all writing samples. Consider setting up a simple portfolio site using WordPress, Contently, or even a LinkedIn Featured section."
+        ]
+      },
+      {
+        "title": "Build your medical writing knowledge and start networking",
+        "timeEstimate": "Ongoing (30 to 60 minutes per day)",
+        "description": "Medical writing opportunities come through networks as much as job boards. Start building both your knowledge and your connections simultaneously.",
+        "specifics": [
+          "Read one article per day from medical writing resources: AMWA Journal, Biotech Ink Spots blog, or Medical Writing (EMWA's journal). Focus on understanding document types and industry workflows.",
+          "Follow medical writing professionals on LinkedIn. Comment thoughtfully on their posts. Join the AMWA LinkedIn group and the Medical Writing Freelancers Facebook group.",
+          "Begin the AMWA Essential Skills Certificate coursework. Complete at least one module per week to maintain momentum toward your first credential."
+        ]
+      }
+    ]
+  },
+  "sources": [
+    "https://www.amwa.org/page/MWC",
+    "https://www.amwa.org/page/mwc_steps",
+    "https://info.amwa.org/ultimate-guide-to-becoming-a-medical-writer",
+    "https://blog.amwa.org/how-to-become-a-medical-writer",
+    "https://www.pharmacytimes.com/view/expert-medical-writing-is-a-career-path-available-to-pharmacists-that-can-offer-work-life-balance-opportunities",
+    "https://thehappypharmd.com/rph-medical-writing/",
+    "https://www.alexhowson.com/blog/non-clinical-careers-for-pharmacists",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC3149406/",
+    "https://www.grandviewresearch.com/industry-analysis/medical-writing-market",
+    "https://www.prnewswire.com/news-releases/medical-writing-market-size-to-grow-at-10-46-cagr-globally-by-2030---exclusive-report-by-the-research-insights-302471812.html",
+    "https://www.coherentmarketinsights.com/industry-reports/medical-writing-market",
+    "https://www.ich.org/page/ich-guidelines",
+    "https://www.icmje.org/recommendations/",
+    "https://www.ismpp.org/gpp-2022",
+    "https://biotechinkspots.com/",
+    "https://www.emwa.org/",
+    "https://careers.tufts.edu/blog/2025/10/07/focus-on-medical-writing/"
+  ]
+}

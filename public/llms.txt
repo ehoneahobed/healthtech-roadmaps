@@ -22,6 +22,7 @@ This site contains comprehensive career roadmaps for mid-career healthcare profe
 - /r/healthcare-it-project-manager: Healthcare IT Project Manager career transition roadmap (4 to 8 months, moderate difficulty)
 - /r/healthcare-data-engineer: Healthcare Data Engineer career transition roadmap (6 to 12 months, high difficulty)
 - /r/heor-rwe-analyst: HEOR and Real-World Evidence Analyst career transition roadmap (6 to 12 months, high difficulty)
+- /r/medical-writer: Medical Writer career transition roadmap (1 to 3 months, low difficulty)
 
 ## Roadmap Framework (7 Sections)
 
