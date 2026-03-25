@@ -4,7 +4,7 @@
 # For full content, visit each roadmap URL directly.
 
 ## Roadmap: Clinical Data Analyst
-URL: /roadmaps/clinical-data-analyst
+URL: /r/clinical-data-analyst
 Difficulty: Moderate
 Timeline: 3 to 6 months
 Target: Healthcare professionals transitioning to clinical data analyst roles
@@ -13,7 +13,7 @@ Key Skills: SQL, Python/R, Tableau/Power BI, statistical analysis, healthcare da
 Clinical Advantage: You already understand clinical workflows, medical terminology, and data quality issues that pure data analysts spend months learning.
 
 ## Roadmap: Health Informatics Analyst
-URL: /roadmaps/health-informatics-analyst
+URL: /r/health-informatics-analyst
 Difficulty: Moderate
 Timeline: 3 to 6 months
 Target: Healthcare professionals transitioning to health informatics analyst roles
@@ -22,7 +22,7 @@ Key Skills: EHR systems, data analysis, workflow optimization, clinical document
 Clinical Advantage: You have lived inside the systems you will be optimizing. Your clinical workflow knowledge is irreplaceable.
 
 ## Roadmap: EHR Implementation Specialist
-URL: /roadmaps/ehr-implementation-specialist
+URL: /r/ehr-implementation-specialist
 Difficulty: Low (shortest bridge)
 Timeline: 1 to 3 months
 Target: Healthcare professionals transitioning to EHR implementation specialist roles
@@ -31,7 +31,7 @@ Key Skills: EHR configuration, workflow mapping, end-user training, go-live supp
 Clinical Advantage: This is the shortest bridge from clinical to tech. You are the subject matter expert vendors need.
 
 ## Roadmap: Health Tech Product Manager
-URL: /roadmaps/health-tech-product-manager
+URL: /r/health-tech-product-manager
 Difficulty: High
 Timeline: 6 to 12 months
 Target: Healthcare professionals transitioning to health tech product management roles
@@ -40,7 +40,7 @@ Key Skills: User research, PRD writing, stakeholder management, product strategy
 Clinical Advantage: You understand clinical workflows, regulatory constraints, and stakeholder complexity. PM hiring is portfolio-driven, not certification-driven.
 
 ## Roadmap: Healthcare AI/ML Engineer
-URL: /roadmaps/healthcare-ai-ml-engineer
+URL: /r/healthcare-ai-ml-engineer
 Difficulty: Very High (most technically demanding)
 Timeline: 12 to 18 months
 Target: Healthcare professionals transitioning to healthcare AI/ML engineering roles
@@ -49,7 +49,7 @@ Key Skills: Python, TensorFlow/PyTorch, clinical NLP, medical imaging AI, FHIR/H
 Clinical Advantage: You understand the data (messy EHR data), the users (clinicians), and the safety requirements (HIPAA, bias detection) in ways pure data scientists cannot match.
 
 ## Roadmap: Health Tech Regulatory & Compliance Analyst
-URL: /roadmaps/health-tech-regulatory-compliance-analyst
+URL: /r/health-tech-regulatory-compliance-analyst
 Difficulty: Moderate
 Timeline: 4 to 8 months
 Target: Healthcare professionals transitioning to regulatory affairs and compliance roles in health tech

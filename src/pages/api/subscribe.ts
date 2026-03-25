@@ -127,7 +127,7 @@ export const POST: APIRoute = async ({ request }) => {
 
 function buildActionKitEmail(slug: string, kitName: string): string {
   const siteUrl = 'https://roadmaps.tarvra.com';
-  const roadmapUrl = `${siteUrl}/roadmaps/${slug}`;
+  const roadmapUrl = `${siteUrl}/r/${slug}`;
   const downloadUrl = `${siteUrl}/action-kits/${slug}-action-kit.pdf`;
   const quizUrl = 'https://quiz.ehoneahobed.com';
   const newsletterUrl = 'https://thetransmutation.substack.com';

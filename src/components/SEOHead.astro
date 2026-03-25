@@ -19,7 +19,7 @@ interface Props {
 
 const { title, description, slug, type = 'website', roadmapData } = Astro.props;
 const siteUrl = 'https://roadmaps.ehoneahobed.com';
-const canonicalUrl = slug ? `${siteUrl}/roadmaps/${slug}` : siteUrl;
+const canonicalUrl = slug ? `${siteUrl}/r/${slug}` : siteUrl;
 const ogImage = `${siteUrl}/og-image.png`;
 
 // Build JSON-LD for roadmap pages

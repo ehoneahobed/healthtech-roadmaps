@@ -89,7 +89,7 @@ pnpm preview   # Preview production build locally
 src/
 ├── pages/
 │   ├── index.astro              # Homepage — roadmap directory
-│   ├── roadmaps/[slug].astro    # Dynamic roadmap detail pages
+│   ├── r/[slug].astro           # Dynamic roadmap detail pages
 │   └── api/subscribe.ts         # Email capture API (server-side)
 ├── components/
 │   ├── EmailCapture.tsx          # React email signup form
@@ -115,7 +115,7 @@ public/
 1. Create a new JSON file in `src/content/roadmaps/` following the schema in `src/content/schema.ts`
 2. Use an existing roadmap (e.g., `clinical-data-analyst.json`) as a template
 3. Set `"status": "published"` and assign an `"order"` value
-4. Run `pnpm build` — Astro auto-generates the page at `/roadmaps/your-slug`
+4. Run `pnpm build` — Astro auto-generates the page at `/r/your-slug`
 
 No code changes needed. The homepage and routing pick up new roadmaps automatically.
 
