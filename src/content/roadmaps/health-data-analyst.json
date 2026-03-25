@@ -1,0 +1,474 @@
+{
+  "meta": {
+    "slug": "health-data-analyst",
+    "title": "Health Data Analyst Roadmap",
+    "icon": "📈",
+    "difficulty": "moderate",
+    "timeline": "4 to 8 months",
+    "lastUpdated": "2026-03-24",
+    "status": "published",
+    "shortDescription": "Analyze claims, population health, and quality measurement data to improve health outcomes, drive value-based care, and support payer and public health decision-making.",
+    "bestFor": "Clinicians who found themselves drawn to quality reports, HEDIS measures, population health dashboards, or understanding why certain patient populations have worse outcomes than others.",
+    "order": 7
+  },
+  "sections": {
+    "roleSnapshot": {
+      "oneLiner": "Health Data Analysts work with claims, population health, and quality measurement data to improve outcomes across patient populations, support value-based care models, and meet regulatory reporting requirements for payers, health systems, and public health agencies.",
+      "bestSuitedFor": "The clinician who always asked 'why does this population have worse outcomes?' The nurse who became the unit's quality champion. The pharmacist who ran drug utilization reviews and wanted to see the full picture across thousands of patients.",
+      "workSetting": "Predominantly hybrid or remote. Payer and consulting roles are 60 to 70% remote. Health system roles tend to be hybrid with 1 to 2 days onsite. Fully remote positions are growing, especially at health tech companies and managed care organizations.",
+      "demandSignal": "Strong and accelerating. Over 628 healthcare data analyst positions listed on Glassdoor in March 2026, with nearly 5,000 healthcare SQL/Tableau roles on Indeed. BLS projects 15% growth for health information roles through 2034, well above the national average. Value-based care mandates and CMS quality reporting requirements are the primary demand drivers.",
+      "keyDifferentiator": "Unlike the Clinical Data Analyst role (which focuses on institutional patient-level data), this role operates at the population level: claims data, HEDIS quality measures, CMS Star Ratings, and public health datasets. You are the bridge between raw health system data and the strategic decisions that affect thousands of lives.",
+      "whereTheyWork": [
+        "Health insurance and managed care organizations (UnitedHealth, Humana, Centene, Elevance Health)",
+        "Health system analytics departments (population health teams)",
+        "Public health agencies (CDC, state and local health departments)",
+        "Healthcare consulting firms (Cotiviti, Optum, Vizient)",
+        "Health tech companies focused on value-based care (Arcadia, Nuna Health, Clarify Health)",
+        "Government agencies and research organizations (CMS, AHRQ, NIH)"
+      ],
+      "clinicalAdvantage": [
+        "You understand what quality measures actually measure at the bedside, not just the metric definitions",
+        "You can distinguish clinically meaningful data patterns from statistical noise because you have seen the patients",
+        "Your experience with care gaps and follow-up compliance gives you context that pure analysts lack",
+        "You understand the social and clinical factors that drive health disparities across populations",
+        "You can translate analytic findings into language clinicians will actually trust and act on"
+      ]
+    },
+    "whatYouAlreadyHave": {
+      "nurses": [
+        {
+          "clinical": "Quality measure documentation and compliance tracking",
+          "tech": "HEDIS measure calculation and quality reporting",
+          "explanation": "You have documented the care that quality measures track, so you understand what the data should look like and where gaps occur"
+        },
+        {
+          "clinical": "Care coordination across providers and settings",
+          "tech": "Claims data linkage and continuity of care analysis",
+          "explanation": "You understand patient journeys across settings, which is exactly what claims data traces across time"
+        },
+        {
+          "clinical": "Discharge planning and readmission prevention",
+          "tech": "Population risk stratification and predictive modeling",
+          "explanation": "Your experience preventing readmissions translates directly to building risk models that identify high-cost patients"
+        },
+        {
+          "clinical": "Patient education and health literacy assessment",
+          "tech": "Health equity analysis and social determinants of health data integration",
+          "explanation": "You have seen how literacy, language, and social factors affect outcomes, giving you context for SDOH analytics"
+        },
+        {
+          "clinical": "Infection control surveillance and reporting",
+          "tech": "Public health surveillance and epidemiological analysis",
+          "explanation": "You already track and report health events across populations; this scales from a unit to a region"
+        },
+        {
+          "clinical": "Clinical documentation and EHR data entry",
+          "tech": "Data quality assessment and validation",
+          "explanation": "You know where documentation is inconsistent or incomplete because you have done the charting yourself"
+        }
+      ],
+      "pharmacists": [
+        {
+          "clinical": "Drug utilization review across patient panels",
+          "tech": "Claims-based medication adherence and prescribing pattern analysis",
+          "explanation": "Your DUR expertise translates directly to analyzing pharmacy claims and identifying prescribing outliers"
+        },
+        {
+          "clinical": "Formulary management and cost-effectiveness analysis",
+          "tech": "Health economics and outcomes research (HEOR) analytics",
+          "explanation": "You already evaluate drug cost versus benefit; this becomes formal pharmacoeconomic modeling with larger datasets"
+        },
+        {
+          "clinical": "Medication therapy management across chronic disease patients",
+          "tech": "Chronic disease population analytics and care gap identification",
+          "explanation": "Your MTM experience gives you deep understanding of the conditions that drive the highest cost claims"
+        },
+        {
+          "clinical": "Adverse drug event monitoring and reporting",
+          "tech": "Safety signal detection and post-market surveillance analytics",
+          "explanation": "Your pharmacovigilance skills translate to analyzing large-scale safety datasets for emerging signals"
+        },
+        {
+          "clinical": "Insurance prior authorization and formulary navigation",
+          "tech": "Payer data structures and benefits design analytics",
+          "explanation": "You understand the payer system from the provider side, which gives you an edge interpreting claims and authorization data"
+        },
+        {
+          "clinical": "Patient counseling on medication adherence",
+          "tech": "Behavioral health analytics and intervention effectiveness measurement",
+          "explanation": "Your adherence counseling experience helps you design meaningful metrics for patient engagement programs"
+        }
+      ],
+      "otherClinicians": [
+        {
+          "clinical": "Outcome tracking and functional assessment documentation",
+          "tech": "Patient-reported outcomes analysis and longitudinal data modeling",
+          "explanation": "Your experience measuring patient progress over time translates to building outcomes analytics across populations"
+        },
+        {
+          "clinical": "Referral pattern management and waitlist tracking",
+          "tech": "Access and utilization analytics",
+          "explanation": "You understand patient flow bottlenecks that utilization data reveals at scale"
+        },
+        {
+          "clinical": "Clinical protocol adherence and guideline implementation",
+          "tech": "Evidence-based practice analytics and clinical variation analysis",
+          "explanation": "Your guideline knowledge helps you identify meaningful variation versus noise in population data"
+        },
+        {
+          "clinical": "Multidisciplinary team coordination",
+          "tech": "Cross-functional stakeholder communication and requirements gathering",
+          "explanation": "You already translate between specialties; now you translate between data teams and business leaders"
+        },
+        {
+          "clinical": "Regulatory compliance documentation",
+          "tech": "CMS reporting and accreditation data preparation",
+          "explanation": "Your compliance documentation skills apply directly to regulatory data submissions"
+        }
+      ]
+    },
+    "learningPath": {
+      "totalTimeline": "4 to 8 months",
+      "phases": [
+        {
+          "name": "Foundation: Core Analytics Toolkit",
+          "weeks": "1 to 8",
+          "hours": "80 to 120",
+          "topics": [
+            "SQL fundamentals through advanced querying (joins, subqueries, window functions, CTEs)",
+            "Python for data analysis (pandas, numpy, basic visualization with matplotlib/seaborn)",
+            "Data visualization principles and Tableau or Power BI fundamentals",
+            "Descriptive statistics and exploratory data analysis",
+            "Healthcare data landscape overview: claims, clinical, public health, and survey data types",
+            "Introduction to healthcare data standards (ICD-10, CPT, HCPCS, NDC codes)"
+          ],
+          "resources": [
+            {
+              "name": "Google Data Analytics Professional Certificate",
+              "url": "https://www.coursera.org/professional-certificates/google-data-analytics",
+              "free": false,
+              "description": "Comprehensive data analytics foundation covering spreadsheets, SQL, R, and Tableau. Financial aid available."
+            },
+            {
+              "name": "Khan Academy: Statistics and Probability",
+              "url": "https://www.khanacademy.org/math/statistics-probability",
+              "free": true,
+              "description": "Free statistics foundation covering distributions, hypothesis testing, and regression basics"
+            },
+            {
+              "name": "Mode Analytics SQL Tutorial",
+              "url": "https://mode.com/sql-tutorial",
+              "free": true,
+              "description": "Interactive SQL tutorial from basics through advanced analytical functions"
+            },
+            {
+              "name": "Codecademy: Learn SQL",
+              "url": "https://www.codecademy.com/learn/learn-sql",
+              "free": true,
+              "description": "Hands-on SQL fundamentals with interactive exercises"
+            },
+            {
+              "name": "freeCodeCamp: Data Analysis with Python",
+              "url": "https://www.freecodecamp.org/learn/data-analysis-with-python/",
+              "free": true,
+              "description": "Free Python data analysis certification covering pandas, numpy, and visualization"
+            },
+            {
+              "name": "Tableau Public (Free Desktop Version)",
+              "url": "https://public.tableau.com/",
+              "free": true,
+              "description": "Free version of Tableau for building public visualizations and learning the platform"
+            },
+            {
+              "name": "CMS Open Data and Datasets",
+              "url": "https://data.cms.gov/",
+              "free": true,
+              "description": "Real Medicare claims, quality, and utilization data for practice projects"
+            }
+          ],
+          "checkpoint": "Build a SQL portfolio query analyzing a CMS public dataset (such as Medicare Provider Utilization data). Create one Tableau dashboard visualizing healthcare utilization patterns. Write a 1-page summary mapping your clinical skills to health data analyst competencies."
+        },
+        {
+          "name": "Depth: Healthcare Data Systems and Quality Measurement",
+          "weeks": "8 to 20",
+          "hours": "100 to 150",
+          "topics": [
+            "Claims data architecture: medical claims, pharmacy claims, eligibility files, and member enrollment data",
+            "Quality measurement frameworks: HEDIS, CMS Star Ratings, CAHPS, and value-based care metrics",
+            "Population health analytics: risk stratification, chronic disease cohorts, care gap identification",
+            "Health equity and social determinants of health (SDOH) data integration",
+            "Statistical methods for healthcare: regression, survival analysis, and interrupted time series",
+            "Data governance, HIPAA compliance, and healthcare data privacy requirements"
+          ],
+          "resources": [
+            {
+              "name": "NCQA HEDIS Measures and Technical Resources",
+              "url": "https://www.ncqa.org/hedis/measures/",
+              "free": true,
+              "description": "Official HEDIS measure specifications and reporting guidance from the standard-setting organization"
+            },
+            {
+              "name": "CMS Quality Measures and Reporting",
+              "url": "https://www.cms.gov/medicare/quality/measures",
+              "free": true,
+              "description": "CMS quality reporting requirements, Star Ratings methodology, and quality measure documentation"
+            },
+            {
+              "name": "Class Central: Healthcare Data Analysis Courses",
+              "url": "https://www.classcentral.com/subject/healthcare-data-analysis",
+              "free": true,
+              "description": "Curated list of 40+ healthcare data analysis courses from universities worldwide, many free to audit"
+            },
+            {
+              "name": "AHIMA Health Informatics and Data Analytics Education",
+              "url": "https://www.ahima.org/education-events/health-informatics-data-analytics/",
+              "free": false,
+              "description": "Professional development in health data analytics from the credentialing body behind CHDA"
+            },
+            {
+              "name": "ResDAC: CMS Data Documentation",
+              "url": "https://resdac.org/",
+              "free": true,
+              "description": "Comprehensive documentation for CMS datasets including claims files, enrollment data, and quality measures"
+            },
+            {
+              "name": "Google Advanced Data Analytics Professional Certificate",
+              "url": "https://www.coursera.org/professional-certificates/google-advanced-data-analytics",
+              "free": false,
+              "description": "Advanced analytics covering Python, regression, and machine learning foundations. Financial aid available."
+            }
+          ],
+          "checkpoint": "Complete a population health analysis project using CMS or public health data. Build a HEDIS-style quality measure dashboard. Present findings to a peer or mentor with a focus on translating data into actionable clinical insights."
+        },
+        {
+          "name": "Specialization: Choose Your Track",
+          "weeks": "20 to 32",
+          "hours": "60 to 100",
+          "topics": [
+            "Track A: Payer Analytics (claims adjudication, risk adjustment, Star Ratings optimization, member stratification)",
+            "Track B: Population Health Analytics (disease registries, care management analytics, SDOH integration, community health needs assessment)",
+            "Track C: Health Economics and Outcomes Research (HEOR modeling, cost-effectiveness analysis, real-world evidence)",
+            "Track D: Public Health and Epidemiological Analytics (surveillance systems, outbreak analysis, CDC data, social determinants)"
+          ],
+          "resources": [
+            {
+              "name": "CDC WONDER Public Health Data System",
+              "url": "https://wonder.cdc.gov/",
+              "free": true,
+              "description": "Nationwide public health surveillance data for epidemiological analysis and population health research"
+            },
+            {
+              "name": "AHRQ HCUP Databases",
+              "url": "https://hcup-us.ahrq.gov/databases.jsp",
+              "free": false,
+              "description": "Healthcare utilization databases from the Agency for Healthcare Research and Quality for outcomes research"
+            },
+            {
+              "name": "Kaggle Healthcare Datasets",
+              "url": "https://www.kaggle.com/datasets?tags=13029-Healthcare",
+              "free": true,
+              "description": "Community-sourced healthcare datasets for portfolio projects and skill building"
+            },
+            {
+              "name": "UMGC Health Information Management and Data Analytics Certificate",
+              "url": "https://www.umgc.edu/online-degrees/undergraduate-certificates/health-information-management-data-analytics",
+              "free": false,
+              "description": "Accredited online certificate program in health information management and data analytics"
+            },
+            {
+              "name": "Healthy People 2030 Data Tools",
+              "url": "https://health.gov/healthypeople",
+              "free": true,
+              "description": "National health objectives with data dashboards covering disparities, SDOH, and population health targets"
+            }
+          ],
+          "checkpoint": "Complete a capstone project in your chosen track. For payer analytics: build a Star Ratings simulation model. For population health: create a community health needs dashboard. For HEOR: produce a cost-effectiveness analysis brief. For public health: develop a surveillance report using CDC data. Publish at least one project on GitHub or Tableau Public."
+        }
+      ]
+    },
+    "certifications": {
+      "realityCheck": "Certifications matter more in payer and government roles than in health tech startups. The CHDA is the gold standard credential for this specific role, but it requires either a bachelor's degree plus three years of healthcare data experience, or a master's degree plus one year. Many employers will accept equivalent experience in lieu of the credential.",
+      "items": [
+        {
+          "name": "Certified Health Data Analyst (CHDA)",
+          "signal": "high",
+          "frequency": "Every 2 years (30 CE credits per cycle)",
+          "cost": "$259 (AHIMA members) to $329 (non-members)",
+          "timeline": "3 to 6 months preparation",
+          "notes": "The gold standard for this role. Issued by AHIMA. Requires bachelor's plus 3 years healthcare data experience, or master's plus 1 year. The exam has 142 questions. Start studying after you have real project experience, not before."
+        },
+        {
+          "name": "Tableau Desktop Specialist",
+          "signal": "high",
+          "frequency": "Does not expire",
+          "cost": "$100",
+          "timeline": "1 to 2 months preparation",
+          "notes": "Tableau appears in the majority of health data analyst postings. This entry-level certification validates your visualization skills at low cost. Worth getting early."
+        },
+        {
+          "name": "Google Data Analytics Professional Certificate",
+          "signal": "helpful",
+          "frequency": "Does not expire",
+          "cost": "$49/month (Coursera subscription, typically 3 to 6 months)",
+          "timeline": "3 to 6 months part-time",
+          "notes": "Excellent for building foundational skills if you have no analytics background. Covers SQL, R, spreadsheets, and Tableau. Well-recognized by employers as proof of commitment."
+        },
+        {
+          "name": "Registered Health Information Technician (RHIT)",
+          "signal": "helpful",
+          "frequency": "Every 2 years",
+          "cost": "$229 (AHIMA members) to $299 (non-members)",
+          "timeline": "Requires accredited HIM program completion",
+          "notes": "Appears frequently in health data postings at payers and government agencies. Requires completing an accredited program, so it is a longer investment. Consider this if you plan to stay in health information management long-term."
+        },
+        {
+          "name": "SAS Certified Clinical Trials Programmer",
+          "signal": "helpful",
+          "frequency": "Does not expire",
+          "cost": "$180",
+          "timeline": "2 to 4 months preparation",
+          "notes": "Relevant only if targeting pharmaceutical or clinical research data roles. SAS is still common in pharma and government but declining elsewhere in favor of Python and R."
+        },
+        {
+          "name": "AWS Cloud Practitioner or Azure Fundamentals",
+          "signal": "helpful",
+          "frequency": "Every 3 years (AWS) or does not expire (Azure)",
+          "cost": "$100 to $165",
+          "timeline": "1 to 2 months preparation",
+          "notes": "Increasingly relevant as health data moves to cloud platforms. Low-cost signal that you understand modern data infrastructure. Not essential for entry but helpful for advancement."
+        },
+        {
+          "name": "Certified Professional in Healthcare Information and Management Systems (CPHIMS)",
+          "signal": "skip",
+          "frequency": "N/A",
+          "cost": "N/A",
+          "timeline": "N/A",
+          "notes": "Better suited for Health Informatics Analyst roles. Overlaps with CHDA territory but focuses on systems management rather than data analysis."
+        },
+        {
+          "name": "Epic or Cerner Certification",
+          "signal": "skip",
+          "frequency": "N/A",
+          "cost": "N/A",
+          "timeline": "N/A",
+          "notes": "These are for EHR Implementation Specialists, not data analysts. Unless your role specifically requires EHR system administration, skip this."
+        },
+        {
+          "name": "Certified Coding Specialist (CCS)",
+          "signal": "skip",
+          "frequency": "N/A",
+          "cost": "N/A",
+          "timeline": "N/A",
+          "notes": "Understanding coding systems (ICD-10, CPT) is essential knowledge, but the coding certification itself is for medical coders, not data analysts. Learn the codes without the credential."
+        }
+      ],
+      "recommendation": "Start with the Google Data Analytics Certificate or Tableau Desktop Specialist to build and validate foundational skills. Once you have 1 to 2 years of hands-on healthcare data experience, pursue the CHDA as your signature credential. Skip certifications designed for adjacent roles (EHR implementation, coding, informatics systems) and invest that time in building your SQL and Python portfolio instead."
+    },
+    "portfolioProjects": [
+      {
+        "title": "Medicare Provider Utilization and Payment Analysis",
+        "description": "Analyze CMS Medicare Provider Utilization and Payment data to identify geographic variation in service utilization, flag outlier providers, and create an interactive Tableau dashboard showing cost and utilization patterns across specialties and regions.",
+        "timeEstimate": "4 to 6 weeks",
+        "dataset": "Medicare Physician and Other Practitioners Data",
+        "datasetUrl": "https://data.cms.gov/provider-summary-by-type-of-service/medicare-physician-other-practitioners",
+        "tools": ["SQL", "Python (pandas)", "Tableau", "Excel"],
+        "clinicalAdvantage": "You understand what utilization patterns mean clinically, so you can distinguish between high-need populations and potential overutilization in ways a pure data analyst cannot"
+      },
+      {
+        "title": "HEDIS Quality Measure Dashboard",
+        "description": "Build a quality measurement dashboard that simulates HEDIS reporting for a hypothetical health plan. Calculate key measures (diabetes HbA1c control, breast cancer screening, controlling high blood pressure) from synthetic claims data and visualize performance gaps by demographics.",
+        "timeEstimate": "5 to 7 weeks",
+        "dataset": "CMS Synthetic Medicare Claims Data or Synthea Synthetic Patient Data",
+        "datasetUrl": "https://data.cms.gov/collection/synthetic-medicare-enrollment-fee-for-service-claims-and-prescription-drug-event",
+        "tools": ["SQL", "Python", "Tableau or Power BI", "NCQA HEDIS specifications"],
+        "clinicalAdvantage": "You understand what these quality measures track at the point of care, so you can identify data quality issues and meaningful gaps rather than just running the calculations"
+      },
+      {
+        "title": "Population Health Risk Stratification Model",
+        "description": "Build a risk stratification model using public claims or health survey data to identify high-risk patient segments. Apply logistic regression or decision trees to predict hospital readmissions or emergency department utilization. Present findings as actionable recommendations for a care management team.",
+        "timeEstimate": "5 to 8 weeks",
+        "dataset": "MIMIC-IV Clinical Database (PhysioNet) or CMS Synthetic Data",
+        "datasetUrl": "https://physionet.org/content/mimiciv/",
+        "tools": ["Python (scikit-learn, pandas)", "SQL", "Tableau", "Jupyter Notebooks"],
+        "clinicalAdvantage": "You have seen the clinical reality behind readmissions and know which variables actually predict return visits versus which are statistical artifacts"
+      },
+      {
+        "title": "Health Equity and Social Determinants Analysis",
+        "description": "Analyze CDC WONDER or BRFSS data to examine health disparities across racial, geographic, or socioeconomic groups. Integrate SDOH data (Area Deprivation Index, food access data) to identify community-level factors contributing to disparities. Create a report with visualizations and policy recommendations.",
+        "timeEstimate": "4 to 6 weeks",
+        "dataset": "CDC BRFSS Survey Data and WONDER Mortality Data",
+        "datasetUrl": "https://wonder.cdc.gov/",
+        "tools": ["Python", "SQL", "Tableau or Power BI", "Geographic mapping tools"],
+        "clinicalAdvantage": "You have witnessed how social factors affect patient outcomes firsthand, so your analysis will identify clinically relevant patterns rather than surface-level correlations"
+      },
+      {
+        "title": "Pharmacy Claims and Medication Adherence Analysis",
+        "description": "Analyze pharmacy claims data to calculate medication adherence rates (PDC/MPR) for chronic conditions, identify prescribing patterns, and build a dashboard highlighting adherence gaps by provider, region, or demographic group.",
+        "timeEstimate": "4 to 5 weeks",
+        "dataset": "CMS Medicare Part D Prescribers Data",
+        "datasetUrl": "https://data.cms.gov/provider-summary-by-type-of-service/medicare-part-d-prescribers",
+        "tools": ["SQL", "Python (pandas)", "Tableau", "Excel"],
+        "clinicalAdvantage": "You understand why patients stop taking medications (cost, side effects, complexity) and can contextualize adherence data in ways that lead to better interventions"
+      }
+    ],
+    "transitionStories": {
+      "verified": [],
+      "note": "We are actively collecting verified stories from clinicians whose current or recent title is specifically 'Health Data Analyst' or 'Healthcare Data Analyst' at a named organization. Stories will be added as they are sourced and verified. Medium articles and LinkedIn posts from clinicians who transitioned to data analytics roles are promising leads, but exact title verification is required before inclusion.",
+      "crowdsourceUrl": ""
+    },
+    "firstThreeMoves": [
+      {
+        "title": "Write your first SQL query against real healthcare data",
+        "timeEstimate": "3 hours",
+        "description": "Get hands-on with SQL using actual CMS public data. This single skill appears in over 90% of health data analyst job postings.",
+        "specifics": [
+          "Go to data.cms.gov and download the Medicare Provider Utilization dataset for your state",
+          "Complete the first 3 modules of Mode Analytics SQL Tutorial (free) or Codecademy Learn SQL",
+          "Write a query that answers one question you care about clinically (example: which specialties have the highest utilization per beneficiary in your region)"
+        ]
+      },
+      {
+        "title": "Build a simple Tableau dashboard using public health data",
+        "timeEstimate": "2 hours",
+        "description": "Tableau or Power BI appears in the majority of health data analyst postings. Create a visible artifact you can share immediately.",
+        "specifics": [
+          "Download Tableau Public (free) and create an account",
+          "Connect to a CMS or CDC dataset you downloaded in Move 1",
+          "Build a dashboard with 2 to 3 charts showing a trend, a comparison, and a geographic view. Publish to your Tableau Public profile."
+        ]
+      },
+      {
+        "title": "Start a daily 30-minute learning habit and join one community",
+        "timeEstimate": "30 minutes daily, ongoing",
+        "description": "Consistency beats intensity. A daily habit compounds faster than weekend study marathons.",
+        "specifics": [
+          "Block 30 minutes daily for SQL or Python practice (before or after your clinical shift)",
+          "Join one online community: r/healthIT on Reddit, AHIMA Engage, or the Healthcare Analytics LinkedIn group",
+          "Each week, find one health data analyst job posting and note which skills appear most. This becomes your study roadmap."
+        ]
+      }
+    ]
+  },
+  "sources": [
+    "https://www.ahima.org/certification-careers/certifications-overview/chda/",
+    "https://www.ncqa.org/hedis/measures/",
+    "https://www.ncqa.org/hedis/",
+    "https://data.cms.gov/",
+    "https://www.cms.gov/medicare/quality/measures",
+    "https://www.bls.gov/ooh/healthcare/health-information-technologists-and-medical-registrars.htm",
+    "https://www.coursera.org/professional-certificates/google-data-analytics",
+    "https://www.coursera.org/professional-certificates/google-advanced-data-analytics",
+    "https://www.coursera.org/articles/healthcare-data-analyst",
+    "https://wonder.cdc.gov/",
+    "https://resdac.org/",
+    "https://physionet.org/content/mimiciv/",
+    "https://hcup-us.ahrq.gov/databases.jsp",
+    "https://www.classcentral.com/subject/healthcare-data-analysis",
+    "https://www.umgc.edu/online-degrees/undergraduate-certificates/health-information-management-data-analytics",
+    "https://medium.com/the-data-science-pharmacist/making-the-transition-from-clinician-to-data-scientist-transferrable-skills-d39dee40bb00",
+    "https://healthcareitskills.com/healthcare-it-certifications-2026-ai-in-healthcare-analytics-security/",
+    "https://www.healthcaredegree.com/administration/health-data-analyst",
+    "https://mode.com/sql-tutorial",
+    "https://public.tableau.com/"
+  ]
+}

@@ -16,6 +16,7 @@ This site contains comprehensive career roadmaps for mid-career healthcare profe
 - /r/health-tech-product-manager: Health Tech Product Manager career transition roadmap (6 to 12 months, high difficulty)
 - /r/healthcare-ai-ml-engineer: Healthcare AI/ML Engineer career transition roadmap (12 to 18 months, very high difficulty)
 - /r/health-tech-regulatory-compliance-analyst: Health Tech Regulatory & Compliance Analyst career transition roadmap (4 to 8 months, moderate difficulty)
+- /r/health-data-analyst: Health Data Analyst career transition roadmap (4 to 8 months, moderate difficulty)
 
 ## Roadmap Framework (7 Sections)
 

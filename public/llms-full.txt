@@ -56,3 +56,12 @@ Target: Healthcare professionals transitioning to regulatory affairs and complia
 Key Certifications: RAC (gold standard), CHC, CHPC, ISO 13485 Lead Auditor
 Key Skills: FDA SaMD regulation, HIPAA compliance, ISO 13485 QMS, risk management (ISO 14971), AI/ML device regulation, EU AI Act
 Clinical Advantage: You understand the clinical context that regulations are designed to protect. Your adverse event reporting, accreditation experience, and documentation discipline translate directly to regulatory work.
+
+## Roadmap: Health Data Analyst
+URL: /r/health-data-analyst
+Difficulty: Moderate
+Timeline: 4 to 8 months
+Target: Healthcare professionals transitioning to population health, payer analytics, and quality measurement roles
+Key Certifications: CHDA (AHIMA, gold standard), Tableau Desktop Specialist, Google Data Analytics Certificate, RHIT
+Key Skills: SQL, Python, Tableau/Power BI, claims data analysis, HEDIS quality measures, CMS Star Ratings, population health analytics, SDOH integration
+Clinical Advantage: You understand what quality measures actually measure at the bedside, can distinguish clinically meaningful patterns from noise, and translate findings into language clinicians trust and act on.
