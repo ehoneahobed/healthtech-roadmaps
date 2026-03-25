@@ -2,6 +2,8 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getAllStories } from '../../lib/roadmaps';
 
+export const prerender = true;
+
 const stories = getAllStories();
 
 // Group stories by roadmap for organized display

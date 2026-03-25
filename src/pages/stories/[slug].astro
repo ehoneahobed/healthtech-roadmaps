@@ -4,8 +4,13 @@ import EmailCapture from '../../components/EmailCapture.tsx';
 import { getAllStories } from '../../lib/roadmaps';
 import type { StoryWithContext } from '../../lib/roadmaps';
 
+export const prerender = true;
+
 export function getStaticPaths() {
   const stories = getAllStories();
+  if (stories.length === 0) {
+    return [];
+  }
   return stories.map((story) => ({
     params: { slug: story.slug },
     props: { story },
@@ -13,6 +18,9 @@ export function getStaticPaths() {
 }
 
 const { story } = Astro.props as { story: StoryWithContext };
+if (!story) {
+  return Astro.redirect('/stories');
+}
 
 const allStories = getAllStories();
 const relatedStories = allStories

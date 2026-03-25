@@ -2,7 +2,7 @@
   "meta": {
     "slug": "ehr-implementation-specialist",
     "title": "EHR Implementation Specialist Roadmap",
-    "icon": "🏥",
+    "icon": "\ud83c\udfe5",
     "difficulty": "low",
     "timeline": "1 to 3 months",
     "lastUpdated": "2026-03-24",
@@ -379,16 +379,7 @@
       }
     ],
     "transitionStories": {
-      "verified": [
-        {
-          "name": "Melanie Strongosky, RN",
-          "previousRole": "Inpatient Nurse",
-          "currentTitle": "Independent EHR Implementation Specialist",
-          "company": "Various (7+ implementations since 2005)",
-          "summary": "Inpatient nurse who became independent EHR implementation specialist through super user pathway, leading 7+ major implementations.",
-          "sourceUrl": ""
-        }
-      ],
+      "verified": [],
       "note": "Published first-person narratives are sparse for this role compared to data-focused transitions. Active crowdsourcing needed, especially for pharmacist and allied health transitions. HIMSS 2024 data shows 62% of nurse informaticists began as super users or clinical application coordinators with typical progression: super user to Clinical Application Coordinator to EHR Analyst to consulting within 1 to 2 years.",
       "crowdsourceUrl": "/contribute"
     },

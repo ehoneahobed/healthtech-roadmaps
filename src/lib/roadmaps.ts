@@ -50,6 +50,8 @@ export function getAllStories(): StoryWithContext[] {
 
   for (const roadmap of roadmaps) {
     for (const story of roadmap.sections.transitionStories.verified) {
+      // Only include stories with a slug (required for individual story pages)
+      if (!story.slug) continue;
       stories.push({
         ...story,
         roadmapSlug: roadmap.meta.slug,

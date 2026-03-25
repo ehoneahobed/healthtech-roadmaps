@@ -2,7 +2,7 @@
   "meta": {
     "slug": "health-informatics-analyst",
     "title": "Health Informatics Analyst Roadmap",
-    "icon": "🔬",
+    "icon": "\ud83d\udd2c",
     "difficulty": "moderate",
     "timeline": "3 to 6 months",
     "lastUpdated": "2026-03-24",
@@ -408,34 +408,10 @@
       }
     ],
     "transitionStories": {
-      "verified": [
-        {
-          "name": "RN to Clinical Informatics Specialist",
-          "previousRole": "Registered Nurse (bedside)",
-          "currentTitle": "Senior Product Services and Management Analyst",
-          "company": "Northwell Health",
-          "summary": "Progressed from RN to Clinical Informatics Specialist to Senior Product Services and Management Analyst, demonstrating the advancement pathway in health systems.",
-          "sourceUrl": "https://jobs.northwell.edu/blog/2024/08/16/from-rn-to-clinical-informatics-specialist-to-senior-product-services-management-analyst-and-beyond-discover-a-truly-ambitious-career-at-northwell-health/"
-        },
-        {
-          "name": "Sarah",
-          "previousRole": "Bedside Nurse (5 years)",
-          "currentTitle": "Clinical Informatics Specialist",
-          "company": "Healthcare organization",
-          "summary": "Transitioned from 5 years bedside nursing to Clinical Informatics Specialist via clinical support analyst gateway role.",
-          "sourceUrl": "https://blog.healthjobsnationwide.com/why-nurses-are-switching-to-nursing-informatics-in-2025-real-stories/"
-        },
-        {
-          "name": "Bedside Nurse",
-          "previousRole": "Registered Nurse (bedside)",
-          "currentTitle": "Informatics Nurse",
-          "company": "Healthcare organization",
-          "summary": "Received job offer for informatics nursing role by final semester of informatics program, showing accelerated pathway for motivated clinicians.",
-          "sourceUrl": "https://writingfuturehealth.com/how-i-went-from-bedside-nurse-to-informatics-nurse/"
-        }
-      ],
+      "verified": [],
       "note": "Stories skew heavily toward nurses. Actively seeking pharmacist and allied health transitions.",
-      "crowdsourceUrl": "/contribute"
+      "crowdsourceUrl": "/contribute",
+      "anonymous": []
     },
     "firstThreeMoves": [
       {
