@@ -9,7 +9,13 @@
     "status": "published",
     "shortDescription": "Bridge technology and clinical practice by implementing, optimizing, and managing healthcare information systems to improve patient outcomes and operational efficiency.",
     "bestFor": "Clinicians who became the go-to super user on their unit, troubleshoot EHR issues, or wonder why systems make work harder.",
-    "order": 2
+    "order": 2,
+    "category": "systems-implementation",
+    "tags": [
+      "ehr",
+      "workflow-optimization",
+      "interoperability"
+    ]
   },
   "sections": {
     "roleSnapshot": {
@@ -348,14 +354,20 @@
         "timeEstimate": "5 to 7 weeks",
         "dataset": "MIMIC-IV",
         "datasetUrl": "https://physionet.org/content/mimiciv/2.2/",
-        "tools": ["SQL", "Python"],
+        "tools": [
+          "SQL",
+          "Python"
+        ],
         "clinicalAdvantage": "You understand alert fatigue and can design logic that clinicians will actually use"
       },
       {
         "title": "Clinical Workflow Analysis and Optimization",
         "description": "Document current medication reconciliation or similar workflow, identify bottlenecks, propose system redesign to improve efficiency and safety.",
         "timeEstimate": "4 to 6 weeks",
-        "tools": ["Process mapping", "Workflow documentation"],
+        "tools": [
+          "Process mapping",
+          "Workflow documentation"
+        ],
         "clinicalAdvantage": "You have lived the workflow and know where real inefficiencies hide"
       },
       {
@@ -364,7 +376,11 @@
         "timeEstimate": "6 to 8 weeks",
         "dataset": "MIMIC-IV",
         "datasetUrl": "https://physionet.org/content/mimiciv/2.2/",
-        "tools": ["SQL", "Python", "Tableau"],
+        "tools": [
+          "SQL",
+          "Python",
+          "Tableau"
+        ],
         "clinicalAdvantage": "You understand which patient factors predict readmission and can validate model against clinical intuition"
       },
       {
@@ -373,14 +389,21 @@
         "timeEstimate": "6 to 8 weeks",
         "dataset": "NHANES or MIMIC-IV",
         "datasetUrl": "https://wwwn.cdc.gov/nchs/nhanes/",
-        "tools": ["SQL", "Python", "Tableau"],
+        "tools": [
+          "SQL",
+          "Python",
+          "Tableau"
+        ],
         "clinicalAdvantage": "You understand clinical risk factors and population health priorities"
       },
       {
         "title": "EHR Usability Assessment",
         "description": "Conduct usability testing of EHR demos with end users, document pain points, recommend interface improvements.",
         "timeEstimate": "4 to 6 weeks",
-        "tools": ["Usability testing", "User interviews"],
+        "tools": [
+          "Usability testing",
+          "User interviews"
+        ],
         "clinicalAdvantage": "You know what makes systems usable in clinical workflows"
       }
     ],

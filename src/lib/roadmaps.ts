@@ -31,3 +31,11 @@ export function getRoadmapBySlug(slug: string): Roadmap | undefined {
 export function getAllRoadmapMeta() {
   return getAllRoadmaps().map((roadmap) => roadmap.meta);
 }
+
+/**
+ * Parse the minimum number of months from a timeline string like "3 to 6 months"
+ */
+export function parseTimelineMinMonths(timeline: string): number {
+  const match = timeline.match(/(\d+)/);
+  return match ? parseInt(match[1], 10) : 0;
+}

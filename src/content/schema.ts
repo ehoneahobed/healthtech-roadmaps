@@ -16,6 +16,8 @@ export interface RoadmapMeta {
   shortDescription: string;
   bestFor: string;
   order: number;
+  category: 'data-analytics' | 'systems-implementation' | 'strategy-leadership' | 'engineering' | 'regulatory';
+  tags: string[];
 }
 
 export interface SkillTranslation {

@@ -9,7 +9,14 @@
     "status": "published",
     "shortDescription": "Deploy, configure, and support electronic health record systems during high-stakes go-live periods, translating clinical needs into working technology.",
     "bestFor": "Clinicians who became unofficial IT support on their unit or the super user everyone calls when systems fail.",
-    "order": 3
+    "order": 3,
+    "category": "systems-implementation",
+    "tags": [
+      "ehr",
+      "no-code",
+      "training",
+      "epic"
+    ]
   },
   "sections": {
     "roleSnapshot": {
@@ -319,35 +326,55 @@
         "title": "Clinical Workflow Documentation and Redesign",
         "description": "Document medication administration workflow from current state, identify bottlenecks, propose EHR configuration to optimize the workflow.",
         "timeEstimate": "4 to 6 weeks",
-        "tools": ["Workflow mapping", "Process documentation", "EHR configuration design"],
+        "tools": [
+          "Workflow mapping",
+          "Process documentation",
+          "EHR configuration design"
+        ],
         "clinicalAdvantage": "You understand the real workflow including workarounds, not the theoretical one"
       },
       {
         "title": "Training Program Design",
         "description": "Create comprehensive training curriculum, materials, and assessment for medication administration module with super user guides.",
         "timeEstimate": "4 to 6 weeks",
-        "tools": ["Instructional design", "Documentation", "Video training"],
+        "tools": [
+          "Instructional design",
+          "Documentation",
+          "Video training"
+        ],
         "clinicalAdvantage": "You understand what clinicians need to learn and how they learn best"
       },
       {
         "title": "Go-Live Readiness Assessment and Issue Log",
         "description": "Develop go-live readiness checklist, identify configuration gaps, create issue tracking and escalation process for go-live support.",
         "timeEstimate": "Ongoing during implementation",
-        "tools": ["Project management", "Issue tracking", "EHR configuration"],
+        "tools": [
+          "Project management",
+          "Issue tracking",
+          "EHR configuration"
+        ],
         "clinicalAdvantage": "You know what can go wrong clinically and what safety issues must be prevented"
       },
       {
         "title": "EHR Configuration Documentation",
         "description": "Create build specifications, test scripts, and technical documentation for medication administration module build.",
         "timeEstimate": "Ongoing",
-        "tools": ["Technical documentation", "Testing scripts", "EHR builds"],
+        "tools": [
+          "Technical documentation",
+          "Testing scripts",
+          "EHR builds"
+        ],
         "clinicalAdvantage": "You understand how clinical workflows should map to system configuration"
       },
       {
         "title": "Clinical Decision Support Design and Testing",
         "description": "Design drug-drug interaction alert logic, create testing protocol, validate alerts against real clinical scenarios.",
         "timeEstimate": "5 to 7 weeks",
-        "tools": ["CDS rule design", "Testing", "Clinical validation"],
+        "tools": [
+          "CDS rule design",
+          "Testing",
+          "Clinical validation"
+        ],
         "clinicalAdvantage": "You understand safety-critical alerts from clinical experience"
       }
     ],

@@ -9,7 +9,13 @@
     "status": "published",
     "shortDescription": "Operate as the strategic bridge between clinician and patient users, business objectives, and engineering teams, directing what gets built, for whom, and why.",
     "bestFor": "Clinicians who constantly questioned system design, designed workarounds, and thought deeply about user needs and trade-offs.",
-    "order": 4
+    "order": 4,
+    "category": "strategy-leadership",
+    "tags": [
+      "product-management",
+      "user-research",
+      "strategy"
+    ]
   },
   "sections": {
     "roleSnapshot": {
@@ -320,35 +326,58 @@
         "title": "Clinical Workflow Optimization PRD",
         "description": "Interview 5+ nurses and pharmacists about medication reconciliation, map current workflow, identify friction, propose EHR feature with wireframe and success metrics.",
         "timeEstimate": "5 to 7 weeks",
-        "tools": ["User interviews", "Workflow mapping", "Wireframing", "PRD writing"],
+        "tools": [
+          "User interviews",
+          "Workflow mapping",
+          "Wireframing",
+          "PRD writing"
+        ],
         "clinicalAdvantage": "You know the actual workflow including workarounds, not the theoretical one"
       },
       {
         "title": "Patient Engagement Strategy",
         "description": "Conduct user interviews with patients on chronic disease management, analyze competitor engagement features, propose 2 to 3 engagement features with wireframes.",
         "timeEstimate": "5 to 7 weeks",
-        "tools": ["User interviews", "Competitive analysis", "Wireframing"],
+        "tools": [
+          "User interviews",
+          "Competitive analysis",
+          "Wireframing"
+        ],
         "clinicalAdvantage": "You understand patient behavior change and what motivates adherence"
       },
       {
         "title": "Pharmacy Technology Feature Strategy",
         "description": "Map pharmacist MTM workflow end-to-end, identify time waste, propose software redesign with wireframes and business impact (especially for pharmacists).",
         "timeEstimate": "5 to 7 weeks",
-        "tools": ["Workflow mapping", "User interviews", "Wireframing", "Business case"],
+        "tools": [
+          "Workflow mapping",
+          "User interviews",
+          "Wireframing",
+          "Business case"
+        ],
         "clinicalAdvantage": "You have lived the MTM workflow and know where real bottlenecks are"
       },
       {
         "title": "Competitive Market Strategy",
         "description": "Analyze 4 to 5 competitors, conduct user research, identify white space, propose prioritized 12-month roadmap.",
         "timeEstimate": "6 to 8 weeks",
-        "tools": ["Competitive analysis", "Market research", "User interviews", "Roadmap planning"],
+        "tools": [
+          "Competitive analysis",
+          "Market research",
+          "User interviews",
+          "Roadmap planning"
+        ],
         "clinicalAdvantage": "You evaluate telehealth through clinical lens, not just business metrics"
       },
       {
         "title": "Regulatory Compliance PRD",
         "description": "Analyze regulatory requirements, assess current gaps, write PRD for HIPAA audit log feature or clinical data privacy with wireframes and rollout strategy.",
         "timeEstimate": "5 to 7 weeks",
-        "tools": ["Regulatory research", "PRD writing", "Wireframing"],
+        "tools": [
+          "Regulatory research",
+          "PRD writing",
+          "Wireframing"
+        ],
         "clinicalAdvantage": "You understand compliance from the frontline, not just the legal department"
       }
     ],

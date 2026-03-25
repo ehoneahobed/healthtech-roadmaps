@@ -9,7 +9,14 @@
     "status": "published",
     "shortDescription": "Navigate FDA SaMD regulations, HIPAA compliance, AI governance frameworks, and quality management systems to ensure health tech products meet regulatory requirements and reach market safely.",
     "bestFor": "Pharmacists with regulatory and formulary compliance experience, nurses familiar with patient safety reporting and accreditation processes, or any clinician who thrived on documentation, protocol adherence, and quality assurance.",
-    "order": 6
+    "order": 6,
+    "category": "regulatory",
+    "tags": [
+      "fda",
+      "hipaa",
+      "compliance",
+      "quality-management"
+    ]
   },
   "sections": {
     "roleSnapshot": {
@@ -378,7 +385,11 @@
         "timeEstimate": "4 to 6 weeks",
         "dataset": "FDA AI/ML-Enabled Medical Device Database",
         "datasetUrl": "https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-and-machine-learning-aiml-enabled-medical-devices",
-        "tools": ["FDA Guidance Documents", "IMDRF Framework", "Regulatory Strategy Template"],
+        "tools": [
+          "FDA Guidance Documents",
+          "IMDRF Framework",
+          "Regulatory Strategy Template"
+        ],
         "clinicalAdvantage": "You can evaluate whether the product's intended clinical use is realistic and whether the regulatory claims align with actual clinical workflows"
       },
       {
@@ -387,7 +398,11 @@
         "timeEstimate": "5 to 7 weeks",
         "dataset": "HHS Breach Portal (Wall of Shame)",
         "datasetUrl": "https://ocrportal.hhs.gov/ocr/breach/breach_report.jsf",
-        "tools": ["NIST Cybersecurity Framework", "HHS HIPAA Resources", "Risk Assessment Templates"],
+        "tools": [
+          "NIST Cybersecurity Framework",
+          "HHS HIPAA Resources",
+          "Risk Assessment Templates"
+        ],
         "clinicalAdvantage": "You understand which PHI touchpoints create the highest risk because you have worked with patient data at the point of care"
       },
       {
@@ -396,7 +411,11 @@
         "timeEstimate": "4 to 6 weeks",
         "dataset": "FDA PCCP Guidance and authorized AI/ML devices list",
         "datasetUrl": "https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-software-medical-device",
-        "tools": ["FDA PCCP Guidance", "ISO 14971 Risk Management", "IEC 62304 Software Lifecycle"],
+        "tools": [
+          "FDA PCCP Guidance",
+          "ISO 14971 Risk Management",
+          "IEC 62304 Software Lifecycle"
+        ],
         "clinicalAdvantage": "You can assess whether proposed AI model changes could create clinical safety risks that technical teams might underestimate"
       },
       {
@@ -405,7 +424,11 @@
         "timeEstimate": "3 to 5 weeks",
         "dataset": "FDA 510(k) Database and MAUDE adverse event database",
         "datasetUrl": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfmaude/search.cfm",
-        "tools": ["FDA MAUDE Database", "510(k) Database", "Gap Analysis Framework"],
+        "tools": [
+          "FDA MAUDE Database",
+          "510(k) Database",
+          "Gap Analysis Framework"
+        ],
         "clinicalAdvantage": "Your clinical experience helps you identify gaps that matter most for patient safety, not just technical compliance"
       },
       {
@@ -414,7 +437,12 @@
         "timeEstimate": "5 to 7 weeks",
         "dataset": "Regulatory agency databases and guidance documents",
         "datasetUrl": "https://www.fda.gov/medical-devices/device-advice-comprehensive-regulatory-assistance",
-        "tools": ["FDA Guidance", "EU MDR Text", "EU AI Act", "Health Canada MDR"],
+        "tools": [
+          "FDA Guidance",
+          "EU MDR Text",
+          "EU AI Act",
+          "Health Canada MDR"
+        ],
         "clinicalAdvantage": "Your understanding of clinical practice variations across countries adds depth to regulatory strategy that purely legal analysis misses"
       }
     ],

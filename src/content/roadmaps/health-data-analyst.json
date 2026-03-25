@@ -9,7 +9,14 @@
     "status": "published",
     "shortDescription": "Analyze claims, population health, and quality measurement data to improve health outcomes, drive value-based care, and support payer and public health decision-making.",
     "bestFor": "Clinicians who found themselves drawn to quality reports, HEDIS measures, population health dashboards, or understanding why certain patient populations have worse outcomes than others.",
-    "order": 7
+    "order": 7,
+    "category": "data-analytics",
+    "tags": [
+      "sql",
+      "claims-data",
+      "population-health",
+      "hedis"
+    ]
   },
   "sections": {
     "roleSnapshot": {
@@ -371,7 +378,12 @@
         "timeEstimate": "4 to 6 weeks",
         "dataset": "Medicare Physician and Other Practitioners Data",
         "datasetUrl": "https://data.cms.gov/provider-summary-by-type-of-service/medicare-physician-other-practitioners",
-        "tools": ["SQL", "Python (pandas)", "Tableau", "Excel"],
+        "tools": [
+          "SQL",
+          "Python (pandas)",
+          "Tableau",
+          "Excel"
+        ],
         "clinicalAdvantage": "You understand what utilization patterns mean clinically, so you can distinguish between high-need populations and potential overutilization in ways a pure data analyst cannot"
       },
       {
@@ -380,7 +392,12 @@
         "timeEstimate": "5 to 7 weeks",
         "dataset": "CMS Synthetic Medicare Claims Data or Synthea Synthetic Patient Data",
         "datasetUrl": "https://data.cms.gov/collection/synthetic-medicare-enrollment-fee-for-service-claims-and-prescription-drug-event",
-        "tools": ["SQL", "Python", "Tableau or Power BI", "NCQA HEDIS specifications"],
+        "tools": [
+          "SQL",
+          "Python",
+          "Tableau or Power BI",
+          "NCQA HEDIS specifications"
+        ],
         "clinicalAdvantage": "You understand what these quality measures track at the point of care, so you can identify data quality issues and meaningful gaps rather than just running the calculations"
       },
       {
@@ -389,7 +406,12 @@
         "timeEstimate": "5 to 8 weeks",
         "dataset": "MIMIC-IV Clinical Database (PhysioNet) or CMS Synthetic Data",
         "datasetUrl": "https://physionet.org/content/mimiciv/",
-        "tools": ["Python (scikit-learn, pandas)", "SQL", "Tableau", "Jupyter Notebooks"],
+        "tools": [
+          "Python (scikit-learn, pandas)",
+          "SQL",
+          "Tableau",
+          "Jupyter Notebooks"
+        ],
         "clinicalAdvantage": "You have seen the clinical reality behind readmissions and know which variables actually predict return visits versus which are statistical artifacts"
       },
       {
@@ -398,7 +420,12 @@
         "timeEstimate": "4 to 6 weeks",
         "dataset": "CDC BRFSS Survey Data and WONDER Mortality Data",
         "datasetUrl": "https://wonder.cdc.gov/",
-        "tools": ["Python", "SQL", "Tableau or Power BI", "Geographic mapping tools"],
+        "tools": [
+          "Python",
+          "SQL",
+          "Tableau or Power BI",
+          "Geographic mapping tools"
+        ],
         "clinicalAdvantage": "You have witnessed how social factors affect patient outcomes firsthand, so your analysis will identify clinically relevant patterns rather than surface-level correlations"
       },
       {
@@ -407,7 +434,12 @@
         "timeEstimate": "4 to 5 weeks",
         "dataset": "CMS Medicare Part D Prescribers Data",
         "datasetUrl": "https://data.cms.gov/provider-summary-by-type-of-service/medicare-part-d-prescribers",
-        "tools": ["SQL", "Python (pandas)", "Tableau", "Excel"],
+        "tools": [
+          "SQL",
+          "Python (pandas)",
+          "Tableau",
+          "Excel"
+        ],
         "clinicalAdvantage": "You understand why patients stop taking medications (cost, side effects, complexity) and can contextualize adherence data in ways that lead to better interventions"
       }
     ],

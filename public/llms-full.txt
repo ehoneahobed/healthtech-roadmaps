@@ -65,3 +65,12 @@ Target: Healthcare professionals transitioning to population health, payer analy
 Key Certifications: CHDA (AHIMA, gold standard), Tableau Desktop Specialist, Google Data Analytics Certificate, RHIT
 Key Skills: SQL, Python, Tableau/Power BI, claims data analysis, HEDIS quality measures, CMS Star Ratings, population health analytics, SDOH integration
 Clinical Advantage: You understand what quality measures actually measure at the bedside, can distinguish clinically meaningful patterns from noise, and translate findings into language clinicians trust and act on.
+
+## Roadmap: Healthcare Cybersecurity Analyst
+URL: /r/healthcare-cybersecurity-analyst
+Difficulty: High
+Timeline: 6 to 12 months
+Target: Healthcare professionals transitioning to cybersecurity analyst roles in healthcare organizations
+Key Certifications: CompTIA Security+ (non-negotiable entry), CompTIA CySA+, HCISPP (sunsetting Dec 2026), CHPS
+Key Skills: SIEM analysis, incident response, HIPAA Security Rule compliance, vulnerability management, network security, medical device security, threat detection, risk assessment
+Clinical Advantage: You understand PHI workflows at the point of care, can assess whether security controls will disrupt patient care before deployment, and bring incident response instincts from clinical emergencies directly to cybersecurity triage.

@@ -9,7 +9,14 @@
     "status": "published",
     "shortDescription": "Build predictive models, clinical NLP systems, and medical imaging AI that directly impact patient care and clinical workflows.",
     "bestFor": "Clinicians with intellectual curiosity about technology who are willing to invest in real programming skills and understand both healthcare and ML deeply.",
-    "order": 5
+    "order": 5,
+    "category": "engineering",
+    "tags": [
+      "python",
+      "machine-learning",
+      "ai",
+      "nlp"
+    ]
   },
   "sections": {
     "roleSnapshot": {
@@ -392,7 +399,11 @@
         "timeEstimate": "20 to 30 hours",
         "dataset": "UCI Diabetes Readmission",
         "datasetUrl": "https://archive.ics.uci.edu/dataset/468/diabetes+130+us+hospitals+for+years+1999+2008",
-        "tools": ["Python", "pandas", "scikit-learn"],
+        "tools": [
+          "Python",
+          "pandas",
+          "scikit-learn"
+        ],
         "clinicalAdvantage": "You recognize that missing data patterns have clinical meaning and validate predictions against clinical intuition"
       },
       {
@@ -401,7 +412,11 @@
         "timeEstimate": "30 to 40 hours",
         "dataset": "CheXpert",
         "datasetUrl": "https://stanfordmlgroup.github.io/competitions/chexpert/",
-        "tools": ["Python", "TensorFlow", "PyTorch"],
+        "tools": [
+          "Python",
+          "TensorFlow",
+          "PyTorch"
+        ],
         "clinicalAdvantage": "You understand why model interpretability matters for radiologists and limitations of trained models"
       },
       {
@@ -410,7 +425,11 @@
         "timeEstimate": "35 to 45 hours",
         "dataset": "MIMIC-III",
         "datasetUrl": "https://mimic.physionet.org/",
-        "tools": ["spaCy", "scispaCy", "Hugging Face transformers"],
+        "tools": [
+          "spaCy",
+          "scispaCy",
+          "Hugging Face transformers"
+        ],
         "clinicalAdvantage": "You recognize abbreviations and understand why context matters in clinical note analysis"
       },
       {
@@ -419,14 +438,20 @@
         "timeEstimate": "40 to 50 hours",
         "dataset": "MIMIC time-series data or PhysioNet SEPSIS dataset",
         "datasetUrl": "https://mimic.physionet.org/",
-        "tools": ["PyTorch", "TensorFlow", "LSTM or attention models"],
+        "tools": [
+          "PyTorch",
+          "TensorFlow",
+          "LSTM or attention models"
+        ],
         "clinicalAdvantage": "You understand clinical deterioration patterns and the value of early warning systems"
       },
       {
         "title": "End-to-End Specialization Project",
         "description": "Polished project in your chosen track (imaging, NLP, predictive analytics, or drug discovery) with fairness analysis, model explainability, and clinical deployment considerations.",
         "timeEstimate": "50 to 70 hours",
-        "tools": ["Full ML engineering stack appropriate to specialization"],
+        "tools": [
+          "Full ML engineering stack appropriate to specialization"
+        ],
         "clinicalAdvantage": "Deep domain expertise guides every design decision from problem framing to model validation"
       }
     ],

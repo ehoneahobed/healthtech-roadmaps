@@ -9,7 +9,14 @@
     "status": "published",
     "shortDescription": "Collect, clean, analyze, and visualize healthcare data to support clinical decision-making, quality improvement, and regulatory compliance.",
     "bestFor": "Nurses who enjoyed documentation and systems, pharmacists who loved drug utilization reviews, or any clinician gravitating toward spreadsheets and quality reports.",
-    "order": 1
+    "order": 1,
+    "category": "data-analytics",
+    "tags": [
+      "sql",
+      "tableau",
+      "ehr",
+      "quality-improvement"
+    ]
   },
   "sections": {
     "roleSnapshot": {
@@ -434,7 +441,11 @@
         "timeEstimate": "6 to 8 weeks",
         "dataset": "MIMIC-III",
         "datasetUrl": "https://physionet.org/content/mimiciii/1.4/",
-        "tools": ["Python", "SQL", "Tableau"],
+        "tools": [
+          "Python",
+          "SQL",
+          "Tableau"
+        ],
         "clinicalAdvantage": "You understand readmission risk factors and can validate model predictions against clinical intuition"
       },
       {
@@ -443,7 +454,11 @@
         "timeEstimate": "4 to 6 weeks",
         "dataset": "CMS Medicare Part D",
         "datasetUrl": "https://data.cms.gov/",
-        "tools": ["SQL", "Python", "Tableau"],
+        "tools": [
+          "SQL",
+          "Python",
+          "Tableau"
+        ],
         "clinicalAdvantage": "You recognize medication safety patterns and can prioritize which metrics matter most to clinicians"
       },
       {
@@ -452,7 +467,12 @@
         "timeEstimate": "6 to 8 weeks",
         "dataset": "CMS Hospital Quality data",
         "datasetUrl": "https://data.cms.gov/",
-        "tools": ["SQL", "Excel", "Tableau", "Python"],
+        "tools": [
+          "SQL",
+          "Excel",
+          "Tableau",
+          "Python"
+        ],
         "clinicalAdvantage": "You understand which metrics drive clinical outcomes and can spot anomalies that suggest data quality issues"
       },
       {
@@ -461,7 +481,11 @@
         "timeEstimate": "5 to 7 weeks",
         "dataset": "CMS Part D utilization data",
         "datasetUrl": "https://data.cms.gov/",
-        "tools": ["SQL", "Python", "Tableau"],
+        "tools": [
+          "SQL",
+          "Python",
+          "Tableau"
+        ],
         "clinicalAdvantage": "Especially valuable for pharmacists: you have lived drug utilization review and understand therapeutic substitution patterns"
       },
       {
@@ -470,7 +494,11 @@
         "timeEstimate": "6 to 8 weeks",
         "dataset": "NHANES",
         "datasetUrl": "https://wwwn.cdc.gov/nchs/nhanes/",
-        "tools": ["SQL", "Python", "Tableau"],
+        "tools": [
+          "SQL",
+          "Python",
+          "Tableau"
+        ],
         "clinicalAdvantage": "You think naturally about patient journeys and can identify meaningful longitudinal patterns"
       }
     ],
