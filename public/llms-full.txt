@@ -74,3 +74,12 @@ Target: Healthcare professionals transitioning to cybersecurity analyst roles in
 Key Certifications: CompTIA Security+ (non-negotiable entry), CompTIA CySA+, HCISPP (sunsetting Dec 2026), CHPS
 Key Skills: SIEM analysis, incident response, HIPAA Security Rule compliance, vulnerability management, network security, medical device security, threat detection, risk assessment
 Clinical Advantage: You understand PHI workflows at the point of care, can assess whether security controls will disrupt patient care before deployment, and bring incident response instincts from clinical emergencies directly to cybersecurity triage.
+
+## Roadmap: Clinical Research Associate
+URL: /r/clinical-research-associate
+Difficulty: Low
+Timeline: 2 to 4 months
+Target: Healthcare professionals transitioning to clinical trial monitoring roles at CROs, pharma, biotech, and medical device companies
+Key Certifications: GCP Training (non-negotiable), CCRA (ACRP), CCRP (SOCRA)
+Key Skills: Good Clinical Practice, site monitoring visits, source data verification, protocol compliance, investigational product accountability, informed consent verification, adverse event reporting, regulatory documentation
+Clinical Advantage: Most CRAs are former clinicians. You already understand patient safety, adverse events, medication protocols, informed consent, and clinical documentation, which is the core of what CRAs monitor at trial sites.
