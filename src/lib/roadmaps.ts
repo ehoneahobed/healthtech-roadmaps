@@ -1,4 +1,4 @@
-import type { Roadmap } from '@content/schema';
+import type { Roadmap, TransitionStory } from '@content/schema';
 
 // Dynamically import all roadmap JSON files
 const roadmapModules = import.meta.glob<Roadmap>(
@@ -30,6 +30,43 @@ export function getRoadmapBySlug(slug: string): Roadmap | undefined {
  */
 export function getAllRoadmapMeta() {
   return getAllRoadmaps().map((roadmap) => roadmap.meta);
+}
+
+/**
+ * Enriched story with parent roadmap context
+ */
+export interface StoryWithContext extends TransitionStory {
+  roadmapSlug: string;
+  roadmapTitle: string;
+  roadmapIcon: string;
+}
+
+/**
+ * Get all verified transition stories across all roadmaps
+ */
+export function getAllStories(): StoryWithContext[] {
+  const roadmaps = getAllRoadmaps();
+  const stories: StoryWithContext[] = [];
+
+  for (const roadmap of roadmaps) {
+    for (const story of roadmap.sections.transitionStories.verified) {
+      stories.push({
+        ...story,
+        roadmapSlug: roadmap.meta.slug,
+        roadmapTitle: roadmap.meta.title,
+        roadmapIcon: roadmap.meta.icon,
+      });
+    }
+  }
+
+  return stories;
+}
+
+/**
+ * Get a single story by its slug
+ */
+export function getStoryBySlug(slug: string): StoryWithContext | undefined {
+  return getAllStories().find((story) => story.slug === slug);
 }
 
 /**

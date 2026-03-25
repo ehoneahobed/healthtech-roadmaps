@@ -62,12 +62,22 @@ export interface PortfolioProject {
 }
 
 export interface TransitionStory {
+  slug: string;
   name: string;
   previousRole: string;
   currentTitle: string;
   company: string;
   summary: string;
   sourceUrl: string;
+  transitionTimeline?: string;
+  skillsTransferred?: string;
+  whatTheyLearned?: string;
+  resourcesThatHelped?: string;
+  whatSurprisedThem?: string;
+  adviceForOthers?: string;
+  linkedinUrl?: string;
+  photoUrl?: string;
+  publishedDate?: string;
 }
 
 export interface Move {

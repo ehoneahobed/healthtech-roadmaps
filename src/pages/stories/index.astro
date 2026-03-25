@@ -1,0 +1,114 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getAllStories } from '../../lib/roadmaps';
+
+const stories = getAllStories();
+
+// Group stories by roadmap for organized display
+const storyGroups = new Map<string, { title: string; icon: string; slug: string; stories: typeof stories }>();
+for (const story of stories) {
+  if (!storyGroups.has(story.roadmapSlug)) {
+    storyGroups.set(story.roadmapSlug, {
+      title: story.roadmapTitle,
+      icon: story.roadmapIcon,
+      slug: story.roadmapSlug,
+      stories: [],
+    });
+  }
+  storyGroups.get(story.roadmapSlug)!.stories.push(story);
+}
+---
+
+<BaseLayout
+  title="Transition Stories | Health Tech Career Roadmaps"
+  description="Real stories from healthcare professionals who transitioned into tech. Nurses, pharmacists, and clinicians share exactly how they made the switch."
+>
+  <!-- Hero -->
+  <section class="pt-20 pb-14 px-6 md:pt-28 md:pb-20 bg-gradient-to-b from-green-50/60 to-white">
+    <div class="max-w-3xl mx-auto text-center">
+      <p class="inline-block text-sm font-medium text-green-700 bg-green-100 px-4 py-1.5 rounded-full mb-6">
+        {stories.length} verified {stories.length === 1 ? 'story' : 'stories'} and counting
+      </p>
+      <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+        Real people. Real transitions.
+      </h1>
+      <p class="text-lg text-gray-600 leading-relaxed max-w-2xl mx-auto">
+        Every story here is from a clinician who actually made the switch to tech. Verified against public sources. No hypotheticals.
+      </p>
+    </div>
+  </section>
+
+  <section class="px-6 pb-24">
+    <div class="max-w-5xl mx-auto">
+
+      {stories.length > 0 ? (
+        <>
+          {/* All stories in a flat grid when there are stories */}
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {stories.map((story) => (
+              <a
+                href={`/stories/${story.slug}`}
+                class="group block p-6 rounded-lg border border-gray-200 hover:border-green-200 hover:shadow-lg transition-all"
+              >
+                <div class="flex items-center gap-2 mb-4">
+                  <span class="text-xl">{story.roadmapIcon}</span>
+                  <span class="text-xs text-gray-500 font-medium">{story.roadmapTitle.replace(' Roadmap', '')}</span>
+                  {story.transitionTimeline && (
+                    <span class="ml-auto px-2 py-0.5 text-xs bg-blue-50 text-blue-700 rounded-full">{story.transitionTimeline}</span>
+                  )}
+                </div>
+
+                <h2 class="font-semibold text-gray-900 text-lg group-hover:text-green-700 transition-colors mb-1">
+                  {story.name}
+                </h2>
+
+                <p class="text-sm text-gray-500 mb-3">
+                  {story.previousRole} &rarr; {story.currentTitle}
+                  {story.company && <span> at {story.company}</span>}
+                </p>
+
+                <p class="text-sm text-gray-600 leading-relaxed line-clamp-3 mb-4">
+                  {story.summary}
+                </p>
+
+                <span class="text-sm font-medium text-green-700 group-hover:translate-x-1 transition-transform inline-block">
+                  Read full story &rarr;
+                </span>
+              </a>
+            ))}
+          </div>
+        </>
+      ) : (
+        /* Empty state when no stories exist yet */
+        <div class="text-center py-20">
+          <div class="text-5xl mb-6">&#128218;</div>
+          <h2 class="text-2xl font-bold text-gray-900 mb-4">First stories coming soon</h2>
+          <p class="text-gray-600 mb-8 max-w-lg mx-auto">
+            We are actively collecting and verifying transition stories from healthcare professionals who have made the switch to tech. Want to be among the first featured?
+          </p>
+          <a
+            href="/contribute"
+            class="inline-flex items-center gap-2 px-6 py-3 bg-green-600 hover:bg-green-700 text-white font-medium rounded-lg transition-colors"
+          >
+            Share Your Story &rarr;
+          </a>
+        </div>
+      )}
+
+      {/* Bottom CTA */}
+      <div class="mt-16 p-8 rounded-xl bg-gradient-to-br from-green-50 to-emerald-50 border border-green-200 text-center">
+        <h2 class="text-xl font-bold text-gray-900 mb-3">Made the transition yourself?</h2>
+        <p class="text-gray-600 mb-6 max-w-lg mx-auto">
+          Your story helps the next clinician take the leap. Fill out a simple form and get featured with full credit.
+        </p>
+        <a
+          href="/contribute"
+          class="inline-flex items-center gap-2 px-6 py-3 bg-green-600 hover:bg-green-700 text-white font-medium rounded-lg transition-colors"
+        >
+          Share Your Story &rarr;
+        </a>
+      </div>
+
+    </div>
+  </section>
+</BaseLayout>

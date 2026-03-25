@@ -226,6 +226,26 @@ function buildNotificationEmail(d: EmailData): string {
     <strong>Next steps:</strong> Verify this story against their LinkedIn profile and any public sources.
     If verified, add to <code>${d.techRoleSlug}.json</code> under <code>transitionStories.verified</code>.
   </div>
+
+  <h2 style="font-size:16px;margin:24px 0 12px;color:#111827;">Ready-to-Paste JSON (after verification)</h2>
+  <p style="font-size:12px;color:#6b7280;margin-bottom:8px;">Story page will be at: <code>roadmaps.tarvra.com/stories/${d.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '')}</code></p>
+  <pre style="background:#1f2937;color:#e5e7eb;padding:16px;border-radius:8px;font-size:12px;overflow-x:auto;white-space:pre-wrap;">${JSON.stringify({
+    slug: d.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, ''),
+    name: d.name,
+    previousRole: d.clinicalRole,
+    currentTitle: d.currentTitle || d.techRoleLabel,
+    company: d.company || 'VERIFY',
+    summary: 'WRITE_SUMMARY_FROM_DETAILS_ABOVE',
+    sourceUrl: d.publicSourceUrl || 'VERIFY',
+    transitionTimeline: d.transitionTimeline || undefined,
+    skillsTransferred: d.skillsTransferred || undefined,
+    whatTheyLearned: d.whatYouLearned || undefined,
+    resourcesThatHelped: d.resourcesThatHelped || undefined,
+    whatSurprisedThem: d.whatSurprisedYou || undefined,
+    adviceForOthers: d.adviceForOthers || undefined,
+    linkedinUrl: d.linkedinUrl || undefined,
+    publishedDate: new Date().toISOString().split('T')[0],
+  }, null, 2)}</pre>
 </body>
 </html>`;
 }
