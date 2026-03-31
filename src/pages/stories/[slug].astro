@@ -154,8 +154,10 @@ const jsonLd = JSON.stringify({
             <span class="w-8 h-8 rounded-lg bg-green-100 flex items-center justify-center text-green-600 text-sm shrink-0">&#10003;</span>
             Skills That Transferred
           </h2>
-          <div class="pl-11">
-            <p class="text-gray-700 leading-relaxed">{story.skillsTransferred}</p>
+          <div class="pl-11 space-y-3">
+            {story.skillsTransferred.split('\n\n').map((p: string) => (
+              <p class="text-gray-700 leading-relaxed">{p}</p>
+            ))}
           </div>
         </section>
       )}
@@ -166,8 +168,10 @@ const jsonLd = JSON.stringify({
             <span class="w-8 h-8 rounded-lg bg-blue-100 flex items-center justify-center text-blue-600 text-sm shrink-0">&#128218;</span>
             What They Had to Learn
           </h2>
-          <div class="pl-11">
-            <p class="text-gray-700 leading-relaxed">{story.whatTheyLearned}</p>
+          <div class="pl-11 space-y-3">
+            {story.whatTheyLearned.split('\n\n').map((p: string) => (
+              <p class="text-gray-700 leading-relaxed">{p}</p>
+            ))}
           </div>
         </section>
       )}
@@ -178,8 +182,10 @@ const jsonLd = JSON.stringify({
             <span class="w-8 h-8 rounded-lg bg-amber-100 flex items-center justify-center text-amber-600 text-sm shrink-0">&#128279;</span>
             Resources That Helped
           </h2>
-          <div class="pl-11">
-            <p class="text-gray-700 leading-relaxed">{story.resourcesThatHelped}</p>
+          <div class="pl-11 space-y-3">
+            {story.resourcesThatHelped.split('\n\n').map((p: string) => (
+              <p class="text-gray-700 leading-relaxed">{p}</p>
+            ))}
           </div>
         </section>
       )}
@@ -190,8 +196,10 @@ const jsonLd = JSON.stringify({
             <span class="w-8 h-8 rounded-lg bg-purple-100 flex items-center justify-center text-purple-600 text-sm shrink-0">&#128161;</span>
             What Surprised Them
           </h2>
-          <div class="pl-11">
-            <p class="text-gray-700 leading-relaxed">{story.whatSurprisedThem}</p>
+          <div class="pl-11 space-y-3">
+            {story.whatSurprisedThem.split('\n\n').map((p: string) => (
+              <p class="text-gray-700 leading-relaxed">{p}</p>
+            ))}
           </div>
         </section>
       )}
@@ -203,8 +211,10 @@ const jsonLd = JSON.stringify({
             Their Advice
           </h2>
           <div class="pl-11">
-            <div class="p-5 rounded-lg bg-green-50 border border-green-200">
-              <p class="text-green-800 leading-relaxed italic">{story.adviceForOthers}</p>
+            <div class="p-5 rounded-lg bg-green-50 border border-green-200 space-y-3">
+              {story.adviceForOthers.split('\n\n').map((p: string) => (
+                <p class="text-green-800 leading-relaxed italic">{p}</p>
+              ))}
             </div>
           </div>
         </section>
