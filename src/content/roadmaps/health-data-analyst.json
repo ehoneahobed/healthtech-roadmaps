@@ -444,7 +444,24 @@
       }
     ],
     "transitionStories": {
-      "verified": [],
+      "verified": [
+        {
+          "slug": "elumelu-sabina",
+          "name": "Elumelu Sabina",
+          "previousRole": "Pharmacist (Hospital & Community Pharmacy)",
+          "currentTitle": "Risk Management Advisor",
+          "company": "Government of Alberta",
+          "summary": "Sabina is a pharmacist who relocated to Canada in July 2022. After encountering the regulatory requirements for practicing pharmacy in Canada, including substantial examination commitments, she decided to explore a career path that aligned with her analytical strengths.\n\nIn December 2022, she enrolled in the Google Data Analytics Professional Certificate on Coursera and spent the next five months building proficiency in Excel, SQL, Power BI, Python, and R. Her pharmacy background in analyzing patient data and ensuring medication safety gave her a strong foundation for the transition into data analytics.\n\nShe also pursued a 2-year diploma in Machine Learning Analytics from Norquest College as well as multiple certifications in Data Analytics. She most recently pivoted into a risk management advisory role, helping to use qualitative and quantitative data to anticipate risks and offer solutions to risk mitigation.\n\nHer goal is to become an Analytics Manager in the pharmaceutical technology industry, combining her clinical knowledge with her data skills.",
+          "sourceUrl": "https://medium.com/@elumelusabina4canada/pharmacist-to-data-analyst-the-journey-45b5ddc61a93",
+          "transitionTimeline": "5 months to first transition, 3+ years ongoing journey",
+          "skillsTransferred": "Sabina's pharmacy background gave her strong analytical thinking from years of analyzing patient data to ensure medication effectiveness and avoid interactions. Attention to detail was a critical skill that carried over directly. She also developed the ability to simplify complex insights for a non-technical audience, along with strong organizational and time management skills and excellent communication and presentation abilities.",
+          "whatTheyLearned": "Google Data Analytics Professional Certificate (Coursera), Python, SQL, JavaScript, C++, CSS, Power BI, R, Advanced Excel. She also earned a Machine Learning Analyst diploma from Norquest College (completing April 2026), an Associate Business Continuity Professional Certification (which laid the foundation for her current risk management advisory role), and a Data Analytics certification from Datasolutions.",
+          "resourcesThatHelped": "The Google Data Analytics Professional Certificate on Coursera was the starting point. Alex the Analyst on YouTube and his Discord group were instrumental throughout the learning process. She also had a personal mentor who was very instrumental to her transitioning.",
+          "whatSurprisedThem": "Data analytics was interesting, and Sabina approached it with an open mind. But it was not without its difficulties. A lot of the concepts were new, so she had to learn many things from scratch and it was tough. But overall, it was interesting and rewarding.",
+          "adviceForOthers": "Set your mind towards your goal, and you can achieve anything. Be clear about where you are headed. Make sure you are convinced. And then pursue it relentlessly. Everything is possible.",
+          "publishedDate": "2026-03-31"
+        }
+      ],
       "note": "We are actively collecting verified stories from clinicians whose current or recent title is specifically 'Health Data Analyst' or 'Healthcare Data Analyst' at a named organization. Stories will be added as they are sourced and verified. Medium articles and LinkedIn posts from clinicians who transitioned to data analytics roles are promising leads, but exact title verification is required before inclusion.",
       "crowdsourceUrl": "/contribute"
     },
